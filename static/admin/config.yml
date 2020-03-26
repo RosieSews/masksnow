@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "news"
+    label: "News"
+    folder: "src/pages/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "available-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/available-supplies/index.md"
+        label: "Available Supplies"
+        name: "available-supplies"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "available-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/request-supplies/index.md"
+        label: "Request Supplies"
+        name: "request-supplies"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/patterns/index.md"
+        label: "Patterns"
+        name: "patterns"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/groups-directory/index.md"
+        label: "Groups Directory"
+        name: "groups-directory"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/volunteer/index.md"
+        label: "Volunteer"
+        name: "volunteer"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
