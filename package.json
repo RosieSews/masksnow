@@ -1,8 +1,8 @@
 {
   "name": "masksNOW",
   "description": "MasksNOW connects mask makers with those in need.",
-  "version": "0.1",
-  "author": "Austin Green",
+  "version": "0.1.0",
+  "author": "Garrett, Jon, Chaney",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "bulma": "^0.8.0",
