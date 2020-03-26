@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+<<<<<<< HEAD
 import logo from '../img/rosie-logo.png'
+=======
+import logo from '../img/masksnow.svg'
+>>>>>>> refs/remotes/origin/master
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -33,27 +37,16 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Rosie Sews" />
+            <Link to="/" className="navbar-item" title="The Masks Now Coalition">
+              <img src={logo} alt="The Masks Now Coalition" />
             </Link>
             {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
+            <div className={`navbar-burger burger ${this.state.navBarActiveClass}`} data-target="navMenu" onClick={() => this.toggleHamburger()}>
+            </div> {/* Navbar-burger */}
+          </div> {/* Navbar-brand */}
           <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/request-supplies">
@@ -68,9 +61,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/volunteer">
                 Volunteer
               </Link>
-            </div>
-          </div>
-        </div>
+            </div> {/* Navbar-start */}
+          </div> {/* navMenu */}
+        </div> {/* Container */}
       </nav>
     )
   }
