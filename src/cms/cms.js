@@ -2,7 +2,6 @@ import CMS from 'netlify-cms-app'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 import cloudinary from 'netlify-cms-media-library-cloudinary'
 
-import AvailableSuppliesPreview from './preview-templates/AvailableSuppliesPreview'
 import RequestSuppliesPreview from './preview-templates/RequestSuppliesPreview'
 import PatternsPreview from './preview-templates/PatternsPreview'
 import GroupsDirectoryPreview from './preview-templates/GroupsDirectoryPreview'
@@ -14,7 +13,6 @@ CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewTemplate('available-supplies', AvailableSuppliesPreview)
 CMS.registerPreviewTemplate('request-supplies', RequestSuppliesPreview)
 CMS.registerPreviewTemplate('patterns', PatternsPreview)
 CMS.registerPreviewTemplate('groups-directory', GroupsDirectoryPreview)
