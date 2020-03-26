@@ -1,19 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { AvailableSuppliesTemplate } from '../../templates/available-supplies'
+import { RequestSuppliesTemplate } from '../../templates/request-supplies'
 
-const AvailableSuppliesPreview = ({ entry, widgetFor }) => (
-  <AvailableSuppliesTemplate
+const RequestSuppliesPreview = ({ entry, widgetFor }) => (
+  <RequestSuppliesTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
 )
 
-AvailableSuppliesPreview.propTypes = {
+RequestSuppliesPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default AvailableSuppliesPreview
+export default RequestSuppliesPreview
