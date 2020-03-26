@@ -1,11 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 
-export const GroupsDirectoryTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const GroupsDirectoryTemplate = ({
+  title,
+  content,
+  contentComponent
+}) => {
+  const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
@@ -22,42 +26,59 @@ export const GroupsDirectoryTemplate = ({ title, content, contentComponent }) =>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 GroupsDirectoryTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
+  contentComponent: PropTypes.func
+};
 
-const GroupsDirectory = ({ data }) => {
-  const { markdownRemark: post } = data
+const RenderGroups = ({ groups }) => {
+  return (
+    <ul>
+      {groups.map(({ data }) => (
+        <li>
+          <a href={data.url}>{data.Name}</a>
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+const GroupsDirectory = ({ data: { allAirtable } }) => {
+  const { nodes } = allAirtable;
+
+  console.log("data", allAirtable);
 
   return (
     <Layout>
       <GroupsDirectoryTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        // contentComponent={HTMLContent}
+        title={"Facebook Groups"}
+        content={<RenderGroups groups={nodes} />}
       />
     </Layout>
-  )
-}
+  );
+};
 
 GroupsDirectory.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+  data: PropTypes.object.isRequired
+};
 
-export default GroupsDirectory
+export default GroupsDirectory;
 
-export const aboutPageQuery = graphql`
-  query GroupsDirectory($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
+export const GroupDirectoryQuery = graphql`
+  query GroupsAirtableQuery {
+    allAirtable(filter: { table: { eq: "Groups" } }) {
+      nodes {
+        data {
+          Name
+          url
+        }
+        recordId
       }
     }
   }
-`
+`;
