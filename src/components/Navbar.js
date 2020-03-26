@@ -61,6 +61,19 @@ const Navbar = class extends React.Component {
           </div> {/* navMenu */}
         </div> {/* Container */}
       </nav>
+
+      <div className="level">
+        <a href="">
+          <button className="level-item">
+            Volunteer Here
+          </button>
+        </a>
+        <a href="">
+          <button className="level-item">
+            Request Supplies
+          </button>
+        </a>
+      </div> {/* level */}
     )
   }
 }
