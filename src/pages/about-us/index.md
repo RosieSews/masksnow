@@ -19,6 +19,7 @@ Our goal is to give each citizen the ability to take control of their communityâ
 * Created for Crisis
 * Lawyers for Good Government
 * Coronavirus Army
+* Resistbot
 
 ## The Masks Now Coalitionâ€™s six-person steering committee:
 
