@@ -80,11 +80,11 @@ const Navbar = class extends React.Component {
                   <Link className="navbar-item" to="/patterns">
                     Patterns
                   </Link>
-                  <Link className="navbar-item" to="/groups-directory">
-                    Groups Directory
-                  </Link>
                   <Link className="navbar-item" to="/volunteer">
                     Volunteer
+                  </Link>
+                  <Link className="navbar-item" to="/contact">
+                    Contact Us
                   </Link>
                 </div>{" "}
                 {/* Navbar-start */}
