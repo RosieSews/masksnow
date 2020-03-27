@@ -7,12 +7,12 @@ module.exports = {
   siteUrl: "https://masksnow.org", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
   siteHeadline: "We Can Do It!", // Headline for schema.org JSONLD
-  siteBanner: "static/img/mn-og-image.png", // Your image for og:image tag. You can find it in the /static folder
-  favicon: "static/img/favicon.png", // Your image for favicons. You can find it in the /src folder
+  siteBanner: "img/mn-og-image.png", // Your image for og:image tag. You can find it in the /static folder
+  favicon: "img/favicon.png", // Your image for favicons. You can find it in the /src folder
   siteDescription:
     "#MasksNOW is an initiative bringing together makers to solve the PPE shortage for hospitals, healthcare facilities, and first responders by creating home made masks and linking sewests in local organizations.", // Your site description
   author: "@masksnoworg", // Author for schemaORGJSONLD
-  siteLogo: "static/img/mn-og-image.png", // Image for schemaORGJSONLD
+  siteLogo: "img/mn-og-image.png", // Image for schemaORGJSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   // userTwitter: '@minimal', // Twitter Username - Optional
