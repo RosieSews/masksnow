@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
-import { css } from "styled-components";
 import headerBackground from "../img/header-bg.png";
 import logoImg from "../img/header-rosie.png";
 import logoImgMobile from "../img/header-mobile.png";
 import maskNowImg from "../img/header-masksnow.png";
-import MobileNav from "./MobileNav";
-import { bpMaxSM } from "../lib/breakpoints";
 
 const HamburgerLine = () => {
   return <span />
@@ -47,25 +44,7 @@ const Navbar = class extends React.Component {
           <img src={logoImg} className="header-logo" alt="We can do it!" />
           <div className="header-container">
             <div className="header-top">
-            {/*  <div*/}
-            {/*      css={css`*/}
-            {/*  font-size: 16px;*/}
-            {/*  line-height: 1.25;*/}
-            {/*  display: flex;*/}
-            {/*  align-items: center;*/}
-            {/*  .mobile-nav {*/}
-            {/*    display: none;*/}
-            {/*    visibility: hidden;*/}
-            {/*    ${bpMaxSM} {*/}
-            {/*      display: block;*/}
-            {/*      visibility: visible;*/}
-            {/*    }*/}
-            {/*  }*/}
-            {/*`}*/}
-            {/*  >*/}
-
               {/* Hamburger menu */}
-              {/*<MobileNav />*/}
               <div
                 className={`navbar-burger burger ${this.state.navBarActiveClass}`}
                 data-target="navMenu"
@@ -105,7 +84,6 @@ const Navbar = class extends React.Component {
                 </div>{" "}
                 {/* Navbar-start */}
               </div>{" "}
-              {/*</div>*/}
 
               {/* navMenu */}
             </div>{" "}
