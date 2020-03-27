@@ -1,22 +1,55 @@
 ---
 templateKey: info-page
 path: /faq
-title: What is The Masks Now Coalition?
+title: FAQ
 ---
-The Masks Now Coalition is a grassroots movement of volunteers and their groups, led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage in personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America.
+## Why are you making homemade masks? 
 
-We’ve got volunteers in every state, Washington D.C., and Puerto Rico ready to answer the call from over 125 hospitals in 28 states which have made public appeals for homesewn masks.
+Over 100 hospitals in 28 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
 
-In an effort to help curb medical supply shortages as we battle COVID-19, we are requesting sewists to make masks and other supplies for use by patients, healthcare workers, at-risk community members, and essential workers, including postal workers, grocery store workers, manufacturing personnel, and more.
+## Are homemade masks effective?
 
-We are saddened to report that many medical personnel are already experiencing shortages so severe they are turning to the community to help make masks. But every single mask we produce frees up a manufactured mask for clinical use.
+Yes. A [Cambridge University study](https://www.documentcloud.org/documents/6818856-Testing-the-Efficacy-of-Homemade-Masks-2013.html#pages) found in 2013 that cotton-blend masks are 80% as effective at filtration as a surgical mask, and appropriate for emergency use during an influenza pandemic. 100% cotton and other materials are also acceptable.
 
-In fact, the Center for Disease Control says that homemade masks may be considered as a last resort because they’re “better than no protection.” The Food & Drug Administration has provided emergency guidance to enable groups like ours which are not making medical masks to expand the number of face masks available.
+## Who needs a mask during the coronavirus pandemic? 
 
-That’s why we’re looking for volunteers to sew masks and handle the logistics of distribution in every state, DC, and Puerto Rico.
+Everyone can benefit from using a face mask to reduce the likelihood of direct transmission.
 
-## Connect
+## Is it okay to use a hand sewn mask?
 
-Join us and help spread the word on [Facebook](https://www.facebook.com/groups/837899896730511/) or[Twitter](https://twitter.com/rosiesewsorg)
+The FDA recently issued emergency regulations of its [enforcement policy](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-face-masks-and-respirators-during-coronavirus-disease-covid-19-public-health) for masks. Our masks are not considered medical purpose masks under their guidelines because they are not labeled or otherwise intended for use by a health care professional; 2) they are not labeled or otherwise for use in a healthcare facility or environment; and 3) they do not include any drugs, biologics, or anti-microbial/anti-viral agents.
 
-Public Relations Contact: [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
+## Can a doctor or nurse use these masks? 
+
+The FDA recognizes that, when alternatives, such as FDA-cleared masks or respirators, are unavailable, individuals, including healthcare professionals, might improvise personal protective equipment (PPE). FDA does not intend to object to individuals’ distribution and use of improvised PPE when no alternatives, such as FDA-cleared masks or respirators, are available. 
+
+In response to the respirator shortage crisis due to COVID-19, the CDC [has indicated](https://www.cdc.gov/coronavirus/2019-ncov/hcp/respirators-strategy/crisis-alternate-strategies.html) that "it may be necessary for healthcare professionals to use masks that have never been evaluated or approved by NIOSH (including homemade masks).  It may be considered to use these masks for care of patients with COVID-19, tuberculosis, measles, and varicella. However, caution should be exercised when considering this option."
+
+## How many volunteers do you have?
+
+As of today we have over 1,000 volunteers spread amongst every state plus DC and Puerto Rico.
+
+## How many organizers are there in The Masks Now Coalition?
+
+We have 19 national organizers and 17 state leads, but we’re always looking for more state and regional organizers, in addition to people who can sew a pretty awesome mask.
+
+## Are these masks made for children?
+
+No.
+
+## Who should request face masks from our volunteers?
+
+Any healthcare facility that has patients, support staff, or visitors who would like more protection than being without a face mask. That includes dentists, veterinarians, nursing homes, clinics, and even hospitals may requisition mask donations aware of the above caveats.
+
+## How many hospitals are asking for hand sewn masks?
+
+Over 120 hospitals in 28 states have asked for handsewn masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
+
+## How many masks should I make and how do I get them to the right place?
+
+After [signing up as a volunteer](http://masksnow.org/volunteer-signup), your state lead will reach out to you by email. Your state lead will have a list of facilities that need face masks and the amount requested. You can either ship the masks, drop them off, or, if there are distribution volunteers in your area, they can be picked up from your home.
+
+## I don't know how to sew, how can I help?
+
+We also have a need for volunteers to make phone calls and distribute masks. If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
+

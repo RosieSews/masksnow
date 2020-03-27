@@ -3,20 +3,31 @@ templateKey: info-page
 path: /about-us
 title: What is The Masks Now Coalition?
 ---
-The Masks Now Coalition is a grassroots movement of volunteers and their groups, led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage in personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America.
+The Masks Now Coalition was founded when hundreds of Americans who were acting individually, started to make masks together to raise our country’s viral resistance to the spread of coronavirus. They joined forces to make an umbrella organization to handle the thorny design and logistical questions involved in massively distributed mask production to make sure those in need can get face masks.
 
-We’ve got volunteers in every state, Washington D.C., and Puerto Rico ready to answer the call from over 125 hospitals in 28 states which have made public appeals for homesewn masks.
+Led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage in personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America, The Masks Now Coalition has volunteers in every state, Washington D.C. and Puerto Rico ready to answer the call from over 125 hospitals in 28 states which have made public appeals for homesewn masks. 
 
-In an effort to help curb medical supply shortages as we battle COVID-19, we are requesting sewists to make masks and other supplies for use by patients, healthcare workers, at-risk community members, and essential workers, including postal workers, grocery store workers, manufacturing personnel, and more.
+Mask makers, a physician, logistics and IT experts, creators, former federal officials, and artists converged quickly to form The Masks Now Coalition under the umbrella of the Democratic Coalition, a national political advocacy group. Coalition partner Created for Crisis developed a 3-layer mask pattern, bringing together the best elements of circulating patterns into a design which is quick and easy to sew.
 
-We are saddened to report that many medical personnel are already experiencing shortages so severe they are turning to the community to help make masks. But every single mask we produce frees up a manufactured mask for clinical use.
+Our goal is to give each citizen the ability to take control of their community’s public health by making homemade masks for patients in order to conserve the manufactured masks that protect our irreplaceable healthcare workers and doctors. 
 
-In fact, the Center for Disease Control says that homemade masks may be considered as a last resort because they’re “better than no protection.” The Food & Drug Administration has provided emergency guidance to enable groups like ours which are not making medical masks to expand the number of face masks available.
+## Coalition partners: 
 
-That’s why we’re looking for volunteers to sew masks and handle the logistics of distribution in every state, DC, and Puerto Rico.
+Democratic Coalition  
+Rosie Sews  
+Million Mask Mayday  
+Created for Crisis  
+Lawyers for Good Government  
+Coronavirus Army
 
-## Connect
+## The Masks Now Coalition’s six-person steering committee:
 
-Join us and help spread the word on [Facebook](https://www.facebook.com/groups/837899896730511/) or[Twitter](https://twitter.com/rosiesewsorg)
+Francey Youngberg  
+Grant Stern  
+Jodi Murray  
+Dr. Kelly Sennholz  
+Rachel Emard  
+Scott Dworkin
 
-Public Relations Contact: [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
+For interviews, please contact [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
+
