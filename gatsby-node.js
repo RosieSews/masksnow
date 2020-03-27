@@ -52,11 +52,12 @@ exports.createPages = async ({ actions, graphql }) => {
   //   `)
   // );
 
+  console.log('edge:', markdownResults);
   const posts = markdownResults.data.allMarkdownRemark.edges;
 
   posts.forEach(edge => {
     const id = edge.node.id;
-    // console.log("edge:", edge);
+    console.log('ID', id);
     createPage({
       path: edge.node.fields.slug,
       tags: edge.node.frontmatter.tags,
