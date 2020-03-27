@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const VolunteerTemplate = ({ title, content, contentComponent }) => {
+export const PageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -17,12 +17,6 @@ export const VolunteerTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <iframe
-                className="airtable-embed airtable-dynamic-height"
-                src="https://airtable.com/embed/shrtdAwqaNjZwgVbm?backgroundColor=green"
-                width="100%"
-                height="1096"
-              ></iframe>
             </div>
           </div>
         </div>
@@ -31,18 +25,18 @@ export const VolunteerTemplate = ({ title, content, contentComponent }) => {
   );
 };
 
-VolunteerTemplate.propTypes = {
+PageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func
 };
 
-const Volunteer = ({ data }) => {
+const Page = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <VolunteerTemplate
+      <PageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -51,14 +45,14 @@ const Volunteer = ({ data }) => {
   );
 };
 
-Volunteer.propTypes = {
+Page.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export default Volunteer;
+export default Page;
 
-export const aboutPageQuery = graphql`
-  query Volunteer($id: String!) {
+export const infoPageQuery = graphql`
+  query InfoPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
