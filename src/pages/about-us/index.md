@@ -22,11 +22,11 @@ Our goal is to give each citizen the ability to take control of their communityâ
 
 ## The Masks Now Coalitionâ€™s six-person steering committee:
 
-Francey Youngberg  
-Grant Stern  
-Jodi Murray  
-Dr. Kelly Sennholz  
-Rachel Emard  
-Scott Dworkin
+* Francey Youngberg
+* Grant Stern
+* Jodi Murray
+* Dr. Kelly Sennholz
+* Rachel Emard
+* Scott Dworkin
 
 For interviews, please contact [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
