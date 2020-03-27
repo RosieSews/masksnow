@@ -16,6 +16,6 @@ That’s why we’re looking for volunteers to sew masks and handle the logistic
 
 ## Connect
 
-Join us and help spread the word on [Facebook](https://www.facebook.com/groups/837899896730511/) or [Twitter](https://twitter.com/masksnoworg)
+Join us and help spread the word on [Facebook](https://www.facebook.com/groups/masksnoworg) or [Twitter](https://twitter.com/masksnoworg)
 
 Public Relations Contact: [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
