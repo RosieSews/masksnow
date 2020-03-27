@@ -3,7 +3,7 @@ templateKey: info-page
 path: /faq
 title: Frequently Asked Questions
 ---
-## Why are you making homemade masks? 
+## Why are you making homemade masks?
 
 Over 100 hospitals in 28 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
 
@@ -11,7 +11,7 @@ Over 100 hospitals in 28 states are requesting handsewn mask donations to battle
 
 Yes. A [Cambridge University study](https://www.documentcloud.org/documents/6818856-Testing-the-Efficacy-of-Homemade-Masks-2013.html#pages) found in 2013 that cotton-blend masks are 80% as effective at filtration as a surgical mask, and appropriate for emergency use during an influenza pandemic. 100% cotton and other materials are also acceptable.
 
-## Who needs a mask during the coronavirus pandemic? 
+## Who needs a mask during the coronavirus pandemic?
 
 Everyone can benefit from using a face mask to reduce the likelihood of direct transmission.
 
@@ -19,7 +19,7 @@ Everyone can benefit from using a face mask to reduce the likelihood of direct t
 
 The FDA recently issued emergency regulations of its [enforcement policy](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-face-masks-and-respirators-during-coronavirus-disease-covid-19-public-health) for masks. Our masks are not considered medical purpose masks under their guidelines because they are not labeled or otherwise intended for use by a health care professional; 2) they are not labeled or otherwise for use in a healthcare facility or environment; and 3) they do not include any drugs, biologics, or anti-microbial/anti-viral agents.
 
-## Can a doctor or nurse use these masks? 
+## Can a doctor or nurse use these masks?
 
 The FDA recognizes that, when alternatives, such as FDA-cleared masks or respirators, are unavailable, individuals, including healthcare professionals, might improvise personal protective equipment (PPE). FDA does not intend to object to individuals’ distribution and use of improvised PPE when no alternatives, such as FDA-cleared masks or respirators, are available. 
 
@@ -51,4 +51,4 @@ After [signing up as a volunteer](http://masksnow.org/volunteer-signup), your st
 
 ## I don't know how to sew, how can I help?
 
-We also have a need for volunteers to make phone calls and distribute masks. If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
+We also have a need for volunteers to make phone calls and distribute masks. We can also accept fabric or mask making kits as long as the fabric is cotton blend or 100% cotton. To do so, please [sign up as a volunteer](http://masksnow.org/volunteer-signup). If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
