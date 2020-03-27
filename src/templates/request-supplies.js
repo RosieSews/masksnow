@@ -1,11 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 
-export const RequestSuppliesTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+export const RequestSuppliesTemplate = ({
+  title,
+  content,
+  contentComponent
+}) => {
+  const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
@@ -17,23 +21,29 @@ export const RequestSuppliesTemplate = ({ title, content, contentComponent }) =>
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <iframe className="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr5nBY7UkLhrqj4R?backgroundColor=yellow" width="100%" height="1867" className="request-supplies__StyledFrame-ybe9hf-0 diKYNp"></iframe>
+              <iframe
+                className="airtable-embed airtable-dynamic-height"
+                src="https://airtable.com/embed/shr5nBY7UkLhrqj4R?backgroundColor=yellow"
+                width="100%"
+                height="1867"
+                className="request-supplies__StyledFrame-ybe9hf-0 diKYNp"
+              ></iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 RequestSuppliesTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
+  contentComponent: PropTypes.func
+};
 
 const RequestSupplies = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -43,14 +53,14 @@ const RequestSupplies = ({ data }) => {
         content={post.html}
       />
     </Layout>
-  )
-}
+  );
+};
 
 RequestSupplies.propTypes = {
-  data: PropTypes.object.isRequired,
-}
+  data: PropTypes.object.isRequired
+};
 
-export default RequestSupplies
+export default RequestSupplies;
 
 export const aboutPageQuery = graphql`
   query RequestSupplies($id: String!) {
@@ -61,4 +71,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`;
