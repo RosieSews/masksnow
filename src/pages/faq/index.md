@@ -47,8 +47,8 @@ Over 120 hospitals in 28 states have asked for handsewn masks to supplement thei
 
 ## How many masks should I make and how do I get them to the right place?
 
-After [signing up as a volunteer](http://masksnow.org/volunteer-signup), your state lead will reach out to you by email. Your state lead will have a list of facilities that need face masks and the amount requested. You can either ship the masks, drop them off, or, if there are distribution volunteers in your area, they can be picked up from your home.
+After [signing up as a volunteer](http://masksnow.org/volunteer), your state lead will reach out to you by email. Your state lead will have a list of facilities that need face masks and the amount requested. You can either ship the masks, drop them off, or, if there are distribution volunteers in your area, they can be picked up from your home.
 
 ## I don't know how to sew, how can I help?
 
-We also have a need for volunteers to make phone calls and distribute masks. We can also accept fabric or mask making kits as long as the fabric is cotton blend or 100% cotton. To do so, please [sign up as a volunteer](http://masksnow.org/volunteer-signup). If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
+We also have a need for volunteers to make phone calls and distribute masks. We can also accept fabric or mask making kits as long as the fabric is cotton blend or 100% cotton. To do so, please [sign up as a volunteer](http://masksnow.org/volunteer). If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
