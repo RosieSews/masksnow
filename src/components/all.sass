@@ -175,6 +175,7 @@ a:hover
 
 .header-top
   height: 74px
+  z-index: 10  // nav bar menu needs to appear over banner.
 
 .header-container
   flex-direction: column
@@ -217,6 +218,8 @@ footer.footer a
     flex-basis: 50%;
   .header-mobile
     width: 0px;
+  .navbar-menu
+    background-color: #16356f
 
 +mobile
   .blog-list-item header
@@ -232,4 +235,4 @@ footer.footer a
   .header-banner
     display: none !important;
   .navbar-menu
-    background-color: #16356f;
+    background-color: #16356f
