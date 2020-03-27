@@ -1,5 +1,5 @@
 ---
-templateKey: index-page
+templateKey: index
 title: What is RosieSews?
 ---
 In an effort to help curb medical supply shortages as we battle COVID19, we’re requesting seamstresses, makers and manufacturers to make masks and other supplies for use by medical professionals, at-risk community members and essential workers including postal works, grocery store workers, manufacturing personnel (and more).

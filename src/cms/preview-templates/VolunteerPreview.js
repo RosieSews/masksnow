@@ -1,19 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { VolunteerTemplate } from '../../templates/volunteer'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { PageTemplate } from '../../templates/PageTemplate';
 
 const VolunteerPreview = ({ entry, widgetFor }) => (
-  <VolunteerTemplate
+  <PageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
-)
+);
 
 VolunteerPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
-}
+};
 
-export default VolunteerPreview
+export default VolunteerPreview;

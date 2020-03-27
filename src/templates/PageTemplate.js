@@ -22,7 +22,7 @@ export const PageTemplate = ({
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              {EmbededAirtable && <EmbededAirtable />}
+              {/*{EmbededAirtable ? <EmbededAirtable /> : null}*/}
             </div>
           </div>
         </div>

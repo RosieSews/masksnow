@@ -1,11 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import Helmet from "react-helmet";
-import { Link, graphql } from "gatsby";
-import Layout from "../../components/Layout";
-import { PageTemplate } from "../../templates/PageTemplate";
-import { HTMLContent } from "../../components/Content";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
+import { PageTemplate } from '../../templates/PageTemplate';
 
 const EmbededAirtable = () => (
   <iframe
@@ -16,8 +14,7 @@ const EmbededAirtable = () => (
     className="request-supplies__StyledFrame-ybe9hf-0 diKYNp"
   ></iframe>
 );
-
-const RequestSupplies = ({ data }) => {
+const Patterns = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
@@ -32,15 +29,14 @@ const RequestSupplies = ({ data }) => {
   );
 };
 
-RequestSupplies.propTypes = {
+Patterns.propTypes = {
   data: PropTypes.object.isRequired,
-  EmbedComponent: PropTypes.node
 };
 
-export default RequestSupplies;
+export default Patterns;
 
-export const RequestSuppliesQuery = graphql`
-  query RequestSupplies($id: String!) {
+export const PatternsQueryPage = graphql`
+  query Patterns($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
