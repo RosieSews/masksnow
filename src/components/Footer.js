@@ -22,27 +22,17 @@ const Footer = class extends React.Component {
             <img src={twitter} className="social-media-icon" alt="twitter"></img>
           </a>
         </div>
-        <p>External Resources</p>
-          <a href="https://coronavirusarmy.org/" >
-            coronavirusarmy.org
-          </a>
-            {" | "}
-          <a href="https://www.seattlemakers.org/">
-            seattlemakers.org
-          </a>
-            {" | "}
+          <Link to={'/faq'}>FAQ's</Link>{' | '}
+          <Link to={'/contact'}>Contact</Link>{' | '}
+          <Link to={'/about-us'}>About Us</Link>
+        <p className="external-links">External Resources:{' '}
           <a href="https://www.endcoronavirus.org/">
             endcoronavirus.org
           </a>
-            {" | "}
-          <a href="https://findthemasks.com/">
-            findthemasks.com
-          </a>
-            {" | "}
-          <a href="https://donatetohospitals.com/">
-            donatetohospitals.com
-          </a>
-          <br /><br />
+        </p>
+
+
+          <br />
         <a href="https://www.netlify.com">
           <img
             src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
