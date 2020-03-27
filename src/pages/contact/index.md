@@ -20,6 +20,8 @@ title: Contact
 Francey Youngberg | [francey.youngberg@masksnow.org](mailto:francey.youngberg@masksnow.org)  
 Grant Stern | [grantstern@masksnow.org](mailto:grantstern@masksnow.org)  
 Jodi Murray | [jodimurray@masksnow.org](mailto:jodimurray@masksnow.org)  
-Dr. Kelly Sennholz | [drsennholz@masksnow.org](mailto:drsennholz@masksnow.org)
+Dr. Kelly Sennholz | [drsennholz@masksnow.org](mailto:drsennholz@masksnow.org)  
+Rachel Emard  
+Scott Dworkin
 
 
