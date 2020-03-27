@@ -1,7 +1,7 @@
 ---
 templateKey: groups-directory
 path: /groups-directory
-title: Groups Directory
+title: State Directory
 ---
 *last updated: 03/23/2020*
 
