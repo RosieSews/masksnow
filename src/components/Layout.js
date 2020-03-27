@@ -1,22 +1,24 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { withPrefix } from "gatsby";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
-import { withPrefix } from "gatsby";
+import SEO from "./SEO";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description, image, siteUrl } = useSiteMetadata();
   return (
     <div>
+      <SEO />
       <Helmet>
-        <html lang="en" />
+        {/* <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={`${siteUrl}/${image}`} />
-        <meta name="twitter:description" content={description} />
+        <meta name="twitter:description" content={description} /> */}
 
         <link
           rel="icon"
