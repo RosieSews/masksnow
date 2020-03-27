@@ -2,7 +2,7 @@
 templateKey: index-page
 title: '#MasksNow | The Masks Now Coalition'
 ---
-The Masks Now Coalition is a grassroots movement of volunteers and their groups, led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage in personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America.
+The Masks Now Coalition is a grassroots movement of volunteers and their groups, led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage of personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America.
 
 We’ve got volunteers in every state, Washington D.C., and Puerto Rico ready to answer the call from over 125 hospitals in 28 states which have made public appeals for homesewn masks.
 
@@ -16,6 +16,6 @@ That’s why we’re looking for volunteers to sew masks and handle the logistic
 
 ## Connect
 
-Join us and help spread the word on [Facebook](https://www.facebook.com/groups/837899896730511/) or [Twitter](https://twitter.com/masksnoworg)
+Join us and help spread the word on [Facebook](https://www.facebook.com/groups/masksnoworg) or [Twitter](https://twitter.com/masksnoworg)
 
 Public Relations Contact: [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
