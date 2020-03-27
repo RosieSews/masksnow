@@ -5,6 +5,10 @@ import logoImg from "../img/header-rosie.png";
 import logoImgMobile from "../img/header-mobile.png";
 import maskNowImg from "../img/header-masksnow.png";
 
+const HamburgerLine = () => {
+  return <span />
+}
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -16,22 +20,13 @@ const Navbar = class extends React.Component {
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: "is-active"
-            })
-          : this.setState({
-              navBarActiveClass: ""
-            });
+    this.setState((prevState) => {
+      let active = !prevState.active;
+      return {
+        active,
+        navBarActiveClass: active ? 'is-active' : '',
       }
-    );
+    });
   };
 
   render() {
@@ -45,12 +40,8 @@ const Navbar = class extends React.Component {
             backgroundRepeat: "repeat-x"
           }}
         >
-          <img
-            src={logoImgMobile}
-            alt="blah"
-            className="header-logo-banner"
-          ></img>
-          <img src={logoImg} className="header-logo" alt="We can do it!"></img>
+          <img src={logoImgMobile} alt="blah" className="header-logo-banner" />
+          <img src={logoImg} className="header-logo" alt="We can do it!" />
           <div className="header-container">
             <div className="header-top">
               {/* Hamburger menu */}
@@ -58,11 +49,15 @@ const Navbar = class extends React.Component {
                 className={`navbar-burger burger ${this.state.navBarActiveClass}`}
                 data-target="navMenu"
                 onClick={() => this.toggleHamburger()}
-              ></div>{" "}
+              >
+                <HamburgerLine />
+                <HamburgerLine />
+                <HamburgerLine />
+              </div>{" "}
               {/* Navbar-burger */}
               <div
-                id="navMenu"
-                className={`navbar-menu ${this.state.navBarActiveClass}`}
+                  id="navMenu"
+                  className={`navbar-menu ${this.state.navBarActiveClass}`}
               >
                 <div className="navbar-start has-text-centered">
                   <Link className="navbar-item" to="/about-us">
@@ -89,16 +84,17 @@ const Navbar = class extends React.Component {
                 </div>{" "}
                 {/* Navbar-start */}
               </div>{" "}
+
               {/* navMenu */}
             </div>{" "}
             {/* Container */}
             <div style={{ display: "flex", alignItems: "center", flex: "1" }}>
               <img
                 src={maskNowImg}
-                alt="Blah"
+                alt="masks now banner"
                 class="header-banner"
                 style={{ maxHeight: "228px", width: "100%" }}
-              ></img>
+              />
             </div>
           </div>
         </div>
