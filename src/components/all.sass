@@ -134,7 +134,6 @@ a:hover
   color: #3273dc
 
 .navbar, .navbar-menu
-  background-color: rgb(11, 49, 96)
   font-weight: bold
 
 .navbar a
@@ -145,6 +144,32 @@ a:hover
 
 .navbar-item img
   max-height: 200px
+
+.header
+  display: flex
+  flex: 1
+  flexDirection: row
+  height: 300px
+  background-repeat: repeat-x
+  background-size: contain
+
+// Default to 0px, and it will be changed with +mobile.
+.header-logo-banner
+  width: 0px
+  height: 300px
+
+.header-logo
+  height: 300px
+
+.header-banner
+  max-width: 650px
+
+.header-top
+  height: 74px
+
+.header-container
+  flex-direction: column
+  display: flex
 
 footer.footer
   color: white
@@ -158,6 +183,8 @@ footer.footer a
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%;
+  .header-mobile
+    width: 0px;
 
 +mobile
   .blog-list-item header
@@ -166,3 +193,9 @@ footer.footer a
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+  .header-logo-banner
+    width: auto;
+  .header-logo
+    display: none !important;
+  .header-banner
+    display: none !important;
