@@ -11,6 +11,12 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer">
+        <div className="social-media">
+          <img src={facebook} className="social-media-icon" alt="facebook"></img>
+          <img src={twitter} className="social-media-icon" alt="twitter"></img>
+          <img src={instagram} className="social-media-icon" alt="instagram"></img>
+          <img src={vimeo} className="social-media-icon" alt="vimeo"></img>
+        </div>
         <p>External Resources</p>
           <a href="https://coronavirusarmy.org/" >
             coronavirusarmy.org
