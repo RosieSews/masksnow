@@ -1,7 +1,7 @@
 ---
 templateKey: info-page
 path: /psa
-title: What is The Masks Now Coalition?
+title: Celebrity PSAs
 ---
 ## Emily Hampshire
 
