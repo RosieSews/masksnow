@@ -41,8 +41,8 @@ const Navbar = class extends React.Component {
               backgroundRepeat: "repeat-x"
             }}
           >
-            <img src={logoImgMobile} alt="blah" className="header-logo-banner" />
-            <img src={logoImg} className="header-logo" alt="We can do it!" />
+            <Link to="/"><img src={logoImgMobile} alt="blah" className="header-logo-banner" /></Link>
+            <Link to="/"><img src={logoImg} className="header-logo" alt="We can do it!" /></Link>
             <div className="header-container">
               <div className="header-top">
                 {/* Hamburger menu */}
@@ -84,12 +84,12 @@ const Navbar = class extends React.Component {
               </div>{" "}
               {/* Container */}
               <div style={{ display: "flex", alignItems: "center", flex: "1" }}>
-                <img
+                <Link to="/"><img
                   src={maskNowImg}
                   alt="masks now banner"
                   class="header-banner"
                   style={{ maxHeight: "228px", width: "100%" }}
-                />
+                /></Link>
               </div>
             </div>
           </div>
