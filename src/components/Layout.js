@@ -15,7 +15,7 @@ const TemplateWrapper = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={`${siteUrl}${image}`} />
+        <meta name="twitter:image" content={`${siteUrl}/${image}`} />
         <meta name="twitter:description" content={description} />
 
         <link
