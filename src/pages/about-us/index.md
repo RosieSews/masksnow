@@ -1,7 +1,7 @@
 ---
 templateKey: info-page
 path: /about-us
-title: What is The Masks Now Coalition?
+title: About Us
 ---
 The Masks Now Coalition was founded when hundreds of Americans who were acting individually, started to make masks together to raise our country’s viral resistance to the spread of coronavirus. They joined forces to make an umbrella organization to handle the thorny design and logistical questions involved in massively distributed mask production to make sure those in need can get face masks.
 
@@ -30,4 +30,3 @@ Rachel Emard
 Scott Dworkin
 
 For interviews, please contact [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
-

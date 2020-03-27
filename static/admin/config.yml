@@ -66,30 +66,30 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/faq/index.md"
-          label: "Faq"
-          name: "faq"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "Faq"
+        name: "faq"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/contact/index.md"
-          label: "Contact"
-          name: "contact"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/psa/index.md"
-          label: "Psa"
-          name: "psa"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "Psa"
+        name: "psa"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/about-us/index.md"
-          label: "About Us"
-          name: "about-us"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "About Us"
+        name: "about-us"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
