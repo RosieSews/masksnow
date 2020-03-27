@@ -7,13 +7,15 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+  const { title, description, image } = useSiteMetadata();
   return (
     <div>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="twitter:image" content={image} />
+        <meta name="twitter:description" content={description} />
 
         <link
           rel="icon"
