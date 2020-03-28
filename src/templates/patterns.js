@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { PDFObject } from "react-pdfobject";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 // import PATTERN from "../img/MasksNOW-Mask-Pattern-MasksNOW-Mask-Pattern-Packet-by-Created-for-Crisis.png";
@@ -17,9 +18,7 @@ export const PatternsTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <a href={"/CFCMask_3_27.pdf"} download>
-                Download the Pattern Packet (updated: 3-27)
-              </a>
+              <PDFObject url="/CFCMask_3_27.pdf" height="40rem"></PDFObject>
             </div>
           </div>
         </div>

@@ -11238,6 +11238,11 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+pdfobject@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/pdfobject/-/pdfobject-2.1.1.tgz#2949d4d218d130d16b6149c7f7226f0a73400d4a"
+  integrity sha512-QFktTHyjs4q/WhGFfV2RdAbscPdNkyQb/JfFz18cwILvs9ocDiYVFAEh/jgkKGv6my+r4nlbLjwj7BHFKAupHQ==
+
 pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
@@ -12308,6 +12313,13 @@ react-onclickoutside@^6.5.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.9.0.tgz#a54bc317ae8cf6131a5d78acea55a11067f37a1f"
   integrity sha512-8ltIY3bC7oGhj2nPAvWOGi+xGFybPNhJM0V1H8hY/whNcXgmDeaeoCMPPd8VatrpTsUWjb/vGzrmu6SrXVty3A==
+
+react-pdfobject@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-pdfobject/-/react-pdfobject-1.1.1.tgz#a598483c5a9cea4c55e9ba04d3331de345def679"
+  integrity sha512-qdSZQd6ophPGdW58lThF0tEkMRUuqnq2NLw+vHWb268QFcb/X2Ich2z6u7tac8DCgc0qCw5x2q0Sg98NrpWHlQ==
+  dependencies:
+    pdfobject "^2.1.1"
 
 react-polyglot@^0.6.0:
   version "0.6.1"
