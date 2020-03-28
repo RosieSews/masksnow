@@ -69,7 +69,7 @@ const Navbar = class extends React.Component {
             <Link to="/">
               <img
                 src={logoImgMobile}
-                alt="blah"
+                alt="#MasksNOW logo"
                 className="header-logo-banner"
               />
             </Link>
