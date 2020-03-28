@@ -1,15 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-
-import logo from "../img/rosie-logo.png";
-import facebook from "../img/Facebook.png";
-import instagram from "../img/Instagram.png";
-import twitter from "../img/Twitter.png";
-import vimeo from "../img/social/vimeo.svg";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
+  faFacebook,
   faInstagram,
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
@@ -24,7 +17,7 @@ const Footer = class extends React.Component {
             className="social-media-icon"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faFacebookF} size="2x" />
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
           <a
             href="https://www.instagram.com/masksnoworg/"
