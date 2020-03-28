@@ -44,6 +44,14 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: 840,
+              height: 473
+            }
+          },
+          "gatsby-remark-responsive-iframe",
+          {
             resolve: "gatsby-remark-relative-images",
             options: {
               name: "uploads"
