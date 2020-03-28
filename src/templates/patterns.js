@@ -18,10 +18,7 @@ export const PatternsTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <PDFObject
-                url="/docs/CFCMask_3_27.pdf"
-                height="40rem"
-              ></PDFObject>
+              <a href="/docs/CFCMask_3_27.pdf">Download the pattern packet</a>
             </div>
           </div>
         </div>
