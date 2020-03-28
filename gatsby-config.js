@@ -78,6 +78,7 @@ module.exports = {
       options: {
         headers: {
           "*": ["Access-Control-Allow-Origin: *"],
+          "/docs/*.pdf": ["X-Frame-Options: SAMEORIGIN"],
           "/patterns": ["X-Frame-Options: SAMEORIGIN"],
           "/**/*.pdf": ["X-Frame-Options: SAMEORIGIN"]
         }, // option to add more headers. `Link` headers are transformed by the below criteria
