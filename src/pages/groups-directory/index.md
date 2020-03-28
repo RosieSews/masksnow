@@ -1,7 +1,7 @@
 ---
 templateKey: groups-directory
 path: /groups-directory
-title: State Directory
+title: State Facebook Group Directory
 ---
 *last updated: 03/23/2020*
 
