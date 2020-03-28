@@ -18,7 +18,9 @@ export const PatternsTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <a href="/docs/CFCMask_3_27.pdf">Download the pattern packet</a>
+              <a href="/docs/CFCMask_3_27.pdf">
+                Download the pattern packet (updated 3-27)
+              </a>
             </div>
           </div>
         </div>
