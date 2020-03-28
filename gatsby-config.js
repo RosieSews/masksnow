@@ -50,7 +50,6 @@ module.exports = {
               height: 473
             }
           },
-          "gatsby-remark-responsive-iframe",
           {
             resolve: "gatsby-remark-relative-images",
             options: {
