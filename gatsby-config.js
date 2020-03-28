@@ -95,10 +95,8 @@ module.exports = {
         purgeOnly: ["/all.sass"] // applies purging only on the bulma css file
       }
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
-    // This apparently needs to be the last of the last
     {
-      resolve: `gatsby-plugin-netlify-headers`,
+      resolve: `gatsby-plugin-netlify`,
       options: {
         headers: {}, // option to add more headers. `Link` headers are transformed by the below criteria
         allPageHeaders: [
@@ -110,6 +108,6 @@ module.exports = {
         mergeCachingHeaders: true, // boolean to turn off the default caching headers
         transformHeaders: (headers, path) => headers // optional transform for manipulating headers under each path (e.g.sorting), etc.
       }
-    }
+    } // make sure to keep it last in the array
   ]
 };
