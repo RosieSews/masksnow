@@ -211,10 +211,37 @@ footer.footer a
   color: white
 
 .social-media
+  display: flex
+  justify-content: center
+  align-items: center
 
-.social-media img
+.social-media a.social-media-icon
   height: 50px
+  width: 50px
   margin: 16px
+  border-radius: 33%
+  border: 3px $kaldi-red-invert solid
+  display: flex
+  justify-content: center
+  align-items: center
+  color: $kaldi-red-invert
+  -webkit-transition: background-color 0.25s ease-out
+  -moz-transition: background-color 0.25s ease-out
+  -o-transition: background-color 0.25s ease-out
+  transition: background-color 0.25s ease-out
+
+.social-media a.social-media-icon:hover
+  color: $navbar-background
+  background-color: $kaldi-red-invert
+  
+
+.social-media a.social-media-icon:active
+  -webkit-transition: background-color 0.25s ease-out
+  -moz-transition: background-color 0.25s ease-out
+  -o-transition: background-color 0.25s ease-out
+  transition: background-color 0.25s ease-out
+  background: rgba(255,0,0,0)
+  color: $kaldi-red-invert
 
 .external-links
   margin: 1em
