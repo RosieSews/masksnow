@@ -73,22 +73,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
-    {
-      resolve: `gatsby-plugin-netlify-headers`,
-      options: {
-        headers: {
-          "*": ["Access-Control-Allow-Origin: *"],
-          "/docs/*.pdf": ["X-Frame-Options: SAMEORIGIN"],
-          "/patterns": ["X-Frame-Options: SAMEORIGIN"],
-          "/**/*.pdf": ["X-Frame-Options: SAMEORIGIN"]
-        }, // option to add more headers. `Link` headers are transformed by the below criteria
-        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
-        mergeSecurityHeaders: true, // boolean to turn off the default security headers
-        mergeLinkHeaders: false, // boolean to turn off the default gatsby js headers (disabled by default, until gzip is fixed for server push)
-        mergeCachingHeaders: true, // boolean to turn off the default caching headers
-        transformHeaders: (headers, path) => headers // optional transform for manipulating headers under each path (e.g.sorting), etc.
-      }
-    },
     "gatsby-plugin-catch-links",
     "gatsby-plugin-sitemap",
     {
@@ -111,6 +95,23 @@ module.exports = {
         purgeOnly: ["/all.sass"] // applies purging only on the bulma css file
       }
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
+    // This apparently needs to be the last of the last
+    {
+      resolve: `gatsby-plugin-netlify-headers`,
+      options: {
+        headers: {
+          "*": ["Access-Control-Allow-Origin: *"],
+          "/docs/*.pdf": ["X-Frame-Options: SAMEORIGIN"],
+          "/patterns": ["X-Frame-Options: SAMEORIGIN"],
+          "/**/*.pdf": ["X-Frame-Options: SAMEORIGIN"]
+        }, // option to add more headers. `Link` headers are transformed by the below criteria
+        allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        mergeSecurityHeaders: true, // boolean to turn off the default security headers
+        mergeLinkHeaders: false, // boolean to turn off the default gatsby js headers (disabled by default, until gzip is fixed for server push)
+        mergeCachingHeaders: true, // boolean to turn off the default caching headers
+        transformHeaders: (headers, path) => headers // optional transform for manipulating headers under each path (e.g.sorting), etc.
+      }
+    }
   ]
 };
