@@ -1,38 +1,57 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import logo from '../img/rosie-logo.png'
-import facebook from '../img/Facebook.png'
-import instagram from '../img/Instagram.png'
-import twitter from '../img/Twitter.png'
-import vimeo from '../img/social/vimeo.svg'
+import logo from "../img/rosie-logo.png";
+import facebook from "../img/Facebook.png";
+import instagram from "../img/Instagram.png";
+import twitter from "../img/Twitter.png";
+import vimeo from "../img/social/vimeo.svg";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer">
         <div className="social-media">
-          <a href="https://www.facebook.com/groups/masksnoworg">
-            <img src={facebook} className="social-media-icon" alt="facebook"></img>
+          <a
+            href="https://www.facebook.com/groups/masksnoworg"
+            className="social-media-icon"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faFacebookF} size="2x" />
           </a>
-          <a href="https://www.instagram.com/masksnoworg/">
-            <img src={instagram} className="social-media-icon" alt="instagram"></img>
+          <a
+            href="https://www.instagram.com/masksnoworg/"
+            className="social-media-icon"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
-          <a href="https://twitter.com/masksnoworg">
-            <img src={twitter} className="social-media-icon" alt="twitter"></img>
+          <a
+            href="https://twitter.com/masksnoworg"
+            className="social-media-icon"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
         </div>
-          <Link to={'/faq'}>FAQ's</Link>{' | '}
-          <Link to={'/contact'}>Contact</Link>{' | '}
-          <Link to={'/about-us'}>About Us</Link>
-        <p className="external-links">External Resources:{' '}
-          <a href="https://www.endcoronavirus.org/">
-            endcoronavirus.org
-          </a>
+        <Link to={"/faq"}>FAQ's</Link>
+        {" | "}
+        <Link to={"/contact"}>Contact</Link>
+        {" | "}
+        <Link to={"/about-us"}>About Us</Link>
+        <p className="external-links">
+          External Resources:{" "}
+          <a href="https://www.endcoronavirus.org/">endcoronavirus.org</a>
         </p>
 
-
-          <br />
+        <br />
         <a href="https://www.netlify.com">
           <img
             src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"
@@ -40,8 +59,8 @@ const Footer = class extends React.Component {
           />
         </a>
       </footer>
-    )
+    );
   }
-}
+};
 
-export default Footer
+export default Footer;
