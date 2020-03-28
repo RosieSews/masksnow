@@ -77,8 +77,9 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-headers`,
       options: {
         headers: {
+          "*": ["Access-Control-Allow-Origin: *"],
           "/patterns": ["X-Frame-Options: SAMEORIGIN"],
-          "/*.pdf": ["X-Frame-Options: SAMEORIGIN"]
+          "/**/*.pdf": ["X-Frame-Options: SAMEORIGIN"]
         }, // option to add more headers. `Link` headers are transformed by the below criteria
         allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
         mergeSecurityHeaders: true, // boolean to turn off the default security headers

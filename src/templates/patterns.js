@@ -18,7 +18,10 @@ export const PatternsTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <PDFObject url="/CFCMask_3_27.pdf" height="40rem"></PDFObject>
+              <PDFObject
+                url="/docs/CFCMask_3_27.pdf"
+                height="40rem"
+              ></PDFObject>
             </div>
           </div>
         </div>
