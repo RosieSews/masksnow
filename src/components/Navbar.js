@@ -6,8 +6,8 @@ import logoImgMobile from "../img/header-mobile.png";
 import maskNowImg from "../img/header-masksnow.png";
 
 const HamburgerLine = () => {
-  return <span />
-}
+  return <span />;
+};
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -20,18 +20,43 @@ const Navbar = class extends React.Component {
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
-    this.setState((prevState) => {
+    this.setState(prevState => {
       let active = !prevState.active;
       return {
         active,
-        navBarActiveClass: active ? 'is-active' : '',
-      }
+        navBarActiveClass: active ? "is-active" : ""
+      };
     });
   };
 
   render() {
+    const navbar = (
+      <div className="navbar-start has-text-centered">
+        <Link className="navbar-item" to="/patterns">
+          Patterns
+        </Link>
+        <Link className="navbar-item" to="/psa">
+          PSAs
+        </Link>
+        <Link className="navbar-item" to="/faq">
+          FAQs
+        </Link>
+        <Link className="navbar-item" to="/contact">
+          Contact Us
+        </Link>
+        <Link className="navbar-item" to="/about-us">
+          About Us
+        </Link>
+      </div>
+    );
     return (
       <div>
+        <div
+          className={`mobile-navbar navbar-menu ${this.state.navBarActiveClass}`}
+        >
+          {navbar}
+          <div class="mobile-backdrop" onClick={this.toggleHamburger}></div>
+        </div>
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div
             className="header"
@@ -41,8 +66,16 @@ const Navbar = class extends React.Component {
               backgroundRepeat: "repeat-x"
             }}
           >
-            <Link to="/"><img src={logoImgMobile} alt="blah" className="header-logo-banner" /></Link>
-            <Link to="/"><img src={logoImg} className="header-logo" alt="We can do it!" /></Link>
+            <Link to="/">
+              <img
+                src={logoImgMobile}
+                alt="blah"
+                className="header-logo-banner"
+              />
+            </Link>
+            <Link to="/">
+              <img src={logoImg} className="header-logo" alt="We can do it!" />
+            </Link>
             <div className="header-container">
               <div className="header-top">
                 {/* Hamburger menu */}
@@ -56,40 +89,21 @@ const Navbar = class extends React.Component {
                   <HamburgerLine />
                 </div>{" "}
                 {/* Navbar-burger */}
-                <div
-                    id="navMenu"
-                    className={`navbar-menu ${this.state.navBarActiveClass}`}
-                >
-                  <div className="navbar-start has-text-centered">
-                    <Link className="navbar-item" to="/patterns">
-                      Patterns
-                    </Link>
-                    <Link className="navbar-item" to="/psa">
-                      PSAs
-                    </Link>
-                    <Link className="navbar-item" to="/faq">
-                      FAQs
-                    </Link>
-                    <Link className="navbar-item" to="/contact">
-                      Contact Us
-                    </Link>
-                    <Link className="navbar-item" to="/about-us">
-                      About Us
-                    </Link>
-                  </div>{" "}
-                  {/* Navbar-start */}
+                <div id="navMenu" className={`navbar-menu`}>
+                  {navbar} {/* Navbar-start */}
                 </div>{" "}
-
                 {/* navMenu */}
               </div>{" "}
               {/* Container */}
               <div style={{ display: "flex", alignItems: "center", flex: "1" }}>
-                <Link to="/"><img
-                  src={maskNowImg}
-                  alt="masks now banner"
-                  class="header-banner"
-                  style={{ maxHeight: "228px", width: "100%" }}
-                /></Link>
+                <Link to="/">
+                  <img
+                    src={maskNowImg}
+                    alt="masks now banner"
+                    className="header-banner"
+                    style={{ maxHeight: "228px", width: "100%" }}
+                  />
+                </Link>
               </div>
             </div>
           </div>

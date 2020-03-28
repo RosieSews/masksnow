@@ -11,6 +11,8 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+$navbar-background: #16356f
+
 .navbar .navbar-menu
   box-shadow:none !important
 
@@ -236,4 +238,44 @@ footer.footer a
   .header-banner
     display: none !important;
   .navbar-menu
-    background-color: #16356f;
+    background-color: $navbar-background;
+
+.mobile-navbar
+  position: fixed
+  background-color: rgba(0,0,0,0)
+  height: 100%
+  width: 100%
+  top: 0
+  left: -100%
+  z-index: 999
+  transition: left .25s ease-in-out
+  display: flex !important
+  padding: 0
+
+.mobile-navbar.is-active
+  left: 0
+
+.mobile-navbar .navbar-start
+  flex: 1
+  display: flex
+  flex-direction: column
+  padding: 0
+  background-color: $navbar-background
+
+.mobile-navbar .navbar-start a.navbar-item
+  color: $kaldi-red-invert
+
+.mobile-navbar .navbar-start a.navbar-item:hover
+  color: $navbar-background
+
+.mobile-navbar .navbar-start a.navbar-item:active
+  color: $kaldi-red
+
+.mobile-navbar.is-active .mobile-backdrop:hover
+  cursor: pointer
+
+.mobile-navbar .mobile-backdrop
+  flex: 3
+  background-color: rgba(0, 0, 0, 0.3)
+  width: 100%
+  height: 100%
