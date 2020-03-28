@@ -25,6 +25,5 @@ title: State Directory
 * [North Carolina](https://www.facebook.com/Million-Mask-Mayday-NC-103836924595764/)
 * [Oregon](https://www.facebook.com/millionmaskmaydayoregon/?modal=admin_todo_tour)
 * [Texas](https://www.facebook.com/groups/mllionmaskmaydayTX/)
-* [Virginia](https://www.facebook.com/groups/millionmaskchallenge/?hc_location=ufi)
 * [Washington](https://www.facebook.com/groups/206024387398453/)
 * [Wisconsin](https://www.facebook.com/millionmaskmaydayGA/?hc_location=ufi)

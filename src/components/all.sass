@@ -1,5 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap')
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -132,6 +133,7 @@ $menu-label-color: $white-ter
 body
   color: black
   background-color: #F5F5F5
+  font-family: 'Assistant', sans-serif
 
 a:hover
   color: #3273dc
@@ -177,6 +179,7 @@ a:hover
 
 .header-top
   height: 74px
+  z-index: 10  // nav bar menu needs to appear over banner.
 
 .header-container
   flex-direction: column
@@ -223,6 +226,8 @@ footer.footer a
     flex-basis: 50%;
   .header-mobile
     width: 0px;
+  .navbar-menu
+    background-color: #16356f
 
 +mobile
   .blog-list-item header

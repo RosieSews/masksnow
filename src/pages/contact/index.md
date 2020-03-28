@@ -6,12 +6,11 @@ title: Contact
 ## General Information
 [info@masksnow.org](mailto:info@masksnow.org)
 
-## Public Relations
-[publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)  
-[carolef@masksnow.org](mailto:carolef@masksnow.org)
-
 ## Volunteer Coordinator
-[astrid@masksnow.org ](mailto:astrid@masksnow.org)
+[volunteer@masksnow.org ](mailto:volunteer@masksnow.org)
+
+## Public Relations and Media
+[publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)  
 
 ## Social Media
 [socialmedia@masksnow.org](mailto:socialmedia@masksnow.org)
