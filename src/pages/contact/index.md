@@ -5,7 +5,11 @@ title: Contact
 ---
 # **Text masks to 50409 for more information**
 
-## Volunteer Coordinator
+## General Information
+
+[info@masksnow.org](mailto:info@masksnow.org)
+
+## Volunteering at Headquarters
 
 [volunteer@masksnow.org ](mailto:volunteer@masksnow.org)
 
@@ -16,10 +20,6 @@ title: Contact
 ## Social Media
 
 [socialmedia@masksnow.org](mailto:socialmedia@masksnow.org)
-
-## General Information
-
-[info@masksnow.org](mailto:info@masksnow.org)
 
 ## Steering Committee
 
