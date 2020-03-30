@@ -3,7 +3,7 @@ templateKey: info-page
 path: /about-us
 title: About Us
 ---
-The Masks Now Coalition was founded when hundreds of Americans who were acting individually, started to make masks together to raise our country’s viral resistance to the spread of coronavirus. They joined forces to make an umbrella organization to handle the thorny design and logistical questions involved in massively distributed mask production to make sure those in need can get face masks.
+The Masks Now Coalition was founded when hundreds of Americans, acting individually, started to make masks together to raise our country’s viral resistance to the spread of coronavirus. They joined forces to make an umbrella organization to handle the thorny design and logistical questions involved in massively distributed mask production to make sure those in need can get face masks.
 
 Led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage in personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America, The Masks Now Coalition has volunteers in every state, Washington D.C. and Puerto Rico ready to answer the call from over 125 hospitals in 28 states which have made public appeals for homesewn masks.
 
