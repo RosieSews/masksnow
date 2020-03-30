@@ -17,8 +17,3 @@ If you do not have access to this material, you may use the [Pocket pattern](htt
 Smaller sizes coming soon.
 
 ## 3-Layer Mask (Large)
-
-![Download 3-layer mask pattern](/img/3-layer-mask-download.png "Download 3-layer mask pattern")
-
-\
-`youtube:https://www.youtube.com/embed/J0HnaWUIyzg`
