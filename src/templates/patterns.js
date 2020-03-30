@@ -68,6 +68,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
       }
+      parent {
+        ... on File {
+          mtime
+        }
+      }
     }
   }
 `;
