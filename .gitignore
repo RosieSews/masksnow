@@ -8,3 +8,6 @@ static/admin/*.bundle.*
 .DS_Store
 yarn-error.log
 .idea/
+
+# Local Netlify folder
+.netlify
