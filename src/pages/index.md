@@ -2,7 +2,7 @@
 templateKey: index-page
 title: What is The Masks Now Coalition?
 ---
-The Masks Now Coalition is a grassroots movement of volunteers and their groups, led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage of personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America.
+The Masks Now Coalition is a grassroots movement of volunteers and their groups, led by nineteen organizers directing over 1,000 volunteers who banded together in response to the urgent national shortage of masks brought on by the novel coronavirus outbreak in America.
 
 We’ve got volunteers in every state, Washington D.C., and Puerto Rico ready to answer the call from over 125 hospitals in 28 states which have made public appeals for homesewn masks.
 
