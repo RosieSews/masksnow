@@ -5,7 +5,7 @@ title: Frequently Asked Questions
 ---
 ## Why are you making homemade masks?
 
-Over 100 hospitals in 28 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
+Over 220 hospitals in 39 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
 
 ## Are homemade masks effective?
 
@@ -27,11 +27,11 @@ In response to the respirator shortage crisis due to COVID-19, the CDC [has indi
 
 ## How many volunteers do you have?
 
-As of today we have over 1,000 volunteers spread amongst every state plus DC and Puerto Rico.
+As of today we have over 2,200 volunteers spread amongst every state plus DC and Puerto Rico.
 
 ## How many organizers are there in The Masks Now Coalition?
 
-We have 19 national organizers and 17 state leads, but we’re always looking for more state and regional organizers, in addition to people who can sew a pretty awesome mask.
+We have 19 national organizers and 49 leads in 35 states, but we’re always looking for more state and regional organizers, in addition to people who can sew a pretty awesome mask.
 
 ## Are these masks made for children?
 
@@ -43,7 +43,7 @@ Any healthcare facility that has patients, support staff, or visitors who would 
 
 ## How many hospitals are asking for hand sewn masks?
 
-Over 120 hospitals in 28 states have asked for handsewn masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
+Over 220 hospitals in 39 states have asked for handsewn masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
 
 ## How many masks should I make and how do I get them to the right place?
 
