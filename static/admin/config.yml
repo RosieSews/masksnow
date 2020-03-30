@@ -82,7 +82,7 @@ collections:
                   {
                     label: "File",
                     name: "file",
-                    widget: "markdown",
+                    widget: "file",
                     allow_multiple: false,
                     media_library: { config: { media_folder: "static/docs" } },
                   },
