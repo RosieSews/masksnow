@@ -28,4 +28,5 @@ Grant Stern | [grantstern@masksnow.org](mailto:grantstern@masksnow.org)\
 Jodi Murray | [jodimurray@masksnow.org](mailto:jodimurray@masksnow.org)\
 Dr. Kelly Sennholz | [drsennholz@masksnow.org](mailto:drsennholz@masksnow.org)\
 Rachel Emard | [rachel@masksnow.org](mailto:rachel@masksnow.org)\
+Joe Cooter\
 Scott Dworkin
