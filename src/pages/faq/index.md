@@ -52,3 +52,7 @@ After [signing up as a volunteer](http://masksnow.org/volunteer), your state lea
 ## I don't know how to sew, how can I help?
 
 We also have a need for volunteers to make phone calls and distribute masks. We can also accept fabric or mask making kits as long as the fabric is cotton blend or 100% cotton. To do so, please [sign up as a volunteer](http://masksnow.org/volunteer). If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
+
+## What will you do if someone donates a mask that doesn't fit the official pattern?
+
+We donate all masks that we receive. We won't exclude masks that do not strictly follow the the pattern instructions. **The checklist allows for a sewist to mark "other" to indicate that it does not follow the guidelines of the pattern that we disseminate.** That way, the organization receiving the mask will use the mask in whatever context they feel appropriate knowing that it doesn't conform to our specifications, but it may still be useful for their purposes.
