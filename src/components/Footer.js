@@ -1,25 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import {SocialMediaIcon} from '../components/StyledElements';
-import TwitterIcon from '../img/Twitter.png'
-import FacebookIcon from '../img/Facebook.png'
-import InstagramIcon from '../img/Instagram.png'
+import { FacebookLinkIcon, InstagramLinkIcon, TwitterLinkIcon} from '../components/StyledElements';
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer">
         <div className="social-media">
-          <SocialMediaIcon href="https://www.facebook.com/groups/masksnoworg" target="_blank">
-            <img src={FacebookIcon} alt="Facebook" />
-          </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.instagram.com/masksnoworg/" target="_blank">
-            <img src={InstagramIcon} alt="Instagram" />
-          </SocialMediaIcon>
-          <SocialMediaIcon href="https://twitter.com/masksnoworg" target="_blank">
-            <img src={TwitterIcon} alt="Twitter" />
-          </SocialMediaIcon>
+            <FacebookLinkIcon />
+            <InstagramLinkIcon />
+            <TwitterLinkIcon />
         </div>
         <Link to={"/faq"}>FAQ's</Link>
         {" | "}
