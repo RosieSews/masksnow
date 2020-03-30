@@ -71,22 +71,24 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { 
-            label: "Patterns", 
-            name: "patterns", 
-            widget: "list", 
-            collapsed: false,
-            fields: 
-              - { label: "Name", name: "title", widget: "string" }
-              - { 
-                  label: "File", 
-                  name: "file", 
-                  widget: "markdown", 
-                  allow_multiple: false,
-                  media_library: { config: { media_folder: "static/docs"}}
-                }
-              - { label: "Description", name: "body", widget: "markdown" }
-           }
+          - {
+              label: "Patterns",
+              name: "patterns",
+              widget: "list",
+              collapsed: false,
+              fields:
+                [
+                  { label: "Name", name: "title", widget: "string" },
+                  {
+                    label: "File",
+                    name: "file",
+                    widget: "markdown",
+                    allow_multiple: false,
+                    media_library: { config: { media_folder: "static/docs" } },
+                  },
+                  { label: "Description", name: "body", widget: "markdown" },
+                ],
+            }
       - file: "src/pages/groups-directory/index.md"
         label: "Groups Directory"
         name: "groups-directory"
