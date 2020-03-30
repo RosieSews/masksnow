@@ -21,7 +21,7 @@ Our goal is to give each citizen the ability to take control of their community�
 * Coronavirus Army
 * Resistbot
 
-## The Masks Now Coalition’s six-person steering committee:
+## The Masks Now Coalition’s seven-person steering committee:
 
 * [Francey Youngberg](mailto:francey.youngberg@masksnow.org)
 * [Grant Stern](mailto:grantstern@masksnow.org)
