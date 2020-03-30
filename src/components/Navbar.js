@@ -32,6 +32,9 @@ const Navbar = class extends React.Component {
   render() {
     const navbar = (
       <div className="navbar-start has-text-centered">
+        <Link className="navbar-item" to="/volunteer">
+          Volunteer
+        </Link>
         <Link className="navbar-item" to="/patterns">
           Patterns
         </Link>
