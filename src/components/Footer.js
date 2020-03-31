@@ -1,38 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter
-} from "@fortawesome/free-brands-svg-icons";
+
+import { FacebookLinkIcon, InstagramLinkIcon, TwitterLinkIcon} from '../components/StyledElements';
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer">
         <div className="social-media">
-          <a
-            href="https://www.facebook.com/groups/masksnoworg"
-            className="social-media-icon"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faFacebook} size="2x" />
-          </a>
-          <a
-            href="https://www.instagram.com/masksnoworg/"
-            className="social-media-icon"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
-          </a>
-          <a
-            href="https://twitter.com/masksnoworg"
-            className="social-media-icon"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
-          </a>
+            <FacebookLinkIcon />
+            <InstagramLinkIcon />
+            <TwitterLinkIcon />
         </div>
         <Link to={"/faq"}>FAQ's</Link>
         {" | "}
