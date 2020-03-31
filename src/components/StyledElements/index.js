@@ -54,7 +54,7 @@ export const InstagramBrandIcon = ({ size = DEFAULT_SOCIAL_ICON_SIZE }) => {
 
 export const InstagramLinkIcon = ({ size }) => (
   <SocialMediaIconLink
-    href="https://www.facebook.com/groups/masksnoworg"
+    href="https://www.instagram.com/masksnoworg"
     target="_blank"
     color="black"
     background="radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"
@@ -69,7 +69,7 @@ export const TwitterBrandIcon = ({ size = DEFAULT_SOCIAL_ICON_SIZE }) => {
 
 export const TwitterLinkIcon = ({ size }) => (
   <SocialMediaIconLink
-    href="https://www.facebook.com/groups/masksnoworg"
+    href="https://twitter.com/masksnoworg"
     target="_blank"
     color="#1da1f2"
   >
