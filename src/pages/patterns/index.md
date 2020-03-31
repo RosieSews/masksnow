@@ -25,5 +25,5 @@ Smaller sizes coming soon.
 ## Pocket Mask
 ### [Download Pocket Mask Pattern](https://masksnow.org/docs/CFC_Pocket_Mask_3_28.pdf)
 
-`https://www.youtube.com/embed/6NI8W5N06xo`
+`youtube:https://www.youtube.com/embed/6NI8W5N06xo`
 
