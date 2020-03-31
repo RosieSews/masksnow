@@ -1,19 +1,19 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { PatternsTemplate } from "../../templates/patterns";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { PatternsTemplate } from '../../templates/patterns';
 
 const PatternsPreview = ({ entry, widgetFor }) => (
   <PatternsTemplate
-    title={entry.getIn(["data", "title"])}
-    content={widgetFor("body")}
+    title={entry.getIn(['data', 'title'])}
+    content={widgetFor('body')}
   />
 );
 
 PatternsPreview.propTypes = {
   entry: PropTypes.shape({
-    getIn: PropTypes.func
+    getIn: PropTypes.func,
   }),
-  widgetFor: PropTypes.func
+  widgetFor: PropTypes.func,
 };
 
 export default PatternsPreview;

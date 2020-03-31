@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
-import headerBackground from "../img/header-bg.png";
-import logoImg from "../img/header-rosie.png";
-import logoImgMobile from "../img/header-mobile.png";
-import maskNowImg from "../img/header-masksnow.png";
+import React from 'react';
+import { Link } from 'gatsby';
+import headerBackground from '../img/header-bg.png';
+import logoImg from '../img/header-rosie.png';
+import logoImgMobile from '../img/header-mobile.png';
+import maskNowImg from '../img/header-masksnow.png';
 
 const HamburgerLine = () => {
   return <span />;
@@ -14,7 +14,7 @@ const Navbar = class extends React.Component {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: '',
     };
   }
 
@@ -24,7 +24,7 @@ const Navbar = class extends React.Component {
       let active = !prevState.active;
       return {
         active,
-        navBarActiveClass: active ? "is-active" : ""
+        navBarActiveClass: active ? 'is-active' : '',
       };
     });
   };
@@ -64,9 +64,9 @@ const Navbar = class extends React.Component {
           <div
             className="header"
             style={{
-              backgroundImage: "url(" + headerBackground + ")",
-              backgroundSize: "contain",
-              backgroundRepeat: "repeat-x"
+              backgroundImage: 'url(' + headerBackground + ')',
+              backgroundSize: 'contain',
+              backgroundRepeat: 'repeat-x',
             }}
           >
             <Link to="/">
@@ -90,21 +90,21 @@ const Navbar = class extends React.Component {
                   <HamburgerLine />
                   <HamburgerLine />
                   <HamburgerLine />
-                </div>{" "}
+                </div>{' '}
                 {/* Navbar-burger */}
                 <div id="navMenu" className={`navbar-menu`}>
                   {navbar} {/* Navbar-start */}
-                </div>{" "}
+                </div>{' '}
                 {/* navMenu */}
-              </div>{" "}
+              </div>{' '}
               {/* Container */}
-              <div style={{ display: "flex", alignItems: "center", flex: "1" }}>
+              <div style={{ display: 'flex', alignItems: 'center', flex: '1' }}>
                 <Link to="/">
                   <img
                     src={maskNowImg}
                     alt="masks now banner"
                     className="header-banner"
-                    style={{ maxHeight: "228px", width: "100%" }}
+                    style={{ maxHeight: '228px', width: '100%' }}
                   />
                 </Link>
               </div>

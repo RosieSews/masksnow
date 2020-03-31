@@ -1,13 +1,10 @@
 {
   "extends": [
-    "eslint-config-react-app"
-    // "plugin:import/errors",
-    // "react-app",
-    // "prettier",
-    // "prettier/react"
+    "eslint-config-react-app",
+     "prettier"
   ],
   "parser": "babel-eslint",
-  "plugins": ["react", "prettier", "graphql"],
+  "plugins": ["react", "graphql"],
   "rules": {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules
     "jsx-a11y/accessible-emoji": "warn",
