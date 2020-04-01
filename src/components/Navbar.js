@@ -28,12 +28,11 @@ const Navbar = () => {
     }
   `);
   const [active, setActive] = useState(false);
-  const [navBarActiveClass, setNavBarActiveClass] = useState('');
+  const navBarActiveClass = active ?'is-active' : '';
 
   const toggleHamburger = () => {
     // toggle the active boolean in the state
-    setActive(!active);
-    active ? setNavBarActiveClass('is-active') : setNavBarActiveClass('');
+    setActive((prevState) => !prevState);
   };
 
   const navbar = (
