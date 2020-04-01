@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
-import headerBackground from "../img/header-bg.png";
-import maskNowImg from "../img/header-masksnow.png";
+import React, { useState } from 'react';
+import { Link, useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import headerBackground from '../img/header-bg.png';
+import maskNowImg from '../img/header-masksnow.png';
 
 const HamburgerLine = () => {
   return <span />;
@@ -28,12 +28,12 @@ const Navbar = () => {
     }
   `);
   const [active, setActive] = useState(false);
-  const [navBarActiveClass, setNavBarActiveClass] = useState("");
+  const [navBarActiveClass, setNavBarActiveClass] = useState('');
 
   const toggleHamburger = () => {
     // toggle the active boolean in the state
     setActive(!active);
-    active ? setNavBarActiveClass("is-active") : setNavBarActiveClass("");
+    active ? setNavBarActiveClass('is-active') : setNavBarActiveClass('');
   };
 
   const navbar = (
@@ -68,9 +68,9 @@ const Navbar = () => {
         <div
           className="header"
           style={{
-            backgroundImage: "url(" + headerBackground + ")",
-            backgroundSize: "contain",
-            backgroundRepeat: "repeat-x"
+            backgroundImage: 'url(' + headerBackground + ')',
+            backgroundSize: 'contain',
+            backgroundRepeat: 'repeat-x',
           }}
         >
           <Link className="header-logo-banner" to="/">
@@ -98,23 +98,23 @@ const Navbar = () => {
                 <HamburgerLine />
                 <HamburgerLine />
                 <HamburgerLine />
-              </div>{" "}
+              </div>{' '}
               {/* Navbar-burger */}
               <div id="navMenu" className={`navbar-menu`}>
                 {navbar} {/* Navbar-start */}
-              </div>{" "}
+              </div>{' '}
               {/* navMenu */}
-            </div>{" "}
+            </div>{' '}
             {/* Container */}
-            <div style={{ display: "flex", alignItems: "center", flex: "1" }}>
-                <Link to="/">
-                    <img
-                        src={maskNowImg}
-                        alt="masks now banner"
-                        className="header-banner"
-                        style={{ maxHeight: "228px", width: "100%" }}
-                    />
-                </Link>
+            <div style={{ display: 'flex', alignItems: 'center', flex: '1' }}>
+              <Link to="/">
+                <img
+                  src={maskNowImg}
+                  alt="masks now banner"
+                  className="header-banner"
+                  style={{ maxHeight: '228px', width: '100%' }}
+                />
+              </Link>
             </div>
           </div>
         </div>
