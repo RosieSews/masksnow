@@ -38,7 +38,7 @@ const NotFoundPage = () => (
           role="img"
           aria-label="A yellow face with closed eyes wearing a white surgical mask, as used by health workers in hospitals. "
         >
-          😷4
+          😷
         </span>
         4
       </Title>
