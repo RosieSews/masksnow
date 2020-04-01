@@ -89,9 +89,6 @@ module.exports = {
         host: config.siteUrl + pathPrefix,
         sitemap: config.siteUrl + pathPrefix + 'sitemap.xml',
         env: {
-          development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
-          },
           production: {
             policy: [{ userAgent: '*', allow: '/' }],
           },
