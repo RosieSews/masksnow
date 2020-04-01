@@ -3,6 +3,9 @@ templateKey: info-page
 path: /psa
 title: Celebrity PSAs
 ---
+## Professor Pincushion
+
+`youtube:https://www.youtube.com/embed/0ttZpAOGuf4`
 
 ## Ron Perlman
 
