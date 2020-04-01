@@ -67,6 +67,11 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        patterns {
+          title
+          file
+          body
+        }
       }
       parent {
         ... on File {

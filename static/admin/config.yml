@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: DARE/PDF-CMS
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -76,6 +76,7 @@ collections:
               name: "patterns",
               widget: "list",
               collapsed: false,
+              default: [],
               fields:
                 [
                   { label: "Name", name: "title", widget: "string" },
