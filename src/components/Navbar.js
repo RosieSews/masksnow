@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import headerBackground from "../img/header-bg.png";
+import maskNowImg from "../img/header-masksnow.png";
 
 const HamburgerLine = () => {
   return <span />;
@@ -21,13 +22,6 @@ const Navbar = () => {
         childImageSharp {
           fixed(height: 300) {
             ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      maskNow: file(relativePath: { eq: "header-masksnow.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -113,13 +107,14 @@ const Navbar = () => {
             </div>{" "}
             {/* Container */}
             <div style={{ display: "flex", alignItems: "center", flex: "1" }}>
-              <Link style={{ maxHeight: "228px", width: "100%" }} to="/">
-                <Img
-                  alt="masks now banner"
-                  className="header-banner"
-                  fluid={data.maskNow.childImageSharp.fluid}
-                />
-              </Link>
+                <Link to="/">
+                    <img
+                        src={maskNowImg}
+                        alt="masks now banner"
+                        className="header-banner"
+                        style={{ maxHeight: "228px", width: "100%" }}
+                    />
+                </Link>
             </div>
           </div>
         </div>
