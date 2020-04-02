@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
 
 export const GroupsDirectoryTemplate = ({
   title,
   content,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -32,7 +32,7 @@ export const GroupsDirectoryTemplate = ({
 GroupsDirectoryTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
 };
 
 const GroupsDirectory = ({ data }) => {
@@ -50,7 +50,7 @@ const GroupsDirectory = ({ data }) => {
 };
 
 GroupsDirectory.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default GroupsDirectory;
