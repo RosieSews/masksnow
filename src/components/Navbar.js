@@ -120,7 +120,7 @@ const Navbar = () => {
       </nav>
       <div className="call-to-action">
         <Link to="/volunteer">Volunteer Here</Link>
-        <Link to="/request-supplies">Request Supplies</Link>
+        <Link to="/request-supplies">Request Masks</Link>
       </div>
     </div>
   );
