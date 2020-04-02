@@ -7,25 +7,39 @@ import config from '../../config';
 const SEO = props => {
   const { postNode, postPath, article, buildTime } = props;
 
-  let title;
-  let description;
-  let keywords;
-
   const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
   const homeURL = `${config.siteUrl}${realPrefix}`;
   const URL = `${homeURL}${postPath || ''}`;
-  const image = `${homeURL}${config.siteBanner}`;
+
+  //Set defaults
+  //Will attempt to chnage based on postNode.frontMatter
+  let title = config.siteTitleAlt;
+  let description = config.siteDescription;
+  let keywords =
+    'Donate medical masks, covid19, homemade masks, homemade surgical mask, surgical mask, reuseable masks';
+  let image = `${homeURL}${config.siteBanner}`;
 
   if (article) {
     const postMeta = postNode.frontmatter;
     title = `${postMeta.title} | ${config.siteTitle}`;
-    description = postNode.excerpt;
-    keywords = postNode.frontmatter.keywords.join();
-  } else {
-    title = config.siteTitleAlt;
-    description = config.siteDescription;
-    keywords =
-      'Donate medical masks, covid19, homemade masks, homemade surgical mask, surgical mask, reuseable masks';
+    //Description may be set, else, use excerpt
+    if (postMeta.hasOwnProperty('description')) {
+      description = postMeta.description;
+    } else if (postNode.hasOwnProperty('excerpt')) {
+      description = postNode.excerpt;
+    }
+    //keywords
+    if (postMeta.hasOwnProperty('keywords')) {
+      keywords = postNode.frontmatter.keywords.join();
+    }
+
+    //featured image
+    if (
+      postMeta.featuredimage &&
+      postMeta.featuredimage.hasOwnProperty('publicURL')
+    ) {
+      image = postMeta.featuredimage.publicURL;
+    }
   }
 
   // schema.org in JSONLD format
@@ -125,7 +139,10 @@ const SEO = props => {
         '@type': 'Person',
         name: config.author,
       },
-      copyrightYear: postNode.parent.birthtime,
+      copyrightYear:
+        postNode.parent && postNode.parent.hasOwnProperty('birthtime')
+          ? postNode.parent.birthtime
+          : 2020,
       creator: {
         '@type': 'Person',
         name: config.author,
@@ -138,8 +155,8 @@ const SEO = props => {
           url: `${homeURL}${config.siteLogo}`,
         },
       },
-      datePublished: postNode.parent.birthtime,
-      dateModified: postNode.parent.mtime,
+      //datePublished: postNode.parent.birthtime,
+      //dateModified: postNode.parent.mtime,
       description,
       headline: title,
       inLanguage: 'en',
@@ -223,7 +240,14 @@ const SEO = props => {
 export default SEO;
 
 SEO.propTypes = {
-  postNode: PropTypes.object,
+  postNode: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    featuredimage: PropTypes.shape({
+      publicURL: PropTypes.string,
+    }),
+    keywords: PropTypes.string,
+  }),
   postPath: PropTypes.string,
   article: PropTypes.bool,
   buildTime: PropTypes.string,

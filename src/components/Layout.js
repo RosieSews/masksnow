@@ -6,12 +6,21 @@ import Navbar from '../components/Navbar';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
 import SEO from './SEO';
+import PropTypes from 'prop-types';
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description, image, siteUrl } = useSiteMetadata();
+const TemplateWrapper = ({ children, postNode }) => {
+  let { title, description, image, siteUrl } = useSiteMetadata();
+  //Current page SHOULD provide title
+  if (
+    postNode &&
+    postNode.frontmatter &&
+    postNode.frontmatter.hasOwnProperty('title')
+  ) {
+    title = postNode.frontmatter.title;
+  }
   return (
     <div>
-      <SEO />
+      <SEO postNode={postNode} article={postNode ? true : false} />
       <Helmet>
         {/* <html lang="en" />
         <title>{title}</title>
@@ -27,11 +36,22 @@ const TemplateWrapper = ({ children }) => {
           sizes="16x16"
         />
       </Helmet>
-      <Navbar />
+      <Navbar title={title} />
       <div>{children}</div>
       <Footer />
     </div>
   );
 };
 
+TemplateWrapper.propTypes = {
+  children: PropTypes.any.isRequired,
+  postNode: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    featuredimage: PropTypes.shape({
+      publicURL: PropTypes.string,
+    }),
+    keywords: PropTypes.string,
+  }),
+};
 export default TemplateWrapper;

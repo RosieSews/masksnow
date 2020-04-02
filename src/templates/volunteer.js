@@ -13,9 +13,6 @@ export const VolunteerTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
               <PageContent className="content" content={content} />
               <iframe
                 className="airtable-embed airtable-dynamic-height"
@@ -41,7 +38,7 @@ const Volunteer = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout postNode={post}>
       <VolunteerTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -63,6 +60,10 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        description
+        featuredimage {
+          publicURL
+        }
       }
     }
   }

@@ -3,12 +3,13 @@ import { Link, useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import headerBackground from '../img/header-bg.png';
 import maskNowImg from '../img/header-masksnow.png';
+import PropTypes from 'prop-types';
 
 const HamburgerLine = () => {
   return <span />;
 };
 
-const Navbar = () => {
+const Navbar = ({ title }) => {
   const data = useStaticQuery(graphql`
     query {
       rosie: file(relativePath: { eq: "header-rosie.png" }) {
@@ -118,12 +119,19 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <h1 className="is-size-1 has-text-weight-bold  has-text-centered">
+        {title}
+      </h1>
       <div className="call-to-action">
         <Link to="/volunteer">Volunteer Here</Link>
         <Link to="/request-supplies">Request Masks</Link>
       </div>
     </div>
   );
+};
+
+Navbar.propTypes = {
+  title: PropTypes.string.isRequired,
 };
 
 export default Navbar;
