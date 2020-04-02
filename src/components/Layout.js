@@ -41,10 +41,9 @@ TemplateWrapper.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
     featuredimage: PropTypes.shape({
-      publicURL: PropTypes.string
+      publicURL: PropTypes.string,
     }),
-    keywords: PropTypes.string
-
-  })
-}
+    keywords: PropTypes.string,
+  }),
+};
 export default TemplateWrapper;
