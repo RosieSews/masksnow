@@ -16,6 +16,16 @@ how's that?
 
 ## How-to's
 
+### contribute
+
+1. Make a local copy by running `git clone https://github.com/RosieSews/masksnow.git`
+2. Run `yarn` or `npm i` to install dependencies locally
+3. Install `gatsby-cli` with `yarn global add gatsby-cli` or `npm i -g gatsby-cli`
+4. Create a new branch with a description of your feature `git checkout -b FEATURE` - ex. `git checkout -b make-images-responsive`
+5. Work your magic
+6. Add any new files, make your commits, and submit a PR. If you run `git push` your terminal should give you directions that look something like `git push --set-upstream origin FEATURE`. Run that code.
+7. Go to the repo. You should see a banner with a green button that says Compare & Pull Request. Click the button and finish submitting your PR.
+
 ### run a local dev environment
 
 You can go a long way in just copying what's already here - but taking a minute to read some of Gatsby.js' docs will help a lot.
