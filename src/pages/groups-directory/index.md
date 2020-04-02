@@ -3,7 +3,7 @@ templateKey: groups-directory
 path: /groups-directory
 title: State/Regional Facebook Group Directory
 ---
-*last updated: 03/23/2020*
+*last updated: 04/1/2020*
 
 **Facebook Groups**
 
@@ -52,4 +52,4 @@ title: State/Regional Facebook Group Directory
 * [Washington](https://www.facebook.com/groups/206024387398453/)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/)
 
-If you do not see your state/region listed, email volunteer@masksnow.org to start a chapter!
+If you do not see your state/region listed, email [astrid@masksnow.org](mailto:astrid@masksnow.org) to start a chapter!
