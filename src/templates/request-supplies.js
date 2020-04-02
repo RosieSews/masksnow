@@ -46,7 +46,7 @@ const RequestSupplies = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout postNode={post}>
       <RequestSuppliesTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

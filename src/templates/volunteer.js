@@ -41,7 +41,7 @@ const Volunteer = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout postNode={post}>
       <VolunteerTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
