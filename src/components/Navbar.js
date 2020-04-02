@@ -119,7 +119,9 @@ const Navbar = ({ title }) => {
           </div>
         </div>
       </nav>
-      <h1 className="is-size-1 has-text-weight-bold  has-text-centered">{title}</h1>
+      <h1 className="is-size-1 has-text-weight-bold  has-text-centered">
+        {title}
+      </h1>
       <div className="call-to-action">
         <Link to="/volunteer">Volunteer Here</Link>
         <Link to="/request-supplies">Request Masks</Link>
@@ -130,6 +132,6 @@ const Navbar = ({ title }) => {
 
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
-}
+};
 
 export default Navbar;

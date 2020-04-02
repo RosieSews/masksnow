@@ -11,7 +11,11 @@ import PropTypes from 'prop-types';
 const TemplateWrapper = ({ children, postNode }) => {
   let { title, description, image, siteUrl } = useSiteMetadata();
   //Current page SHOULD provide title
-  if (postNode && postNode.frontmatter && postNode.frontmatter.hasOwnProperty('title')) {
+  if (
+    postNode &&
+    postNode.frontmatter &&
+    postNode.frontmatter.hasOwnProperty('title')
+  ) {
     title = postNode.frontmatter.title;
   }
   return (
