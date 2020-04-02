@@ -84,6 +84,28 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: config.siteUrl + pathPrefix,
+        sitemap: config.siteUrl + pathPrefix + 'sitemap.xml',
+        env: {
+          production: {
+            policy: [{ userAgent: '*', allow: '/' }],
+          },
+          'branch-deploy': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null,
+          },
+          'deploy-preview': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null,
+          },
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: config.siteTitleAlt,
