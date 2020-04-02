@@ -56,3 +56,7 @@ We also have a need for volunteers to make phone calls and distribute masks. We 
 ## What will you do if someone donates a mask that doesn't fit the official pattern?
 
 We donate all masks that we receive. We won't exclude masks that do not strictly follow the the pattern instructions. **The checklist allows for a sewist to mark "other" to indicate that it does not follow the guidelines of the pattern that we disseminate.** That way, the organization receiving the mask will use the mask in whatever context they feel appropriate knowing that it doesn't conform to our specifications, but it may still be useful for their purposes.
+
+## Where's the State/Region Facebook group directory?
+
+You can find that [here](https://masksnow.org/groups-directory/). But you should make sure to sign up as a volunteer on our site [here](https://masksnow.org/volunteer/) because that's how you'll get specific instructions and details on how you can help!
