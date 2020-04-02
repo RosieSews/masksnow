@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-import { PDFObject } from "react-pdfobject";
-import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import { PDFObject } from 'react-pdfobject';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
 // import PATTERN from "../img/MasksNOW-Mask-Pattern-MasksNOW-Mask-Pattern-Packet-by-Created-for-Crisis.png";
 export const PatternsTemplate = ({ title, content, contentComponent }) => {
 	const PageContent = contentComponent || Content;
@@ -37,7 +37,7 @@ export const PatternsTemplate = ({ title, content, contentComponent }) => {
 PatternsTemplate.propTypes = {
 	title: PropTypes.string.isRequired,
 	content: PropTypes.string,
-	contentComponent: PropTypes.func
+	contentComponent: PropTypes.func,
 };
 
 const Patterns = ({ data }) => {
@@ -54,7 +54,7 @@ const Patterns = ({ data }) => {
 };
 
 Patterns.propTypes = {
-	data: PropTypes.object.isRequired
+	data: PropTypes.object.isRequired,
 };
 
 export default Patterns;

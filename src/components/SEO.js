@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import config from "../../config";
+import config from '../../config';
 
 const SEO = props => {
 	const { postNode, postPath, article, buildTime } = props;
@@ -229,6 +229,7 @@ const SEO = props => {
 export default SEO;
 
 SEO.propTypes = {
+<<<<<<< HEAD
 	postNode: PropTypes.object,
 	postPath: PropTypes.string,
 	article: PropTypes.bool,
@@ -240,4 +241,17 @@ SEO.defaultProps = {
 	postPath: null,
 	article: false,
 	buildTime: null
+=======
+  postNode: PropTypes.object,
+  postPath: PropTypes.string,
+  article: PropTypes.bool,
+  buildTime: PropTypes.string,
+};
+
+SEO.defaultProps = {
+  postNode: null,
+  postPath: null,
+  article: false,
+  buildTime: null,
+>>>>>>> origin
 };
