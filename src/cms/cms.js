@@ -23,3 +23,4 @@ CMS.registerPreviewTemplate('faq', PagePreview);
 CMS.registerPreviewTemplate('contact', PagePreview);
 CMS.registerPreviewTemplate('about-us', PagePreview);
 CMS.registerPreviewTemplate('psa', PagePreview);
+

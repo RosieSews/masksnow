@@ -51,6 +51,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/groups-directory/index.md"
         label: "Groups Directory"
         name: "groups-directory"

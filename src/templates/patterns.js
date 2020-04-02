@@ -66,6 +66,9 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         description
+        featuredimage{
+          publicURL
+        }
       }
     }
   }

@@ -2,7 +2,8 @@
 templateKey: patterns
 path: /patterns
 title: Patterns
-description: Downloadable pattenrs for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
+description: Downloadable patterns for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
+featureimage: /static/img/rosie-logo.png
 ---
 
 Download Created for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.

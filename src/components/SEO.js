@@ -7,28 +7,38 @@ import config from '../../config';
 const SEO = props => {
 	const { postNode, postPath, article, buildTime } = props;
 
+	const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
+	const homeURL = `${config.siteUrl}${realPrefix}`;
+	const URL = `${homeURL}${postPath || ""}`;
+
+	//Set defaults
+	//Will attempt to chnage based on postNode.frontMatter
 	let title = config.siteTitleAlt;
 	let description = config.siteDescription;
 	let keywords =
 		"Donate medical masks, covid19, homemade masks, homemade surgical mask, surgical mask, reuseable masks";
+	let image = `${homeURL}${config.siteBanner}`;
 
-	const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
-	const homeURL = `${config.siteUrl}${realPrefix}`;
-	const URL = `${homeURL}${postPath || ""}`;
-	const image = `${homeURL}${config.siteBanner}`;
 
 	if (article) {
 		const postMeta = postNode.frontmatter;
 		title = `${postMeta.title} | ${config.siteTitle}`;
+		//Description may be set, else, use excerpt
 		if (postMeta.hasOwnProperty("description")) {
 			description = postMeta.description;
 		} else if (postNode.hasOwnProperty("excerpt")) {
 			description = postNode.excerpt;
 		}
-
+		//keywords
 		if (postMeta.hasOwnProperty("keywords")) {
 			keywords = postNode.frontmatter.keywords.join();
 		}
+
+		//featured image
+		if (postMeta.featuredimage && postMeta.featuredimage.hasOwnProperty('publicURL')) {
+			image = postMeta.featuredimage.publicURL;
+		}
+
 	}
 
 	// schema.org in JSONLD format
@@ -229,8 +239,14 @@ const SEO = props => {
 export default SEO;
 
 SEO.propTypes = {
-<<<<<<< HEAD
-	postNode: PropTypes.object,
+	postNode: PropTypes.shape({
+		title: PropTypes.string.isRequired,
+		description: PropTypes.string,
+		featuredimage: PropTypes.shape({
+			publicURL: PropTypes.string
+		}),
+		keywords: PropTypes.string
+	}),
 	postPath: PropTypes.string,
 	article: PropTypes.bool,
 	buildTime: PropTypes.string
@@ -241,17 +257,4 @@ SEO.defaultProps = {
 	postPath: null,
 	article: false,
 	buildTime: null
-=======
-  postNode: PropTypes.object,
-  postPath: PropTypes.string,
-  article: PropTypes.bool,
-  buildTime: PropTypes.string,
-};
-
-SEO.defaultProps = {
-  postNode: null,
-  postPath: null,
-  article: false,
-  buildTime: null,
->>>>>>> origin
 };
