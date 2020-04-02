@@ -9,7 +9,11 @@ import SEO from './SEO';
 import PropTypes from 'prop-types';
 
 const TemplateWrapper = ({ children, postNode }) => {
-  const { title, description, image, siteUrl } = useSiteMetadata();
+  let { title, description, image, siteUrl } = useSiteMetadata();
+  //Current page SHOULD provide title
+  if (postNode && postNode.frontmatter && postNode.frontmatter.hasOwnProperty('title')) {
+    title = postNode.frontmatter.title;
+  }
   return (
     <div>
       <SEO postNode={postNode} article={postNode ? true : false} />
@@ -28,7 +32,7 @@ const TemplateWrapper = ({ children, postNode }) => {
           sizes="16x16"
         />
       </Helmet>
-      <Navbar />
+      <Navbar title={title} />
       <div>{children}</div>
       <Footer />
     </div>
