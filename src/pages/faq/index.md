@@ -27,7 +27,7 @@ In response to the respirator shortage crisis due to COVID-19, the CDC [has indi
 
 ## How many volunteers do you have?
 
-As of today we have over 2,200 volunteers spread amongst every state plus DC and Puerto Rico.
+As of today we have over 3,000 volunteers spread amongst every state plus DC and Puerto Rico.
 
 ## How many organizers are there in The Masks Now Coalition?
 
