@@ -6,6 +6,7 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
+$smoky-white: #F5F5F5
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
@@ -184,22 +185,91 @@ a:hover
   flex-direction: column
   display: flex
 
+.header-border
+  height: 20px
+  background-color: rgb(14, 61, 119)
+  
 .call-to-action
   display: flex
-  justify-content: center
-  flex-wrap: wrap
-  background-color: rgb(13, 50, 95)
+  flex-direction: row
+  align-items: flex-start
+  color: rgb(13, 50, 95)
+  font-weight: bold
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em
+  max-width: 400px
+
+.call-to-action img
+  width: 150px
+
+.call-to-action li
+  font-size: 0.5em
 
 .call-to-action a
-  font-size: 3em
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  text-align: center;
   color: rgb(13, 50, 95)
-  margin: 16px
+
+.call-to-action a:hover
+  text-decoration: underline
+
+.ribbon
+  display: flex
+  flex-direction: column
+  justify-content: center
+  max-width: 500px;
+  height: 50px;
+  position: relative;
+  background-color: $kaldi-red;
+  text-align: center
+  font-weight: bold
+  font-family: 'Oswald', sans-serif
+  font-size: 2em
+  margin-top: 32px
+  margin-bottom: 32px
+  color: white
+
+.ribbon:after
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid $smoky-white;
+  border-top: 25px solid $kaldi-red;
+  border-bottom: 25px solid transparent;
+
+.ribbon:before
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 10px solid $smoky-white;
+  border-top: 25px solid $kaldi-red;
+  border-bottom: 25px solid transparent;
+
+.centered
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.big-button
+  font-size: 2.5em
+  font-family: 'Oswald', sans-serif
+  font-weight: bold
+  text-align: center
   padding: 4px
-  min-width: 340px;
+
+.big-button a
+  color: rgb(14, 61, 119)
   background-color: rgb(234, 204, 98)
+  padding: 8px 32px
+  margin: 0px 16px
+  white-space: nowrap
+
+.big-button a:hover
+  color: $kaldi-red
 
 footer.footer
   color: white
@@ -271,6 +341,9 @@ footer.footer a
     display: none !important;
   .navbar-menu
     background-color: $navbar-background;
+  .main-page-columns
+    flex-direction: column-reverse;
+    display: flex;
 
 .mobile-navbar
   position: fixed
