@@ -17,16 +17,23 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
       </div>
       <div className="container">
         <div className="columns main-page-columns">
-          <div className="column is-4 is-offset-1">
+          <div className="column is-10 is-offset-1">
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                margin: '1em 0',
+              }}
+            >
+              <InfographicPage />
+            </div>
             <div className="section">
               <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h1>
               <PageContent className="content" content={content} />
             </div>
-          </div>
-          <div className="column is-7 is-offset-1">
-            <InfographicPage />
           </div>
         </div>
       </div>

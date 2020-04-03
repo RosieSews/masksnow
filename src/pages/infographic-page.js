@@ -10,8 +10,13 @@ const InfoCardWrapper = styled.div`
   color: #16356f;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  max-width: 600px;
+  flex-wrap: wrap;
+  margin: 0.5em auto;
 `;
 
 const InfoCardRight = styled.div`
@@ -19,12 +24,13 @@ const InfoCardRight = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    min-width: 300px;
+    max-width: 60%;
     position: relative;
     h2 {
       // font-size should be 3em to match the CTA buttons but it's wrong for some reason
       font-size: 2.5em;
-      font-family: 'Oswald', sans-serif;
+
       font-weight: bold;
       color: rgb(13, 50, 95);
       ${bpMaxSM} {
@@ -58,9 +64,7 @@ const InfoCard = ({ image, children }) => {
         style={{
           objectFit: 'contain',
           margin: '0 auto',
-          // maxWidth: image.presentationWidth,
-          maxWidth: 150,
-          width: '100%',
+          width: image.presentationWidth,
         }}
       />
       {children}
@@ -70,23 +74,24 @@ const InfoCard = ({ image, children }) => {
 
 const InfoBannerWrapper = styled.div`
   // font-size should be 3em to match the CTA buttons but it's wrong for some reason
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-align: center;
   color: whitesmoke;
+  max-width: 500px;
   width: 100%;
   background-color: #d64000;
   clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
-  margin: 0.5em 0;
-  padding: 0.5em;
+  margin: 32px auto;
+  padding: 0 0.5em;
   ${bpMaxSM} {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 `;
 
 const InfoGraphic = styled.div`
-  margin: 1em 0;
+  margin: auto;
 `;
 
 const InfographicBanner = ({ children }) => {
@@ -117,7 +122,7 @@ const InfographicPage = () => {
     }
   `);
   return (
-    <InfoGraphic>
+    <>
       <InfoCard image={data.volunteer.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Volunteer</h2>
@@ -165,26 +170,8 @@ const InfographicPage = () => {
           </p>
         </InfoCardRight>
       </InfoCard>
-    </InfoGraphic>
+    </>
   );
 };
 
 export default InfographicPage;
-
-// export const InfographicPageQuery = graphql`
-//   query InfographicQuery {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//   }
-// `;
-
-// mobile: file(relativePath: { eq: "header-mobile.png" }) {
-//   childImageSharp {
-//     fixed(height: 300) {
-//     ...GatsbyImageSharpFixed
-//     }
-//   }
-// }
