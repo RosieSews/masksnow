@@ -2,8 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import styled from 'styled-components';
 import Content, { HTMLContent } from '../components/Content';
 import InfographicPage from '../pages/infographic-page';
+import { bpMaxMD } from '../lib/breakpoints';
+
+const HeroQuestion = styled.div`
+  color: rgb(14, 61, 119);
+  font-size: 2.5em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+  min-width: 340px;
+  margin: 0 0 1em;
+  ${bpMaxMD} {
+    display: none;
+  }
+`;
 
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -11,8 +27,12 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   return (
     <section className="section section--gradient">
       <div className="centered">
+        <HeroQuestion>I want to...</HeroQuestion>
         <div className="big-button">
-          Need Masks? <Link to="/request-supplies">Submit Request</Link>
+          <Link to="/request-supplies">Volunteer</Link>
+        </div>
+        <div className="big-button">
+          <Link to={'/request-supplies'}>Get Masks</Link>
         </div>
       </div>
       <div className="container">

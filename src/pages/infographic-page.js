@@ -14,7 +14,7 @@ const InfoCardWrapper = styled.div`
   align-content: center;
   align-items: center;
   font-family: 'Oswald', sans-serif;
-  max-width: 600px;
+  max-width: 940px;
   flex-wrap: wrap;
   margin: 0.5em auto;
 `;
@@ -25,7 +25,7 @@ const InfoCardRight = styled.div`
     flex-direction: column;
     justify-content: center;
     min-width: 300px;
-    max-width: 60%;
+    max-width: 400px;
     position: relative;
     h2 {
       // font-size should be 3em to match the CTA buttons but it's wrong for some reason
@@ -33,16 +33,13 @@ const InfoCardRight = styled.div`
 
       font-weight: bold;
       color: rgb(13, 50, 95);
-      ${bpMaxSM} {
-        font-size: 2em;
-      }
     }
   }
 `;
 
 const InfoCardLink = styled(Link)`
   margin: 0.5em 0 0 0.5em;
-  font-size: 1em;
+  font-size: 1.5em;
   &:hover {
     color: #1d72aa;
     text-decoration: underline;
@@ -51,6 +48,21 @@ const InfoCardLink = styled(Link)`
     content: '\\25ba';
     color: #d64000;
     text-decoration: none;
+    margin: 0 10px 0 0;
+  }
+`;
+
+const InfoCardAnchor = styled.a`
+  margin: 0.5em 0 0 0.5em;
+  font-size: 1.5em;
+  &:hover {
+    color: #1d72aa;
+    text-decoration: underline;
+  }
+  &::before {
+    content: '\\25ba';
+    color: #d64000;
+    text-decoration: unset;
     margin: 0 10px 0 0;
   }
 `;
@@ -79,7 +91,7 @@ const InfoBannerWrapper = styled.div`
   font-weight: bold;
   text-align: center;
   color: whitesmoke;
-  max-width: 500px;
+  max-width: 940px;
   width: 100%;
   background-color: #d64000;
   clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
@@ -141,12 +153,12 @@ const InfographicPage = () => {
       <InfoCard image={data.pattern.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Get The Pattern</h2>
-          <InfoCardLink to={'/patterns/3-layer-pattern'}>
+          <InfoCardAnchor href={'/docs/CFCMask_3_27.pdf'}>
             3-LAYER FACE MASK
-          </InfoCardLink>
-          <InfoCardLink to={'/patterns/pocket-pattern'}>
+          </InfoCardAnchor>
+          <InfoCardAnchor href={'/docs/CFC_Pocket_Mask_3_28.pdf'}>
             POCKET FACE MASK
-          </InfoCardLink>
+          </InfoCardAnchor>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.clippers.childImageSharp.fluid}>
@@ -165,7 +177,9 @@ const InfographicPage = () => {
           <h2>Donate Masks</h2>
           <p>
             <Link to={'groups-directory'}>
-              YOUR STATE LEAD WILL EMAIL YOU WITH DIRECTIONS ABOUT HOW & WHERE
+              {`YOUR STATE LEAD WILL EMAIL YOU WITH`}
+              <br />
+              {`DIRECTIONS ABOUT HOW & WHERE`}
             </Link>
           </p>
         </InfoCardRight>

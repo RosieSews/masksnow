@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 export const bannerImage = graphql`
   fragment bannerImage150 on File {
     childImageSharp {
-      fluid(maxWidth: 150, traceSVG: { color: "#3273dc" }, quality: 80) {
+      fluid(maxWidth: 300, traceSVG: { color: "#3273dc" }, quality: 80) {
         ...GatsbyImageSharpFluid_withWebp_tracedSVG
         presentationWidth
       }
