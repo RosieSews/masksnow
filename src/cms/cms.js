@@ -16,6 +16,8 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('index', IndexPagePreview);
 CMS.registerPreviewTemplate('request-supplies', RequestSuppliesPreview);
 CMS.registerPreviewTemplate('patterns', PatternsPreview);
+CMS.registerPreviewTemplate('3-layer-pattern', PatternsPreview);
+CMS.registerPreviewTemplate('pocket-pattern', PatternsPreview);
 CMS.registerPreviewTemplate('groups-directory', GroupsDirectoryPreview);
 CMS.registerPreviewTemplate('volunteer', VolunteerPreview);
 CMS.registerPreviewTemplate('news', NewsPostPreview);

@@ -49,12 +49,6 @@ const Navbar = () => {
       <Link className="navbar-item" to="/faq">
         FAQs
       </Link>
-      <Link className="navbar-item" to="/contact">
-        Contact Us
-      </Link>
-      <Link className="navbar-item" to="/about-us">
-        About Us
-      </Link>
     </div>
   );
   return (
@@ -118,10 +112,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="call-to-action">
-        <Link to="/volunteer">Volunteer Here</Link>
-        <Link to="/request-supplies">Request Masks</Link>
-      </div>
+      <div style={{ height: '10px', backgroundColor: '#16356f' }}></div>
     </div>
   );
 };

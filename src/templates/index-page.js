@@ -1,23 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import InfographicPage from '../pages/infographic-page';
 
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
+      <div className="centered">
+        <div className="big-button">
+          Need Masks? <Link to="/request-supplies">Submit Request</Link>
+        </div>
+      </div>
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+        <div className="columns main-page-columns">
+          <div className="column is-4 is-offset-1">
             <div className="section">
               <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h1>
               <PageContent className="content" content={content} />
             </div>
+          </div>
+          <div className="column is-7 is-offset-1">
+            <InfographicPage />
           </div>
         </div>
       </div>
