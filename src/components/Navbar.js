@@ -118,9 +118,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="header-border">
-        &nbsp;
-      </div>
+      <div className="header-border">&nbsp;</div>
     </div>
   );
 };
