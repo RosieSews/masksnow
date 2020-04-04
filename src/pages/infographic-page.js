@@ -67,6 +67,15 @@ const InfoCardAnchor = styled.a`
   }
 `;
 
+const TextLink = styled.a`
+  margin: 0.5em 0 0 0.5em;
+  font-size: 1.5em;
+  &:hover {
+    color: #1d72aa;
+    text-decoration: underline;
+  }
+`;
+
 const InfoCard = ({ image, children }) => {
   return (
     <InfoCardWrapper>
@@ -101,11 +110,6 @@ const InfoBannerWrapper = styled.div`
     font-size: 1.75em;
   }
 `;
-
-const InfoGraphic = styled.div`
-  margin: auto;
-`;
-
 const InfographicBanner = ({ children }) => {
   return <InfoBannerWrapper>{children}</InfoBannerWrapper>;
 };
@@ -128,6 +132,11 @@ const InfographicPage = () => {
       }
       volunteer: file(
         relativePath: { eq: "infographic/infographic-volunteer-01.png" }
+      ) {
+        ...bannerImage150
+      }
+      question: file(
+        relativePath: { eq: "infographic/infographic-question-01.png" }
       ) {
         ...bannerImage150
       }
@@ -175,13 +184,19 @@ const InfographicPage = () => {
       <InfoCard image={data.mask.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Donate Masks</h2>
-          <p>
-            <Link to={'groups-directory'}>
-              {`YOUR STATE LEAD WILL EMAIL YOU WITH`}
-              <br />
-              {`DIRECTIONS ABOUT HOW & WHERE`}
-            </Link>
-          </p>
+          <TextLink to={'groups-directory'}>
+            {`YOUR STATE LEAD WILL EMAIL YOU WITH`}
+            <br />
+            {`DIRECTIONS ABOUT HOW & WHERE`}
+          </TextLink>
+        </InfoCardRight>
+      </InfoCard>
+      <InfoCard image={data.question.childImageSharp.fluid}>
+        <InfoCardRight>
+          <h2>Get Help</h2>
+          <TextLink href={'https://rosiesews.freshdesk.com/support/home'}>
+            {`FIND ANSWERS TO ALL YOUR QUESTIONS AT OUR KNOWLEDGE BASE`}
+          </TextLink>
         </InfoCardRight>
       </InfoCard>
     </>
