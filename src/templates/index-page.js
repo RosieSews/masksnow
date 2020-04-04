@@ -12,7 +12,7 @@ const HeroQuestion = styled.div`
   font-size: 2.5em;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  text-align: center;
+  text-align: right;
   padding: 4px;
   min-width: 340px;
   margin: 0 0 1em;
