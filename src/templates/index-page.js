@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
       <div className="centered">
         <HeroQuestion>I want to...</HeroQuestion>
         <div className="big-button">
-          <Link to="/request-supplies">Volunteer</Link>
+          <Link to="/volunteer">Volunteer</Link>
         </div>
         <div className="big-button">
           <Link to={'/request-supplies'}>Get Masks</Link>
