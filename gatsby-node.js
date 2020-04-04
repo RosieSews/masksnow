@@ -35,7 +35,7 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach(edge => {
       const id = edge.node.id;
       const infographicHomepage = edge.node.frontmatter.infographicHomepage;
-      console.log('FRONTMATTER:', edge.node.frontmatter);
+      // console.log('FRONTMATTER:', edge.node.frontmatter);
       if (infographicHomepage) {
         // build a "page" that ignores all the content and instead displays the new
         // infographic
