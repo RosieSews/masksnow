@@ -46,7 +46,7 @@ const InfoCardLink = styled(Link)`
   }
   &::before {
     content: '\\25ba';
-    color: #d64000;
+    color: #b03619;
     text-decoration: none;
     margin: 0 10px 0 0;
   }
@@ -61,7 +61,7 @@ const InfoCardAnchor = styled.a`
   }
   &::before {
     content: '\\25ba';
-    color: #d64000;
+    color: #b03619;
     text-decoration: unset;
     margin: 0 10px 0 0;
   }
@@ -102,7 +102,7 @@ const InfoBannerWrapper = styled.div`
   color: whitesmoke;
   max-width: 940px;
   width: 100%;
-  background-color: #d64000;
+  background-color: #b03619;
   clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
   margin: 32px auto;
   padding: 0 0.5em;
