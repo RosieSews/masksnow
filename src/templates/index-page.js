@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Content, { HTMLContent } from '../components/Content';
 import InfographicPage from '../pages/infographic-page';
 import { bpMaxMD } from '../lib/breakpoints';
+import { BigButton } from '../components/StyledElements/BigButton';
 
 const HeroQuestion = styled.div`
   color: rgb(14, 61, 119);
@@ -28,12 +29,8 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
     <section className="section section--gradient">
       <div className="centered">
         <HeroQuestion>I want to...</HeroQuestion>
-        <div className="big-button">
-          <Link to="/volunteer">Volunteer</Link>
-        </div>
-        <div className="big-button">
-          <Link to={'/request-supplies'}>Get Masks</Link>
-        </div>
+        <BigButton to="/volunteer">Volunteer</BigButton>
+        <BigButton to={'/request-supplies'}>Get Masks</BigButton>
       </div>
       <div className="container">
         <div className="columns main-page-columns">
