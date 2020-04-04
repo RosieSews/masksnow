@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { RequestSuppliesTemplate } from '../../templates/request-supplies';
+import { PageTemplate } from '../../templates/info-page';
 
 const RequestSuppliesPreview = ({ entry, widgetFor }) => (
-  <RequestSuppliesTemplate
+  <PageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />

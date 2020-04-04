@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import styled from 'styled-components';
 import headerBackground from '../img/header-bg.png';
 import maskNowImg from '../img/header-masksnow.png';
 
@@ -8,6 +9,10 @@ const HamburgerLine = () => {
   return <span />;
 };
 
+const HeaderBorder = styled.div`
+  height: 20px;
+  background-color: #16356f;
+`;
 const Navbar = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -48,12 +53,6 @@ const Navbar = () => {
       </Link>
       <Link className="navbar-item" to="/faq">
         FAQs
-      </Link>
-      <Link className="navbar-item" to="/contact">
-        Contact Us
-      </Link>
-      <Link className="navbar-item" to="/about-us">
-        About Us
       </Link>
     </div>
   );
@@ -118,10 +117,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className="call-to-action">
-        <Link to="/volunteer">Volunteer Here</Link>
-        <Link to="/request-supplies">Request Masks</Link>
-      </div>
+      <HeaderBorder />
     </div>
   );
 };

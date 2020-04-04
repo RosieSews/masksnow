@@ -1,7 +1,7 @@
 ---
 templateKey: patterns
-path: /patterns
-title: Patterns
+path: /patterns/3-layer
+title: 3 Layer Pattern
 ---
 Download Created for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
 
@@ -22,9 +22,3 @@ Smaller sizes coming soon.
 
 `youtube:https://www.youtube.com/embed/J0HnaWUIyzg
 `
-
-## Pocket Mask
-### [Download Pocket Mask Pattern](https://masksnow.org/docs/CFC_Pocket_Mask_3_28.pdf)
-
-`youtube:https://www.youtube.com/embed/6NI8W5N06xo`
-

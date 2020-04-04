@@ -37,32 +37,47 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Use Infographic HomePage", name: "infographicHomepage", widget: "boolean"}
       - file: "src/pages/request-supplies/index.md"
         label: "Request Masks"
         name: "request-supplies"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/patterns/index.md"
         label: "Patterns"
         name: "patterns"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/patterns/3-layer-pattern.md"
+        label: "3 Layer Pattern"
+        name: "3-layer-pattern"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/patterns/pocket-pattern.md"
+        label: "Pocket Pattern"
+        name: "pocket-pattern"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/groups-directory/index.md"
         label: "Groups Directory"
         name: "groups-directory"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/volunteer/index.md"
         label: "Volunteer"
         name: "volunteer"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "request-supplies"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/faq/index.md"

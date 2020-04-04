@@ -18,6 +18,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
+              infographicHomepage
             }
           }
         }
@@ -33,17 +34,34 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach(edge => {
       const id = edge.node.id;
-      createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
-        component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-        ),
-        // additional data can be passed via context
-        context: {
-          id,
-        },
-      });
+      const infographicHomepage = edge.node.frontmatter.infographicHomepage;
+      // console.log('FRONTMATTER:', edge.node.frontmatter);
+      if (infographicHomepage) {
+        // build a "page" that ignores all the content and instead displays the new
+        // infographic
+        createPage({
+          path: edge.node.fields.slug,
+          tags: edge.node.frontmatter.tags,
+          component: path.resolve(`src/pages/infographic-page.js`),
+          // additional data can be passed via context
+          context: {
+            id,
+          },
+        });
+      } else {
+        // do the normal thing
+        createPage({
+          path: edge.node.fields.slug,
+          tags: edge.node.frontmatter.tags,
+          component: path.resolve(
+            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          ),
+          // additional data can be passed via context
+          context: {
+            id,
+          },
+        });
+      }
     });
 
     // Tag pages:

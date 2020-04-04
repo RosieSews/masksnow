@@ -18,15 +18,6 @@ export const PatternsTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h1>
               <PageContent className="content" content={content} />
-
-              <a href="/docs/CFCMask_3_27.pdf">
-                Download the 3 LAYER pattern packet (updated 3-27)
-              </a>
-              <div>
-                <a href="/docs/CFC_Pocket_Mask_3_28.pdf">
-                  Download the POCKET pattern packet (updated 3-28)
-                </a>
-              </div>
             </div>
           </div>
         </div>

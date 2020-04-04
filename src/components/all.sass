@@ -4,7 +4,7 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #b03619
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -84,6 +84,33 @@ $navbar-background: #16356f
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+
+.centered
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-wrap: wrap
+
+.big-button
+  color: rgb(14, 61, 119)
+  font-size: 2.5em
+  font-family: 'Oswald', sans-serif
+  font-weight: bold
+  text-align: center
+  padding: 4px
+  margin: 0 0 1em
+  min-width: 350px
+  background-color: rgb(234, 204, 98)
+
+.big-button a
+  color: rgb(14, 61, 119)
+  padding: 8px 32px
+  margin: 0px 16px
+  white-space: nowrap
+
+.big-button a:hover
+  color: $kaldi-red
+
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
@@ -232,7 +259,7 @@ footer.footer a
 .social-media a.social-media-icon:hover
   color: $navbar-background
   background-color: $kaldi-red-invert
-  
+
 
 .social-media a.social-media-icon:active
   -webkit-transition: background-color 0.25s ease-out
@@ -266,11 +293,14 @@ footer.footer a
     width: auto;
     display: block;
   .header-logo
-    display: none !important;
+    display: none !important
   .header-banner
-    display: none !important;
+    display: none !important
   .navbar-menu
-    background-color: $navbar-background;
+    background-color: $navbar-background
+  .main-page-columns
+    display: flex
+    flex-direction: column-reverse
 
 .mobile-navbar
   position: fixed
