@@ -12,23 +12,11 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-      </head>
-      <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
-        {props.postBodyComponents}
-
         <script
           dangerouslySetInnerHTML={{
             __html: `
-            window.fwSettings={
-            'widget_id':61000000986
-        };
-            !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()
+            window.fwSettings={'widget_id':61000000986};
+            !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}();
         `,
           }}
         />
@@ -38,6 +26,15 @@ export default function HTML(props) {
           async
           defer
         ></script>
+      </head>
+      <body {...props.bodyAttributes}>
+        {props.preBodyComponents}
+        <div
+          key={`body`}
+          id="___gatsby"
+          dangerouslySetInnerHTML={{ __html: props.body }}
+        />
+        {props.postBodyComponents}
       </body>
     </html>
   );
