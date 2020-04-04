@@ -30,9 +30,11 @@ const InfoCardRight = styled.div`
     h2 {
       // font-size should be 3em to match the CTA buttons but it's wrong for some reason
       font-size: 2.5em;
-
       font-weight: bold;
       color: rgb(13, 50, 95);
+    }
+    p {
+    ma
     }
   }
 `;
@@ -184,7 +186,7 @@ const InfographicPage = () => {
       <InfoCard image={data.mask.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Donate Masks</h2>
-          <TextLink to={'groups-directory'}>
+          <TextLink to={'/groups-directory'}>
             {`YOUR STATE LEAD WILL EMAIL YOU WITH`}
             <br />
             {`DIRECTIONS ABOUT HOW & WHERE`}
