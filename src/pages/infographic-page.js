@@ -78,6 +78,15 @@ const TextLink = styled.a`
   }
 `;
 
+const StyledLink = styled(Link)`
+  margin: 0.5em 0 0 0.5em;
+  font-size: 1.5em;
+  &:hover {
+    color: #1d72aa;
+    text-decoration: underline;
+  }
+`;
+
 const InfoCard = ({ image, children }) => {
   return (
     <InfoCardWrapper>
@@ -186,11 +195,11 @@ const InfographicPage = () => {
       <InfoCard image={data.mask.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Donate Masks</h2>
-          <TextLink to={'/groups-directory'}>
+          <StyledLink to={'/groups-directory'}>
             {`YOUR STATE LEAD WILL EMAIL YOU WITH`}
             <br />
             {`DIRECTIONS ABOUT HOW & WHERE`}
-          </TextLink>
+          </StyledLink>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.question.childImageSharp.fluid}>
