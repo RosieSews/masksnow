@@ -53,19 +53,19 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/patterns/3-layer-pattern.md"
-          label: "3 Layer Pattern"
-          name: "3-layer-pattern"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "3 Layer Pattern"
+        name: "3-layer-pattern"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/patterns/pocket-pattern.md"
-          label: "Pocket Pattern"
-          name: "pocket-pattern"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        label: "Pocket Pattern"
+        name: "pocket-pattern"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/groups-directory/index.md"
         label: "Groups Directory"
         name: "groups-directory"
