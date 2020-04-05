@@ -17,7 +17,7 @@ title: Volunteer
 * Donations - donate materials or money
 * State Volunteer Lead - volunteer coordinator for a state
 * Local Volunteer Coordination - volunteer coordinator for a smaller region of a state
-* National - behind-the-scenes help (see open positions at: shorturl.at/kxK45)
+* National - behind-the-scenes help (see open positions at: [shorturl.at/kxK45](https://shorturl.at/kxK45))
 * Other - anything else you can think of that could help
 
 Ready to sign up? Scroll up and fill out the form above!
