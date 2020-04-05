@@ -166,7 +166,6 @@ const InfographicPage = () => {
           >
             I CAN'T SEW, BUT I WANT TO HELP
           </InfoCardLink>
-          <p>FACILITIES IN NEED OF MASKS: Fill out a Request Form</p>
         </InfoCardRight>
       </InfoCard>
       <InfographicBanner>After You Sign Up</InfographicBanner>
