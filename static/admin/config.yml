@@ -66,6 +66,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/groups-directory/index.md"
         label: "Groups Directory"
         name: "groups-directory"
@@ -73,6 +76,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/volunteer/index.md"
         label: "Volunteer"
         name: "volunteer"
@@ -80,6 +86,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/faq/index.md"
         label: "Faq"
         name: "faq"
@@ -87,6 +96,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/contact/index.md"
         label: "Contact"
         name: "contact"
@@ -94,6 +106,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/psa/index.md"
         label: "Psa"
         name: "psa"
@@ -101,6 +116,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}
       - file: "src/pages/about-us/index.md"
         label: "About Us"
         name: "about-us"
@@ -108,3 +126,6 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Keywords", name: "keywords", widget: "string"}
+          - {label: "Featured Image", name: "featuredimage", widget: image}

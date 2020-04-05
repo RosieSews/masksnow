@@ -97,6 +97,9 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          publicURL
+        }
       }
     }
   }
