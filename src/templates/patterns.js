@@ -7,7 +7,6 @@ import Content, { HTMLContent } from '../components/Content';
 // import PATTERN from "../img/MasksNOW-Mask-Pattern-MasksNOW-Mask-Pattern-Packet-by-Created-for-Crisis.png";
 export const PatternsTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -34,9 +33,8 @@ PatternsTemplate.propTypes = {
 
 const Patterns = ({ data }) => {
   const { markdownRemark: post } = data;
-
   return (
-    <Layout>
+    <Layout postNode={post}>
       <PatternsTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -58,6 +56,10 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        description
+        featuredimage {
+          publicURL
+        }
       }
     }
   }

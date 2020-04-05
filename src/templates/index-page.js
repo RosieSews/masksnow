@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout postNode={post}>
       <IndexPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -90,6 +90,10 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        description
+        featuredimage {
+          publicURL
+        }
       }
     }
   }

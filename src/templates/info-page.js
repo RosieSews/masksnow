@@ -35,7 +35,7 @@ const Page = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout postNode={post}>
       <PageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -57,6 +57,10 @@ export const infoPageQuery = graphql`
       html
       frontmatter {
         title
+        description
+        featuredimage {
+          publicURL
+        }
       }
     }
   }
