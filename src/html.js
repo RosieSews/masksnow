@@ -12,6 +12,20 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.fwSettings={'widget_id':61000000986};
+            !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}();
+        `,
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="https://widget.freshworks.com/widgets/61000000986.js"
+          async
+          defer
+        ></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
