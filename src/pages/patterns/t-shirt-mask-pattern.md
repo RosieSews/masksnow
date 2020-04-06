@@ -6,7 +6,7 @@ title: T-Shirt Mask
 
 <h2 style="color:#b03619">ATTENTION</h2>
 
-<p style="color:#b03619">This pattern is for personal use only and is NOT to be made for donations.</p>
+<p style="color:#b03619">This pattern does NOT require a sewing machine. The T-shirt mask is for personal use only and is NOT to be made for donations.</p>
 
 Download Created for Crisis T-shirt Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
 
