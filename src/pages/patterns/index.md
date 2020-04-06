@@ -28,3 +28,8 @@ Smaller sizes coming soon.
 
 `youtube:https://www.youtube.com/embed/6NI8W5N06xo`
 
+## T-shirt Mask
+### Pattern not available - check back soon!
+
+`youtube:https://www.youtube.com/embed/-AsGTLs6YkQ`
+
