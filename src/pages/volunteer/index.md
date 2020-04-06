@@ -15,8 +15,7 @@ title: Volunteer
 * Caller - find local organizations that need masks
 * Distributor - distribute masks
 * Donations - donate materials or money
-* State Volunteer Lead - volunteer coordinator for a state
-* Local Volunteer Coordination - volunteer coordinator for a smaller region of a state
+* State/Region Volunteer Lead - coordination/support for your local sewists, callers, distributors, and donors
 * National - behind-the-scenes help (see open positions at: [shorturl.at/kxK45](https://shorturl.at/kxK45))
 * Other - anything else you can think of that could help
 
