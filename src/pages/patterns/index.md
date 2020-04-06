@@ -31,6 +31,10 @@ Smaller sizes coming soon.
 
 ## T-shirt Mask
 
+<h2 style="color:#b03619">ATTENTION</h2>
+
+<p style="color:#b03619">This pattern is for personal use only and is NOT to be made for donations.</p>
+
 ### [Download T-shirt Mask Pattern](https://masksnow.org/docs/CFC_Tshirt_Mask_4_6.pdf)
 
 `youtube:https://www.youtube.com/embed/-AsGTLs6YkQ`
