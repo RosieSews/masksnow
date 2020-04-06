@@ -184,6 +184,9 @@ const InfographicPage = () => {
           <InfoCardAnchor href={'/docs/CFC_Pocket_Mask_3_28.pdf'}>
             POCKET FACE MASK
           </InfoCardAnchor>
+          <InfoCardAnchor href={'/docs/CFC_Tshirt_Mask_4_6.pdf'}>
+            T-SHIRT FACE MASK
+          </InfoCardAnchor>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.clippers.childImageSharp.fluid}>
