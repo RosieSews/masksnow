@@ -33,7 +33,7 @@ Smaller sizes coming soon.
 
 <h2 style="color:#b03619">ATTENTION</h2>
 
-<p style="color:#b03619">This pattern is for personal use only and is NOT to be made for donations.</p>
+<p style="color:#b03619">This pattern does NOT require a sewing machine. The T-shirt mask is for personal use only and is NOT to be made for donations.</p>
 
 ### [Download T-shirt Mask Pattern](https://masksnow.org/docs/CFC_Tshirt_Mask_4_6.pdf)
 
