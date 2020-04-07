@@ -9,6 +9,8 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "@sendgrid/client": "^7.0.0",
+    "airtable": "^0.8.1",
     "@material-ui/core": "^4.9.9",
     "babel-plugin-styled-components": "^1.10.7",
     "bulma": "^0.8.0",
@@ -61,7 +63,9 @@
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --config ./prettier.config.js --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lambda:dev": "netlify-lambda serve lambda",
+    "lambda:build": "netlify-lambda build lambda"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -75,6 +79,7 @@
     "eslint-plugin-react-hooks": "^3.0.0",
     "gatsby-plugin-eslint": "^2.0.8",
     "husky": "^4.2.3",
+    "netlify-lambda": "^1.6.3",
     "prettier": "^1.15.3"
   },
   "husky": {

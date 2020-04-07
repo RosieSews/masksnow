@@ -3,9 +3,13 @@ templateKey: info-page
 path: /faq
 title: Frequently Asked Questions
 ---
+## I'm a volunteer. How do I get more information?
+
+Please see our [volunteer knowledgebase](https://rosiesews.freshdesk.com/support/home) for all the details you need to know.
+
 ## Why are you making homemade masks?
 
-Over 220 hospitals in 39 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
+Over 550 hospitals in 42 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
 
 ## Are homemade masks effective?
 
@@ -27,11 +31,11 @@ In response to the respirator shortage crisis due to COVID-19, the CDC [has indi
 
 ## How many volunteers do you have?
 
-As of today we have over 3,000 volunteers spread amongst every state plus DC and Puerto Rico.
+As of today we have over 3,700 volunteers spread amongst every state plus DC and Puerto Rico.
 
 ## How many organizers are there in The Masks Now Coalition?
 
-We have 19 national organizers and 49 leads in 35 states, but we’re always looking for more state and regional organizers, in addition to people who can sew a pretty awesome mask.
+We have 19 national organizers and 70 leads in 40 states, but we’re always looking for more state/regional organizers, in addition to people who can find organizations that need masks, who can sew a pretty awesome mask, and who can distribute masks.
 
 ## Are these masks made for children?
 
@@ -43,20 +47,4 @@ Any healthcare facility that has patients, support staff, or visitors who would 
 
 ## How many hospitals are asking for hand sewn masks?
 
-Over 220 hospitals in 39 states have asked for handsewn masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
-
-## How many masks should I make and how do I get them to the right place?
-
-After [signing up as a volunteer](http://masksnow.org/volunteer), your state lead will reach out to you by email. Your state lead will have a list of facilities that need face masks and the amount requested. You can either ship the masks, drop them off, or, if there are distribution volunteers in your area, they can be picked up from your home.
-
-## I don't know how to sew, how can I help?
-
-We also have a need for volunteers to make phone calls and distribute masks. We can also accept fabric or mask making kits as long as the fabric is cotton blend or 100% cotton. To do so, please [sign up as a volunteer](http://masksnow.org/volunteer). If you are interested in volunteering behind-the-scenes, please send an email with your interests and skill set to: [volunteer@masksnow.org](mailto:volunteer@masksnow.org)
-
-## What will you do if someone donates a mask that doesn't fit the official pattern?
-
-We donate all masks that we receive. We won't exclude masks that do not strictly follow the the pattern instructions. **The checklist allows for a sewist to mark "other" to indicate that it does not follow the guidelines of the pattern that we disseminate.** That way, the organization receiving the mask will use the mask in whatever context they feel appropriate knowing that it doesn't conform to our specifications, but it may still be useful for their purposes.
-
-## Where's the State/Region Facebook group directory?
-
-You can find that [here](https://masksnow.org/groups-directory/). But you should make sure to sign up as a volunteer on our site [here](https://masksnow.org/volunteer/) because that's how you'll get specific instructions and details on how you can help!
+Over 550 hospitals in 42 states have asked for handsewn masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.

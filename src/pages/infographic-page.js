@@ -104,6 +104,12 @@ const InfoCard = ({ image, children }) => {
   );
 };
 
+const WarningText = styled.span`
+  color: #b03619;
+  font-style: italic;
+  margin: -0.5em 0 0 2.5em;
+`;
+
 const InfoBannerWrapper = styled.div`
   // font-size should be 3em to match the CTA buttons but it's wrong for some reason
   font-size: 2em;
@@ -159,14 +165,13 @@ const InfographicPage = () => {
         <InfoCardRight>
           <h2>Volunteer</h2>
           <InfoCardLink to={'/volunteer'}>I WANT TO SEW MASKS</InfoCardLink>
-          <InfoCardLink
+          <InfoCardAnchor
             href={
               'https://rosiesews.freshdesk.com/support/solutions/articles/61000260572-i-don-t-know-how-to-sew-can-i-still-help-'
             }
           >
             I CAN'T SEW, BUT I WANT TO HELP
-          </InfoCardLink>
-          <p>FACILITIES IN NEED OF MASKS: Fill out a Request Form</p>
+          </InfoCardAnchor>
         </InfoCardRight>
       </InfoCard>
       <InfographicBanner>After You Sign Up</InfographicBanner>
@@ -179,6 +184,10 @@ const InfographicPage = () => {
           <InfoCardAnchor href={'/docs/CFC_Pocket_Mask_3_28.pdf'}>
             POCKET FACE MASK
           </InfoCardAnchor>
+          <InfoCardAnchor href={'/docs/CFC_Tshirt_Mask_4_6.pdf'}>
+            T-SHIRT FACE MASK
+          </InfoCardAnchor>
+          <WarningText>*PERSONAL USE ONLY</WarningText>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.clippers.childImageSharp.fluid}>
@@ -190,6 +199,10 @@ const InfographicPage = () => {
           <InfoCardLink to={'/patterns/pocket-pattern'}>
             WATCH POCKET MASK VIDEO
           </InfoCardLink>
+          <InfoCardLink to={'/patterns/t-shirt-mask-pattern'}>
+            WATCH T-SHIRT MASK VIDEO
+          </InfoCardLink>
+          <WarningText>*PERSONAL USE ONLY</WarningText>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.mask.childImageSharp.fluid}>
