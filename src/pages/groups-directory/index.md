@@ -49,6 +49,8 @@ title: State/Regional Facebook Group Directory
   * Illinois (Central/Southern) | Regional Lead: [Cassandria](mailto:cassandria@pm.me)
   * Illinois (Northern) | Regional Lead: [Emma](mailto:ebd313@gmail.com)
 * [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Lead: [Kendall](mailto:kendallpritsch14@gmail.com)
+
+  * Indiana | Indianapolis | Regional Lead: [Anat](mailto:anatpbs@gmail.com)
 * [Iowa](https://www.facebook.com/groups/522131565386198/) | State Lead: [Miriam](mailto:MimHoffmanIA@masksnow.org)
 * [Kansas](https://www.facebook.com/groups/521675518530089/) | State Lead: [Megan](mailto:megan.kansas@masksnow.org)
 
@@ -108,7 +110,5 @@ title: State/Regional Facebook Group Directory
   * Washington (Seattle) | Regional Lead: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mikaela.becker@gmail.com)
-
-
 
 If you do not see your state/region listed, email [astrid@masksnow.org](mailto:astrid@masksnow.org) to start a chapter!
