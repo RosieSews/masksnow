@@ -101,7 +101,7 @@ title: State/Regional Facebook Group Directory
   * [Texas (Dallas)](https://www.facebook.com/groups/MasksNowDallasTX/) | Regional Lead: [April](mailto:april_pierce@outlook.com)
   * [Texas (Houston metro)](https://www.facebook.com/groups/597450300982941/) | Regional Lead: [Janet](mailto:gatormom04@hotmail.com)
   * [Texas (San Antonio)](https://www.facebook.com/groups/MasksNowSanAntonioTexas/) | Regional Lead: [Lucas](mailto:lsevedge@gmail.com)
-* [Virginia](https://www.facebook.com/groups/860457351144099/) | State Leads: [Amelia](mailto:favere@gmail.com), [Ahmed](mailto:ahmed.elzamzami.17@cnu.edu)
+* [Virginia](https://www.facebook.com/groups/860457351144099/) | State Leads: [Amelia](mailto:favere@gmail.com), [Ahmed](mailto:ahmed.elzamzami.17@cnu.edu), [Amanda](mailto:amandamsunde@gmail.com)
 
   * Virginia (Richmond) | Regional Lead: [Kevin](mailto:email@kevinblythe.com)
   * Virginia (VA Beach) | Regional Lead: [Gina](mailto:gina.cooper.gc@gmail.com)
