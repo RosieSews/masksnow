@@ -71,7 +71,7 @@ title: State/Regional Facebook Group Directory
 * [Montana](https://www.facebook.com/groups/3055128074518037) | State Lead: [Kathleen](mailto:kaa.burke@gmail.com)
 * [Nebraska](https://www.facebook.com/groups/238497197292741/) | State Lead: [Beth](mailto:bethbackora@masksnow.org)
 * [New Hampshire](https://www.facebook.com/groups/NHMasksNOW/) | State Lead: [Heidi](mailto:heidi.batchelder@verani.com)
-* [New Jersey](https://www.facebook.com/groups/163485511461020/) | State Leads: [Puri](mailto:ppandya93@gmail.com), [Maria](mailto:Mariaypuerta@gmail.com)
+* [New Jersey](https://www.facebook.com/groups/555083938540005/about/) | State Leads: [Puri](mailto:ppandya93@gmail.com), [Maria](mailto:Mariaypuerta@gmail.com)
 * [New Mexico](https://www.facebook.com/groups/540954669882771/) | State Lead: [Nancy](mailto:NancyNM@masksnow.org)
 * New York
 
