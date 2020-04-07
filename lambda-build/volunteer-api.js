@@ -51327,19 +51327,19 @@ empty list will be returned. A validation error will have two properties:
           // import SendGrid from './volunteer-api/send-grid';
 
           const getLeadAndGroupByZip = async ({
-            zipCode,
-            volunteerTable,
+            CBSA,
+            locationsTable,
             fbGroupTable,
           }) => {
             let promises = [
-              volunteerTable
+              locationsTable
                 .select({
-                  filterByFormula: `{Zip} = "${zipCode}"`,
+                  filterByFormula: `{CBSA} = "${CBSA}"`,
                 })
                 .all(),
               fbGroupTable
                 .select({
-                  filterByFormula: `{Zip} = "${zipCode}"`,
+                  filterByFormula: `{CBSA} = "${CBSA}"`,
                 })
                 .all(),
             ];
@@ -51367,6 +51367,7 @@ empty list will be returned. A validation error will have two properties:
               `appTFnl3y8NPjOWnN`
             );
             const volunteerTable = base('Volunteers');
+            const locationsTable = base('Locations');
             const fbGroupTable = base('FB Groups'); // When the method is POST, the name will no longer be in the event’s
             // queryStringParameters – it’ll be in the event body encoded as a query string
             // name | REQUIRED | (string, longer than 3 char???)
@@ -51388,8 +51389,8 @@ empty list will be returned. A validation error will have two properties:
 
             try {
               const record = await getLeadAndGroupByZip({
-                zipCode: 'Nita',
-                volunteerTable,
+                CBSA: 'Nita',
+                locationsTable,
                 fbGroupTable,
               });
               return {

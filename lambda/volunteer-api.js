@@ -2,20 +2,16 @@ import querystring from 'querystring';
 import Airtable from 'airtable';
 // import SendGrid from './volunteer-api/send-grid';
 
-const getLeadAndGroupByZip = async ({
-  zipCode,
-  volunteerTable,
-  fbGroupTable,
-}) => {
+const getLeadAndGroupByZip = async ({ CBSA, locationsTable, fbGroupTable }) => {
   let promises = [
-    volunteerTable
+    locationsTable
       .select({
-        filterByFormula: `{Zip} = "${zipCode}"`,
+        filterByFormula: `{CBSA} = "${CBSA}"`,
       })
       .all(),
     fbGroupTable
       .select({
-        filterByFormula: `{Zip} = "${zipCode}"`,
+        filterByFormula: `{CBSA} = "${CBSA}"`,
       })
       .all(),
   ];
@@ -40,6 +36,7 @@ exports.handler = async (event, context) => {
 
   const base = Airtable.base(`appTFnl3y8NPjOWnN`);
   const volunteerTable = base('Volunteers');
+  const locationsTable = base('Locations');
   const fbGroupTable = base('FB Groups');
 
   // When the method is POST, the name will no longer be in the event’s
@@ -60,8 +57,8 @@ exports.handler = async (event, context) => {
   const comments = params.comments;
   try {
     const record = await getLeadAndGroupByZip({
-      zipCode: 'Nita',
-      volunteerTable,
+      CBSA: 'Nita',
+      locationsTable,
       fbGroupTable,
     });
     return {
