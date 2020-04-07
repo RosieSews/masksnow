@@ -15,7 +15,7 @@ title: State/Regional Facebook Group Directory
 * [Arkansas](https://www.facebook.com/groups/271568103838759/) | State Leads: [Lenerika](mailto:lenerika@masksnow.org), [Ruth](mailto:aunt.ruth@yahoo.com)
 * [California (Northern)](https://www.facebook.com/groups/M3California/) | Regional Leads: [Karina](mailto:karina@masksnow.org), [Allison](mailto:Allison4photos@gmail.com)
 
-  * California (Northern) - Sacramento | Regional Lead: [Crystal](mailto:CrystalCA@masksnow.org)
+  * [California (Northern) - Sacramento](https://www.facebook.com/groups/1506768662816030/?hc_location=group) | Regional Lead: [Crystal](mailto:CrystalCA@masksnow.org)
 * [California (Southern)](https://facebook.com/groups/MasksNOWSoCal) | Regional Lead: [Dez](mailto:Deztroamphetamine@gmail.com)
 
   * [California (Southern) - Los Angeles](https://www.facebook.com/groups/MasksNOWLACA) | Regional Leads: [Emily](mailto:Emily@emiicreations.com), [Jennifer](mailto:JaMinzey@gmail.com)
