@@ -47,6 +47,7 @@ title: State/Regional Facebook Group Directory
 * [Illinois](https://www.facebook.com/groups/635692137272813/?ref=br_rs) | State Lead: [Tricia](mailto:tballad@gmail.com)
 
   * Illinois (Central/Southern) | Regional Lead: [Cassandria](mailto:cassandria@pm.me)
+  * Illinois (Chicago) | Regional Leads: [Alayne](mailto:alayne.cairns@gmail.com), [Kristen](mailto:jettkristenm@gmail.com)
   * Illinois (Northern) | Regional Lead: [Emma](mailto:ebd313@gmail.com)
 * [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Lead: [Kendall](mailto:kendallpritsch14@gmail.com)
 
