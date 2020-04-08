@@ -84,9 +84,7 @@ title: State/Regional Facebook Group Directory
 * [North Carolina](https://www.facebook.com/groups/148578513144519/) | State Lead: [Astrid](mailto:astrid@masksnow.org)
 * [Ohio](https://www.facebook.com/groups/masksnowohio) | State Lead: [Emily](mailto:Emily@masksnow.org)
 
-  * Ohio (Central) | Regional Lead: [Caryl](mailto:youngatart2020@gmail.com)
   * Ohio (Northeast) | Regional Lead: [Caroline](mailto:cdriscoll1014@gmail.com)
-  * Ohio (Northwest) | Regional Lead: [Peter](mailto:petergm84@gmail.com)
   * Ohio (Southwest) | Regional Lead: [Teri](mailto:TeriOH@masksnow.org)
 * [Oklahoma](https://www.facebook.com/groups/1303618046515044/) | State Lead: [Vikki](mailto:vikki.penix@masksnow.org)
 
