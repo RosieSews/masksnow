@@ -51,7 +51,7 @@ title: State/Regional Facebook Group Directory
   * Illinois (Northern) | Regional Lead: [Emma](mailto:ebd313@gmail.com)
 * [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Lead: [Kendall](mailto:kendallpritsch14@gmail.com), [Meagan](mailto:meaganrioux@gmail.com)
 
-  * Indiana (Indianapolis) | Regional Lead: [Anat](mailto:anatpbs@gmail.com)
+  * [Indiana (Indianapolis)](https://www.facebook.com/groups/205021414131420/about/) | Regional Lead: [Anat](mailto:anatpbs@gmail.com)
 * [Iowa](https://www.facebook.com/groups/522131565386198/) | State Lead: [Miriam](mailto:MimHoffmanIA@masksnow.org)
 * [Kansas](https://www.facebook.com/groups/521675518530089/) | State Lead: [Megan](mailto:megan.kansas@masksnow.org)
 
@@ -91,7 +91,7 @@ title: State/Regional Facebook Group Directory
 * [Oklahoma](https://www.facebook.com/groups/1303618046515044/) | State Lead: [Vikki](mailto:vikki.penix@masksnow.org)
 
   * Oklahoma (Tulsa) | Regional Lead: [Nicki](mailto:nickiwoodartist@gmail.com)
-* Oregon | State Lead: [Bonnie](mailto:zooathome@gmail.com)
+* [Oregon](https://www.facebook.com/groups/2591309841146113) | State Lead: [Bonnie](mailto:zooathome@gmail.com)
 * [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com)
 * [South Carolina](https://www.facebook.com/groups/561045871433689/) | State Lead: [Sara](mailto:masksnowsc@gmail.com)
 * [Tennessee](https://www.facebook.com/groups/2616245711987301/) | State Lead: [Katrina](mailto:khenderson@gmail.com), [Brenda](mailto:brenda.a.gadd@gmail.com)
