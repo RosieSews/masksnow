@@ -49,9 +49,9 @@ title: State/Regional Facebook Group Directory
   * Illinois (Central/Southern) | Regional Lead: [Cassandria](mailto:cassandria@pm.me)
   * Illinois (Chicago) | Regional Leads: [Alayne](mailto:alayne.cairns@gmail.com), [Kristen](mailto:jettkristenm@gmail.com)
   * Illinois (Northern) | Regional Lead: [Emma](mailto:ebd313@gmail.com)
-* [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Lead: [Kendall](mailto:kendallpritsch14@gmail.com)
+* [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Lead: [Kendall](mailto:kendallpritsch14@gmail.com), [Meagan](mailto:meaganrioux@gmail.com)
 
-  * Indiana | Indianapolis | Regional Lead: [Anat](mailto:anatpbs@gmail.com)
+  * Indiana (Indianapolis) | Regional Lead: [Anat](mailto:anatpbs@gmail.com)
 * [Iowa](https://www.facebook.com/groups/522131565386198/) | State Lead: [Miriam](mailto:MimHoffmanIA@masksnow.org)
 * [Kansas](https://www.facebook.com/groups/521675518530089/) | State Lead: [Megan](mailto:megan.kansas@masksnow.org)
 
@@ -62,8 +62,7 @@ title: State/Regional Facebook Group Directory
 * [Massachusetts](https://www.facebook.com/groups/2620127964977639/) | State Leads: [Isabel](mailto:isabel_hessler@emerson.edu), [Kathryn](mailto:kathryn_smith3@emerson.edu)
 * Michigan | State Leads: [Larisa](mailto:larisabreton@icloud.com), [Brandy](mailto:bshumaker27@yahoo.com), [Gabrielle](mailto:gabriellebreton16@gmail.com)
 
-  * Michigan (Detroit) | Regional Lead: [Tracie](mailto:traciemccray@yahoo.com)
-  * [Michigan (Southwest)](https://www.facebook.com/groups/SWMI.MedMaskProject/) | Regional Lead: [Rebecca](mailto:swmi.medmaskproject@masksnow.org)
+  * Michigan (Detroit) | Regional Lead: [Tracie](mailto:traciemi@masksnow.org)
 * [Mississippi](https://www.facebook.com/groups/554045278817832/) | State Lead: [Lisa](mailto:LisaMS@masksnow.org)
 * [Missouri](https://www.facebook.com/groups/693560934789022/about/) | State Lead: [Heather](mailto:hrippetoe@masksnow.org)
 
