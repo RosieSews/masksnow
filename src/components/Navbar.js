@@ -42,16 +42,16 @@ const Navbar = () => {
 
   const navbar = (
     <div className="navbar-start has-text-centered">
-      <Link className="navbar-item" to="/volunteer">
+      <Link className="navbar-item" to="/volunteer" activeClassName="active">
         Volunteer
       </Link>
-      <Link className="navbar-item" to="/patterns">
+      <Link className="navbar-item" to="/patterns" activeClassName="active">
         Patterns
       </Link>
-      <Link className="navbar-item" to="/psa">
+      <Link className="navbar-item" to="/psa" activeClassName="active">
         PSAs
       </Link>
-      <Link className="navbar-item" to="/faq">
+      <Link className="navbar-item" to="/faq" activeClassName="active">
         FAQs
       </Link>
     </div>

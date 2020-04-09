@@ -31788,8 +31788,7 @@ empty list will be returned. A validation error will have two properties:
               // Non `Object` object instances with different constructors are not equal.
               if (
                 objCtor != othCtor &&
-                'constructor' in object &&
-                'constructor' in other &&
+                'constructor' in object && 'constructor' in other &&
                 !(
                   typeof objCtor == 'function' &&
                   objCtor instanceof objCtor &&
@@ -32712,9 +32711,7 @@ empty list will be returned. A validation error will have two properties:
               !!length &&
               (type == 'number' ||
                 (type != 'symbol' && reIsUint.test(value))) &&
-              value > -1 &&
-              value % 1 == 0 &&
-              value < length
+              value > -1 && value % 1 == 0 && value < length
             );
           }
 
@@ -36649,8 +36646,7 @@ empty list will be returned. A validation error will have two properties:
                   root !== cleanRoot &&
                   String(index) === cleanRoot &&
                   index >= 0 &&
-                  options.parseArrays &&
-                  index <= options.arrayLimit
+                  options.parseArrays && index <= options.arrayLimit
                 ) {
                   obj = [];
                   obj[index] = leaf;
