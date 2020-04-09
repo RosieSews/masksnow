@@ -1,7 +1,13 @@
 ---
 templateKey: patterns
 path: /patterns/3-layer
-title: 3 Layer Pattern
+title: 3-Layer Pattern
+patternArt: /img/pattern-art/pattern-3-layer-mask-01.png
+meetsGuidelines: true
+forDonations: true
+noSewingMachine: false
+order: 1
+description: If you don't have interfacing on hand, this pocket style mask is a great solution! The two layers of cotton open in the back to accommodate an insert (provided by mask-wearer).
 ---
 
 Download Created for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.

@@ -29,35 +29,19 @@ collections:
 
   - name: "patterns"
     label: "Patterns"
-    files:
-      - file: "src/pages/patterns/index.md"
-        label: "Patterns"
-        name: "patterns"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/patterns/3-layer-pattern.md"
-        label: "3 Layer Pattern"
-        name: "3-layer-pattern"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/patterns/pocket-pattern.md"
-        label: "Pocket Pattern"
-        name: "pocket-pattern"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/patterns/t-shirt-mask-pattern.md"
-        label: "T-shirt Pattern"
-        name: "t-shirt-mask-pattern"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+    folder: "src/patterns"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Description (shown as detail text on patterns page)", name: "description", widget: "text"}
+      - {label: "Pattern Art Image", name: "patternArt", widget: image}
+      - {label: "Meets Guidelines", name: "meetsGuidelines", default: true, widget: "boolean"}
+      - {label: "Can Be Used For Donations", name: "forDonations", default: true, widget: "boolean"}
+      - {label: "No Sewing Machine Required", name: "noSewingMachine", default: false, widget: "boolean"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Order listed", name: "order", widget: "number"}
   - name: "pages"
     label: "Pages"
     files:

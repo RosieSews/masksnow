@@ -1,7 +1,13 @@
 ---
 templateKey: patterns
 path: /patterns/pocket
-title: Pocket Pattern
+title: Pocket Mask
+patternArt: /img/pattern-art/pattern-pocket-mask-01.png
+meetsGuidelines: true
+forDonations: true
+noSewingMachine: false
+order: 2
+description: If you don't have interfacing on hand, this pocket style mask is a great solution! The two layers of cotton open in the back to accommodate an insert (provided by mask-wearer).
 ---
 
 Download Created for Crisis Pocket Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.

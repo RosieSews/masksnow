@@ -3,12 +3,18 @@ const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  return graphql(`
+  const { data, errors } = await graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      patterns: allMarkdownRemark(
+        filter: {
+          fileAbsolutePath: { regex: "//src/patterns//" }
+          fields: { slug: { ne: "/" } }
+        }
+        limit: 1000
+      ) {
         edges {
           node {
             id
@@ -18,74 +24,104 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
-              infographicHomepage
+            }
+          }
+        }
+      }
+      pages: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "//src/pages//" } }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              tags
+              templateKey
             }
           }
         }
       }
     }
-  `).then(result => {
-    if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
-      return Promise.reject(result.errors);
-    }
+  `);
+  if (errors) {
+    errors.forEach(e => console.error(e.toString()));
+    return Promise.reject(errors);
+  }
 
-    const posts = result.data.allMarkdownRemark.edges;
+  const { pages, patterns } = data;
 
-    posts.forEach(edge => {
-      const id = edge.node.id;
-      const infographicHomepage = edge.node.frontmatter.infographicHomepage;
-      // console.log('FRONTMATTER:', edge.node.frontmatter);
-      if (infographicHomepage) {
-        // build a "page" that ignores all the content and instead displays the new
-        // infographic
-        createPage({
-          path: edge.node.fields.slug,
-          tags: edge.node.frontmatter.tags,
-          component: path.resolve(`src/pages/infographic-page.js`),
-          // additional data can be passed via context
-          context: {
-            id,
-          },
-        });
-      } else {
-        // do the normal thing
-        createPage({
-          path: edge.node.fields.slug,
-          tags: edge.node.frontmatter.tags,
-          component: path.resolve(
-            `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-          ),
-          // additional data can be passed via context
-          context: {
-            id,
-          },
-        });
-      }
+  patterns.edges.forEach(edge => {
+    const id = edge.node.id;
+    createPage({
+      path: `/patterns${edge.node.fields.slug}`,
+      tags: edge.node.frontmatter.tags,
+      component: path.resolve(
+        `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+      ),
+      // additional data can be passed via context
+      context: {
+        id,
+      },
     });
+  });
 
-    // Tag pages:
-    let tags = [];
-    // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags);
-      }
-    });
-    // Eliminate duplicate tags
-    tags = _.uniq(tags);
-
-    // Make tag pages
-    tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`;
-
+  pages.edges.forEach(edge => {
+    const id = edge.node.id;
+    const infographicHomepage = edge.node.frontmatter.infographicHomepage;
+    // console.log('FRONTMATTER:', edge.node.frontmatter);
+    if (infographicHomepage) {
+      // build a "page" that ignores all the content and instead displays the new
+      // infographic
       createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
+        path: edge.node.fields.slug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(`src/pages/infographic-page.js`),
+        // additional data can be passed via context
         context: {
-          tag,
+          id,
         },
       });
+    } else {
+      // do the normal thing
+      createPage({
+        path: edge.node.fields.slug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        ),
+        // additional data can be passed via context
+        context: {
+          id,
+        },
+      });
+    }
+  });
+
+  // Tag pages:
+  let tags = [];
+  // Iterate through each post, putting all found tags into `tags`
+  pages.edges.forEach(edge => {
+    if (_.get(edge, `node.frontmatter.tags`)) {
+      tags = tags.concat(edge.node.frontmatter.tags);
+    }
+  });
+  // Eliminate duplicate tags
+  tags = _.uniq(tags);
+
+  // Make tag pages
+  tags.forEach(tag => {
+    const tagPath = `/tags/${_.kebabCase(tag)}/`;
+
+    createPage({
+      path: tagPath,
+      component: path.resolve(`src/templates/tags.js`),
+      context: {
+        tag,
+      },
     });
   });
 };
@@ -96,6 +132,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
+    console.log('slugL', value);
     createNodeField({
       name: `slug`,
       node,
