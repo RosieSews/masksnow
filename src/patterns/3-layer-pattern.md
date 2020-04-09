@@ -7,7 +7,7 @@ meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
 order: 1
-description: If you don't have interfacing on hand, this pocket style mask is a great solution! The two layers of cotton open in the back to accommodate an insert (provided by mask-wearer).
+description: Developed by Created for Crisis, this mask works almost as hard as our medical professionals. This pattern features a middle layer of non-woven material between two layers of cotton.
 ---
 
 Download Created for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
