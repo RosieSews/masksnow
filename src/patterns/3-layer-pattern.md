@@ -1,7 +1,13 @@
 ---
 templateKey: patterns
 path: /patterns/3-layer
-title: 3 Layer Pattern
+title: 3-Layer Pattern
+patternArt: /img/pattern-art/pattern-3-layer-mask-01.png
+meetsGuidelines: true
+forDonations: true
+noSewingMachine: false
+order: 1
+description: Developed by Created for Crisis, this mask works almost as hard as our medical professionals. This pattern features a middle layer of non-woven material between two layers of cotton.
 ---
 
 Download Created for Crisis 3-Layer Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
