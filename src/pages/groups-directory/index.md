@@ -98,7 +98,7 @@ title: State/Regional Facebook Group Directory
 
   * Oklahoma (Tulsa) | Regional Lead: [Nicki](mailto:nickiwoodartist@gmail.com)
 * [Oregon](https://www.facebook.com/groups/2591309841146113) | State Lead: [Bonnie](mailto:zooathome@gmail.com)
-* [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com)
+* [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com), [Sarah](mailto:skcostumedesign@gmail.com)
 * [South Carolina](https://www.facebook.com/groups/561045871433689/) | State Lead: [Sara](mailto:masksnowsc@gmail.com)
 * [Tennessee](https://www.facebook.com/groups/2616245711987301/) | State Lead: [Katrina](mailto:khenderson@gmail.com), [Brenda](mailto:brenda.a.gadd@gmail.com)
 * [Texas](https://www.facebook.com/groups/MasksNowTexas/) | State Lead: [April](mailto:april_pierce@outlook.com)
