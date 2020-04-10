@@ -20,7 +20,7 @@ order: 4
 
 Download Created for Crisis T-shirt Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
 
-### [Download T-shirt Mask Pattern](https://masksnow.org/docs/CFC_Tshirt_Mask_4_6.pdf)
+### [Download T-shirt Mask Pattern (updated: 4-10)](https://masksnow.org/docs/CFC_Tshirt_Mask_4_8.pdf)
 
 ## T-Shirt Mask How-to Video
 
