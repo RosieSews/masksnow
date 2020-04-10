@@ -83,7 +83,7 @@ title: State/Regional Facebook Group Directory
 
   * [New York (Albany)](https://m.facebook.com/groups/226283908614592?group_view_referrer=profile_browser) | Regional Lead: [Lilly](mailto:lillytalmage@gmail.com)
   * [New York (Hudson Valley/Westchester)](https://www.facebook.com/groups/masksnownyhudsonvalleywestchester) | Regional Lead: [Jenna](mailto:jennaadamek@masksnow.org)
-  * New York (Long Island) | Regional Lead: [Hillary](mailto:hillary.babalola@stonybrook.edu)
+  * New York (Long Island) | Regional Lead: [Hillary](mailto:hillary.babalola@stonybrook.edu), [Emma](mailto:ouyangemma44@gmail.com)
   * [New York (NYC)](https://www.facebook.com/groups/1496625130494194/)
 
     * New York (NYC) - Brooklyn | Regional Lead: [Clare](mailto:clare.kutsko@gmail.com)
