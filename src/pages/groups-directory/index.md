@@ -87,6 +87,7 @@ title: State/Regional Facebook Group Directory
   * [New York (NYC)](https://www.facebook.com/groups/1496625130494194/)
 
     * New York (NYC) - Brooklyn | Regional Lead: [Clare](mailto:clare.kutsko@gmail.com)
+    * New York (NYC) - Manhattan | Regional Lead: [Taylor](mailto:thiggins4890@gmail.com)
     * New York (NYC) - Queens | Regional Lead: [Melody](mailto:song.melody@gmail.com), [Nina](mailto:ninaboe@gmail.com)
   * [New York (Western NY)](www.facebook.com/groups/wnymasksnow/) | Regional Lead: [Jenn](mailto:jenn.guia@gmail.com)
 * [North Carolina](https://www.facebook.com/groups/148578513144519/) | State Lead: [Astrid](mailto:astrid@masksnow.org)
@@ -103,9 +104,9 @@ title: State/Regional Facebook Group Directory
 * [Tennessee](https://www.facebook.com/groups/2616245711987301/) | State Lead: [Katrina](mailto:khenderson@gmail.com), [Brenda](mailto:brenda.a.gadd@gmail.com)
 * [Texas](https://www.facebook.com/groups/MasksNowTexas/) | State Lead: [April](mailto:april_pierce@outlook.com)
 
-  * [Texas (Austin metro)](https://www.facebook.com/groups/mllionmaskmaydayTX/) | Regional Leads: [Andrea](mailto:AndreaATX@masksnow.org), [Alex](mailto:aewoodhouse@gmail.com)
+  * [Texas (Austin metro)](https://www.facebook.com/groups/mllionmaskmaydayTX/) | Regional Lead: [Andrea](mailto:AndreaATX@masksnow.org)
   * Texas (College Station area) | Regional Lead: [Joseph](mailto:josephwebster.exe@gmail.com)
-  * [Texas (Dallas)](https://www.facebook.com/groups/MasksNowDallasTX/) | Regional Lead: [April](mailto:april_pierce@outlook.com)
+  * [Texas (Dallas)](https://www.facebook.com/groups/MasksNowDallasTX/) | Regional Lead: [Vanessa](mailto:vlynnesmith59@gmail.com)
   * [Texas (Houston metro)](https://www.facebook.com/groups/597450300982941/) | Regional Lead: [Janet](mailto:gatormom04@hotmail.com)
   * [Texas (San Antonio)](https://www.facebook.com/groups/MasksNowSanAntonioTexas/) | Regional Lead: [Lucas](mailto:lsevedge@gmail.com)
 * [Virginia](https://www.facebook.com/groups/860457351144099/) | State Leads: [Amelia](mailto:favere@gmail.com), [Ahmed](mailto:ahmed.elzamzami.17@cnu.edu), [Amanda](mailto:amandamsunde@gmail.com)
