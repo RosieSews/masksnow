@@ -40,7 +40,6 @@ title: State/Regional Facebook Group Directory
 * [Florida](https://www.facebook.com/groups/529216341303278/) | State Lead: [Alexander](mailto:AlexanderFL@masksnow.org)
 
   * Florida (Central East Coast) | Regional Lead: [Alexander](mailto:alexander.benishek@gmail.com)
-  * Florida (Northeast) | Regional Lead: [Laurie](mailto:LaurieFL@masksnow.org)
   * Florida (Orlando) | Regional Lead: [Mitzi](mailto:MitziFL@masksnow.org)
   * Florida (South) | Regional Leads: [Kim](mailto:KimSFL@masksnow.org), [Gabrielle](mailto:connellf.gabrielle@gmail.com)
 * [Georgia](https://www.facebook.com/groups/205091274056531/) | State Lead: [Kim](mailto:kmhinzeGA@masksnow.org)
