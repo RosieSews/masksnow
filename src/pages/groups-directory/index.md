@@ -13,7 +13,7 @@ title: State/Regional Facebook Group Directory
 * Alaska | State Lead: [Deirdre](mailto:covaldeirdre@gmail.com)
 * [Arizona](https://www.facebook.com/groups/812064599302071/) | State Lead: [Leslie](mailto:azhardt@yahoo.com)
 
-  * Arizona (Phoenix) | Regional Lead: [Jessica](mailto:spooniesewing@gmail.com)
+  * Arizona (Phoenix) | Regional Leads: [Jessica](mailto:spooniesewing@gmail.com), [Kelley](mailto:kyaews@yahoo.com)
   * Arizona (Tucson) | Regional Lead: [Rebecca](mailto:rebecca.mirsky@gmail.com)
 * [Arkansas](https://www.facebook.com/groups/271568103838759/) | State Leads: [Lenerika](mailto:lenerika@masksnow.org), [Ruth](mailto:aunt.ruth@yahoo.com)
 * [California (Northern)](https://www.facebook.com/groups/M3California/) | Regional Leads: [Karina](mailto:karina@masksnow.org)
