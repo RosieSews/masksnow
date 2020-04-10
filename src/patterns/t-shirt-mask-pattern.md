@@ -1,13 +1,17 @@
 ---
-templateKey: patterns
 path: /patterns/t-shirt-mask
+templateKey: patterns
 title: T-Shirt Mask
+description: >-
+  Created for Crisis presents an improvised pattern for you to use to make a
+  quick mask with readily available supplies.
 patternArt: /img/pattern-art/pattern-tshirt-mask-01.png
-meetsGuidelines: true
+meetsGuidelines: false
 forDonations: false
 noSewingMachine: true
+tags:
+  - improvised
 order: 4
-description: Created for Crisis presents an improvised pattern for you to use to make a quick mask with readily available supplies.
 ---
 
 <h2 style="color:#b03619">ATTENTION</h2>
