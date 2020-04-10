@@ -65,7 +65,7 @@ const InfographicPage = () => {
           <InfoCardAnchor href={'/docs/CFC_Pocket_Mask_3_28.pdf'}>
             POCKET FACE MASK
           </InfoCardAnchor>
-          <InfoCardAnchor href={'/docs/CFC_Mask_cover_4_7.pdf'}>
+          <InfoCardAnchor href={'/docs/CFCMask_cover_4_7.pdf'}>
             MASK COVER *NEW*
           </InfoCardAnchor>
           <InfoCardAnchor href={'/docs/CFC_Tshirt_Mask_4_8.pdf'}>
