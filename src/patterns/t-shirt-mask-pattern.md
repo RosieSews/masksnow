@@ -6,7 +6,7 @@ description: >-
   Created for Crisis presents an improvised pattern for you to use to make a
   quick mask with readily available supplies.
 patternArt: /img/pattern-art/pattern-tshirt-mask-01.png
-meetsGuidelines: false
+meetsGuidelines: true
 forDonations: false
 noSewingMachine: true
 tags:
