@@ -12,4 +12,8 @@ tags:
   - mask cover
 order: 2
 ---
+
+### [Download Mask Cover Pattern (updated: 4-10)](https://masksnow.org/docs/CFC_Mask_cover_4_7.pdf)
+
+## Mask Cover How-to Video
 `youtube:https://www.youtube.com/embed/Dp1SUhPCM6M`

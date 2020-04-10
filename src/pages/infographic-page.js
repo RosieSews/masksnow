@@ -1,18 +1,11 @@
 import React from 'react';
-import { kebabCase } from 'lodash';
-import styled from 'styled-components';
-import Helmet from 'react-helmet';
-import { Link, graphql, useStaticQuery } from 'gatsby';
-import { bpMaxSM } from '../lib/breakpoints';
-import Img from 'gatsby-image';
+import { graphql, useStaticQuery } from 'gatsby';
 
 import {
-  InfoBannerWrapper,
   InfoCard,
   InfoCardAnchor,
   InfoCardLink,
   InfoCardRight,
-  InfoCardWrapper,
   InfographicBanner,
   StyledLink,
   TextLink,
@@ -72,7 +65,10 @@ const InfographicPage = () => {
           <InfoCardAnchor href={'/docs/CFC_Pocket_Mask_3_28.pdf'}>
             POCKET FACE MASK
           </InfoCardAnchor>
-          <InfoCardAnchor href={'/docs/CFC_Tshirt_Mask_4_6.pdf'}>
+          <InfoCardAnchor href={'/docs/CFC_Mask_cover_4_7.pdf'}>
+            MASK COVER *NEW*
+          </InfoCardAnchor>
+          <InfoCardAnchor href={'/docs/CFC_Tshirt_Mask_4_8.pdf'}>
             T-SHIRT FACE MASK
           </InfoCardAnchor>
           <WarningText>*PERSONAL USE ONLY</WarningText>
@@ -86,6 +82,9 @@ const InfographicPage = () => {
           </InfoCardLink>
           <InfoCardLink to={'/patterns/pocket-pattern'}>
             WATCH POCKET MASK VIDEO
+          </InfoCardLink>
+          <InfoCardLink to={'/patterns/mask-cover'}>
+            WATCH MASK COVER VIDEO *NEW*
           </InfoCardLink>
           <InfoCardLink to={'/patterns/t-shirt-mask-pattern'}>
             WATCH T-SHIRT MASK VIDEO
