@@ -110,6 +110,11 @@ export const WarningText = styled.span`
   margin: -0.5em 0 0 2.5em;
 `;
 
+export const AdditionalInfoText = styled.span`
+  font-style: italic;
+  margin: ${props => (props.hasLeftSpacing ? "0 0.5em" : 0)};
+`;
+
 export const InfoBannerWrapper = styled.div`
   // font-size should be 3em to match the CTA buttons but it's wrong for some reason
   font-size: 2em;

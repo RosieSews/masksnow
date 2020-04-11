@@ -10,6 +10,7 @@ import {
   StyledLink,
   TextLink,
   WarningText,
+  AdditionalInfoText,
 } from '../components/ListCard';
 
 const InfographicPage = () => {
@@ -59,6 +60,9 @@ const InfographicPage = () => {
       <InfoCard image={data.pattern.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Get The Pattern</h2>
+          <AdditionalInfoText hasLeftSpacing>
+            (or use any pattern of your choosing)
+          </AdditionalInfoText>
           <InfoCardAnchor href={'/docs/CFCMask_3_27.pdf'}>
             3-LAYER FACE MASK
           </InfoCardAnchor>
@@ -100,6 +104,15 @@ const InfographicPage = () => {
             <br />
             {`DIRECTIONS ABOUT HOW & WHERE`}
           </StyledLink>
+          <TextLink
+            href={
+              'https://rosiesews.freshdesk.com/support/solutions/articles/61000268414-can-i-use-a-different-pattern-than-what-you-provide-'
+            }
+          >
+            {`EVERY MASK MADE WILL BE DONATED`}
+            <br />
+            {`NO MATTER WHAT PATTERN YOU USE`}
+          </TextLink>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.question.childImageSharp.fluid}>
