@@ -46,7 +46,7 @@ Contact us if you'd like to get into contact with our social media team for cont
 
 Our public relations team is available for you for media inquiries.
 
-## [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
+[publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
 
 ## Steering Committee
 
