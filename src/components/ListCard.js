@@ -112,7 +112,7 @@ export const WarningText = styled.span`
 
 export const AdditionalInfoText = styled.span`
   font-style: italic;
-  margin: ${props => (props.hasLeftSpacing ? "0 0.5em" : 0)};
+  margin: ${props => (props.hasLeftSpacing ? '0 0.5em' : 0)};
 `;
 
 export const InfoBannerWrapper = styled.div`
