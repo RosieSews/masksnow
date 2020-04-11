@@ -16,4 +16,10 @@ export const BigButton = styled(Link)`
   &:hover {
     color: red;
   }
+
+  @media only screen and (max-width: 400px) {
+    min-width: 100%;
+    padding: 0;
+    margin: 0.25em 0;
+  }
 `;
