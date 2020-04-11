@@ -2,18 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout';
-import Content, { HTMLContent } from '../../components/Content';
 import {
-  InfoBannerWrapper,
   InfoCard,
-  InfoCardAnchor,
   InfoCardLink,
   InfoCardRight,
-  InfoCardWrapper,
   InfographicBanner,
-  StyledLink,
-  TextLink,
-  WarningText,
 } from '../../components/ListCard';
 
 const Pattern = ({
@@ -57,8 +50,7 @@ const Patterns = ({ patterns }) => {
 };
 
 const PatternsPage = ({ title, data }) => {
-  const PageContent = HTMLContent;
-  const { pageContent, patterns } = data;
+  const { patterns } = data;
   console.log('patterns:', patterns);
 
   return (
