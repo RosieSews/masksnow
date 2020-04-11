@@ -162,13 +162,13 @@ const SEO = props => {
     });
   }
 
-  const breadcrumb = {
-    '@context': 'http://schema.org',
-    '@type': 'BreadcrumbList',
-    description: 'Breadcrumbs list',
-    name: 'Breadcrumbs',
-    itemListElement,
-  };
+  // const breadcrumb = {
+  //   '@context': 'http://schema.org',
+  //   '@type': 'BreadcrumbList',
+  //   description: 'Breadcrumbs list',
+  //   name: 'Breadcrumbs',
+  //   itemListElement,
+  // };
 
   return (
     <Helmet>

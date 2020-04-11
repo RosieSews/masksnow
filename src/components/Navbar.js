@@ -40,6 +40,14 @@ const Navbar = () => {
     setActive(prevState => !prevState);
   };
 
+  const onEnterKey = fn => {
+    return e => {
+      if (e.key === 'Enter') {
+        fn();
+      }
+    };
+  };
+
   const navbar = (
     <div className="navbar-start has-text-centered">
       <Link className="navbar-item" to="/volunteer">
@@ -60,7 +68,13 @@ const Navbar = () => {
     <div>
       <div className={`mobile-navbar navbar-menu ${navBarActiveClass}`}>
         {navbar}
-        <div class="mobile-backdrop" onClick={toggleHamburger}></div>
+        <div
+          className="mobile-backdrop"
+          role="button"
+          tabIndex={0}
+          onKeyPress={onEnterKey(toggleHamburger)}
+          onClick={toggleHamburger}
+        />
       </div>
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div
@@ -91,6 +105,9 @@ const Navbar = () => {
               <div
                 className={`navbar-burger burger ${navBarActiveClass}`}
                 data-target="navMenu"
+                role="button"
+                tabIndex={0}
+                onKeyPress={onEnterKey(toggleHamburger)}
                 onClick={toggleHamburger}
               >
                 <HamburgerLine />

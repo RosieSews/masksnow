@@ -1,8 +1,6 @@
 import React from 'react';
-import { kebabCase } from 'lodash';
 import styled from 'styled-components';
-import Helmet from 'react-helmet';
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import { Link } from 'gatsby';
 import { bpMaxSM } from '../lib/breakpoints';
 import Img from 'gatsby-image';
 
