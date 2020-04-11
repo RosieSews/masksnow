@@ -25,7 +25,7 @@ title: State/Regional Facebook Group Directory
   * [California (Southern) - Los Angeles](https://www.facebook.com/groups/MasksNOWLACA) | Regional Leads: [Emily](mailto:Emily@emiicreations.com), [Jennifer](mailto:JaMinzey@gmail.com)
   * [California (Southern) - Orange County](https://www.facebook.com/groups/MasksNOWOC) | Regional Lead: [Brian](mailto:nguyenbrian202@gmail.com)
   * [California (Southern) - Riverside/San Bernardino County](https://www.facebook.com/groups/MasksNOWRSSB) | Regional Lead: [Charlene](mailto:CharleneCA@masksnow.org)
-  * California (Southern) - Santa Barbara | Regional Lead: [Lee](mailto:leehellerk9@gmail.com)
+  * California (Southern) - Santa Barbara | Regional Leads: [Lee](mailto:leehellerk9@gmail.com), [Nancy](mailto:nancy.black@mercurypress.com)
 * Colorado | State Leads: [Cody](mailto:CodyCO@masksnow.org), [Natasha](mailto:Natasha.rigg@gmail.com), [Jessie](mailto:jessie.moench@gmail.com)
 
   * [Colorado (Boulder & Surroundings)](https://www.facebook.com/groups/MasksNowCOBoulder/)
