@@ -8,16 +8,17 @@ description: >-
   professionals. This pattern features a middle layer of non-woven material
   between two layers of cotton.
 patternArt: /img/pattern-art/pattern-3-layer-mask-01.png
-patternFile: /docs/CFCMask_3_27.pdf
+patternFile: /img/masksnow-mask-pattern-packet-by-created-for-crisis-410.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
 tags:
   - 3-layer mask
 order: 1
+hideFromFront: false
 ---
 
-### [Download 3-Layer Mask Pattern (updated: 3-27)](https://masksnow.org/docs/CFCMask_3_27.pdf)
+### [Download 3-Layer Mask Pattern (updated: 3-27)](https://masksnow.org/img/masksnow-mask-patter…eated-for-crisis-410.pdf)
 
 ## 3-Layer Mask (Large) How-to Video
 `youtube:https://www.youtube.com/embed/J0HnaWUIyzg`
