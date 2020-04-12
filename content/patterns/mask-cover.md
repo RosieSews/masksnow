@@ -12,7 +12,7 @@ forDonations: true
 noSewingMachine: false
 tags:
   - mask cover
-order: 2
+order: 3
 ---
 
 ### [Download Mask Cover Pattern (updated: 4-10)](https://masksnow.org/docs/CFCMask_cover_4_7.pdf)

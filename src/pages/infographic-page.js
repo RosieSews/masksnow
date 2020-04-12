@@ -42,7 +42,10 @@ const InfographicPage = () => {
       patterns: allMarkdownRemark(
         sort: { order: ASC, fields: [frontmatter___order] }
         filter: {
-          frontmatter: { templateKey: { eq: "patterns" } }
+          frontmatter: {
+            templateKey: { eq: "patterns" }
+            hideFromFront: { ne: true }
+          }
           fields: { slug: { ne: "/" } }
         }
       ) {
