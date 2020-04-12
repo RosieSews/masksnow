@@ -12,5 +12,6 @@ noSewingMachine: false
 tags:
   - any mask
 order: 5
+hideFromFront: true
 ---
 You are welcome to make and donate masks made from any pattern of your choosing! One thing to keep in mind is if the pattern you are using calls for elastic, it is generally a better idea to donate these to non-hospital locations, like nursing homes, first responders, grocery stores, etc.
