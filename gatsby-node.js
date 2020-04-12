@@ -10,7 +10,7 @@ exports.createPages = async ({ actions, graphql }) => {
     {
       patterns: allMarkdownRemark(
         filter: {
-          fileAbsolutePath: { regex: "//src/patterns//" }
+          fileAbsolutePath: { regex: "//content/patterns//" }
           fields: { slug: { ne: "/" } }
         }
         limit: 1000

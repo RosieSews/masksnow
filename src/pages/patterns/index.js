@@ -1,19 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../../components/Layout';
-import Content, { HTMLContent } from '../../components/Content';
 import {
-  InfoBannerWrapper,
   InfoCard,
-  InfoCardAnchor,
   InfoCardLink,
   InfoCardRight,
-  InfoCardWrapper,
   InfographicBanner,
-  StyledLink,
-  TextLink,
-  WarningText,
 } from '../../components/ListCard';
 
 const Pattern = ({
@@ -24,11 +17,16 @@ const Pattern = ({
   description,
   link,
   patternArt,
+  hideFromFront,
 }) => {
   return (
-    <InfoCard image={patternArt.childImageSharp.fluid}>
+    <InfoCard image={patternArt.childImageSharp.fluid} link={link}>
       <InfoCardRight>
-        <h2>{`The ${title}`}</h2>
+        <Link to={link}>
+          <h2>
+            {!hideFromFront && 'The'} {` ${title}`}
+          </h2>
+        </Link>
         {meetsGuidelines && <h3>MEETS CDC GUIDELINES</h3>}
         {noSewingMachine && <h3>NO SEWING MACHINE REQUIRED</h3>}
         {!forDonations && <h3>NOT FOR DONATION - HOME USE ONLY</h3>}
@@ -57,8 +55,7 @@ const Patterns = ({ patterns }) => {
 };
 
 const PatternsPage = ({ title, data }) => {
-  const PageContent = HTMLContent;
-  const { pageContent, patterns } = data;
+  const { patterns } = data;
   console.log('patterns:', patterns);
 
   return (
@@ -131,8 +128,8 @@ export const patternPageQuery = graphql`
             meetsGuidelines
             forDonations
             noSewingMachine
+            hideFromFront
             date(formatString: "MMMM DD, YYYY")
-            featuredpost
             patternArt {
               childImageSharp {
                 fluid(maxWidth: 300, quality: 100) {

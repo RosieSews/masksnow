@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import { PDFObject } from 'react-pdfobject';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 // import PATTERN from "../img/MasksNOW-Mask-Pattern-MasksNOW-Mask-Pattern-Packet-by-Created-for-Crisis.png";

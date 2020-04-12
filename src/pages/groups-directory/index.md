@@ -7,6 +7,8 @@ title: State/Regional Facebook Group Directory
 
 **Find your local #MasksNOW chapter**
 
+**UNITED STATES**
+
 * [Alabama](https://www.facebook.com/groups/1264062603796986/) | State Lead: [Andrea](mailto:Andrea@masksnow.org)
 
   * Alabama (Huntsville) | Regional Lead: [Ashley](mailto:ashley.e.mcclellan@gmail.com)
@@ -118,5 +120,11 @@ title: State/Regional Facebook Group Directory
   * Washington (Seattle) | Regional Lead: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mikaela.becker@gmail.com)
+
+
+
+**CANADA**
+
+* Ontario | Provincial Lead: [Laurie](mailto:laurieshute@rogers.com)
 
 If you do not see your state/region listed, email [astrid@masksnow.org](mailto:astrid@masksnow.org) to start a chapter!

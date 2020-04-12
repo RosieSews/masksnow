@@ -2,16 +2,19 @@
 path: /patterns/t-shirt-mask
 templateKey: patterns
 title: T-Shirt Mask
+alternateTitle: T-Shirt Face Mask
 description: >-
   Created for Crisis presents an improvised pattern for you to use to make a
   quick mask with readily available supplies.
 patternArt: /img/pattern-art/pattern-tshirt-mask-01.png
+patternFile: /img/cfc-tshirt-mask-4-8.pdf
 meetsGuidelines: true
 forDonations: false
 noSewingMachine: true
 tags:
   - improvised
 order: 4
+hideFromFront: false
 ---
 
 <h2 style="color:#b03619">ATTENTION</h2>
@@ -20,7 +23,7 @@ order: 4
 
 Download Created for Crisis T-shirt Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
 
-### [Download T-shirt Mask Pattern (updated: 4-10)](https://masksnow.org/docs/CFC_Tshirt_Mask_4_8.pdf)
+### [Download T-shirt Mask Pattern (updated: 4-10)](https://masksnow.org/img/cfc-tshirt-mask-4-8.pdf)
 
 ## T-Shirt Mask How-to Video
 
