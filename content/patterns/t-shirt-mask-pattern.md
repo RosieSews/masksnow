@@ -14,6 +14,7 @@ noSewingMachine: true
 tags:
   - improvised
 order: 4
+hideFromFront: false
 ---
 
 <h2 style="color:#b03619">ATTENTION</h2>
@@ -22,7 +23,7 @@ order: 4
 
 Download Created for Crisis T-shirt Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
 
-### [Download T-shirt Mask Pattern (updated: 4-10)](https://masksnow.org/docs/CFC_Tshirt_Mask_4_8.pdf)
+### [Download T-shirt Mask Pattern (updated: 4-10)](https://masksnow.org/img/cfc-tshirt-mask-4-8.pdf)
 
 ## T-Shirt Mask How-to Video
 
