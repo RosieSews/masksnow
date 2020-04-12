@@ -13,9 +13,10 @@ noSewingMachine: false
 tags:
   - mask cover
 order: 3
+hideFromFront: false
 ---
 
-### [Download Mask Cover Pattern (updated: 4-10)](https://masksnow.org/docs/CFCMask_cover_4_7.pdf)
+### [Download Mask Cover Pattern (updated: 4-10)](https://masksnow.org/img/cfcmask-cover-4-7.pdf)
 
 ## Mask Cover How-to Video
 `youtube:https://www.youtube.com/embed/Dp1SUhPCM6M`
