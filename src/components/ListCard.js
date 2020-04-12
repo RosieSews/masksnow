@@ -8,7 +8,7 @@ export const InfoCardWrapper = styled.div`
   color: #16356f;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
   align-items: center;
   font-family: 'Oswald', sans-serif;
@@ -40,6 +40,7 @@ export const InfoCardRight = styled.div`
 export const InfoCardLink = styled(Link)`
   margin: 0.5em 0 0 0.5em;
   font-size: 1.5em;
+  text-transform: uppercase;
   &:hover {
     color: #1d72aa;
     text-decoration: underline;
@@ -55,6 +56,7 @@ export const InfoCardLink = styled(Link)`
 export const InfoCardAnchor = styled.a`
   margin: 0.5em 0 0 0.5em;
   font-size: 1.5em;
+  text-transform: uppercase;
   &:hover {
     color: #1d72aa;
     text-decoration: underline;
@@ -85,18 +87,33 @@ export const StyledLink = styled(Link)`
   }
 `;
 
-export const InfoCard = ({ image, children }) => {
+export const InfoCard = ({ image, link, children }) => {
   return (
     <InfoCardWrapper>
-      <Img
-        fluid={image}
-        alt="#MasksNOW logo"
-        style={{
-          objectFit: 'contain',
-          margin: '0 auto',
-          width: image.presentationWidth,
-        }}
-      />
+      {link ? (
+        <Link to={link}>
+          <Img
+            fluid={image}
+            alt="#MasksNOW logo"
+            style={{
+              objectFit: 'contain',
+              margin: '0 auto',
+              width: image.presentationWidth,
+            }}
+          />
+        </Link>
+      ) : (
+        <Img
+          fluid={image}
+          alt="#MasksNOW logo"
+          style={{
+            objectFit: 'contain',
+            margin: '0 auto',
+            width: image.presentationWidth,
+          }}
+        />
+      )}
+
       {children}
     </InfoCardWrapper>
   );

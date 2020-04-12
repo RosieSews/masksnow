@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../../components/Layout';
 import {
   InfoCard,
@@ -19,9 +19,11 @@ const Pattern = ({
   patternArt,
 }) => {
   return (
-    <InfoCard image={patternArt.childImageSharp.fluid}>
+    <InfoCard image={patternArt.childImageSharp.fluid} link={link}>
       <InfoCardRight>
-        <h2>{`The ${title}`}</h2>
+        <Link to={link}>
+          <h2>{`The ${title}`}</h2>
+        </Link>
         {meetsGuidelines && <h3>MEETS CDC GUIDELINES</h3>}
         {noSewingMachine && <h3>NO SEWING MACHINE REQUIRED</h3>}
         {!forDonations && <h3>NOT FOR DONATION - HOME USE ONLY</h3>}
