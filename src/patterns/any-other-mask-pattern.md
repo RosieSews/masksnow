@@ -1,6 +1,6 @@
 ---
 templateKey: patterns
-title: Any Other Mask pattern
+title: Any Other Mask Pattern
 description: >-
   Sometimes organizations request a specific pattern that they provide. Outside
   of those requests, you are welcome to use any pattern even if it's not a
