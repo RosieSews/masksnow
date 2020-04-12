@@ -63,7 +63,9 @@ const InfographicPage = () => {
               meetsGuidelines
               forDonations
               noSewingMachine
-              patternFile
+              patternFile {
+                publicURL
+              }
               alternateTitle
               date(formatString: "MMMM DD, YYYY")
               featuredpost
@@ -104,23 +106,27 @@ const InfographicPage = () => {
           <AdditionalInfoText hasLeftSpacing>
             (or use any pattern of your choosing)
           </AdditionalInfoText>
-          {patterns.edges.map(pattern => (
-            <>
-              <InfoCardAnchor href={pattern.node.frontmatter.patternFile}>
-                {pattern.node.frontmatter.alternateTitle}
-              </InfoCardAnchor>
-              {!pattern.node.frontmatter.forDonations && (
-                <WarningText>*PERSONAL USE ONLY</WarningText>
-              )}
-            </>
-          ))}
+          {patterns.edges.map(pattern => {
+            return (
+              <React.Fragment key={pattern.node.frontmatter.title}>
+                <InfoCardAnchor
+                  href={pattern.node.frontmatter.patternFile.publicURL}
+                >
+                  {pattern.node.frontmatter.alternateTitle}
+                </InfoCardAnchor>
+                {!pattern.node.frontmatter.forDonations && (
+                  <WarningText>*PERSONAL USE ONLY</WarningText>
+                )}
+              </React.Fragment>
+            );
+          })}
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.clippers.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Make Masks!</h2>
           {patterns.edges.map(pattern => (
-            <>
+            <React.Fragment key={pattern.node.frontmatter.title}>
               <InfoCardLink to={`/patterns${pattern.node.fields.slug}`}>
                 {`WATCH ${pattern.node.frontmatter.alternateTitle} VIDEO`}
               </InfoCardLink>
@@ -128,7 +134,7 @@ const InfographicPage = () => {
               {!pattern.node.frontmatter.forDonations && (
                 <WarningText>*PERSONAL USE ONLY</WarningText>
               )}
-            </>
+            </React.Fragment>
           ))}
         </InfoCardRight>
       </InfoCard>

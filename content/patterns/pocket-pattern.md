@@ -4,7 +4,7 @@ path: /patterns/pocket
 title: Pocket Mask
 alternateTitle: Pocket Face Mask
 patternArt: /img/pattern-art/pattern-pocket-mask-01.png
-patternFile: /docs/CFC_Pocket_Mask_3_28.pdf
+patternFile: /img/cfc-pocket-mask-3-28.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
