@@ -62,7 +62,7 @@ title: State/Regional Facebook Group Directory
 * [Kansas](https://www.facebook.com/groups/521675518530089/) | State Lead: [Megan](mailto:megan.kansas@masksnow.org)
 
   * [Kansas (Kansas City Metro)](https://www.facebook.com/groups/515249406050591/) | Regional Leads: [Mia](mailto:Miarichardson@masksnow.org), [Rebekah](mailto:rebekahbuckner@yahoo.com)
-* Kentucky | State Leads: [Susannah](mailto:susannah.stitzer@gmail.com), [Teresa](mailto:iamtbeck@gmail.com)
+* [Kentucky](https://www.facebook.com/groups/MasksNOWKentucky/) | State Leads: [Susannah](mailto:susannah.stitzer@gmail.com), [Teresa](mailto:iamtbeck@gmail.com)
 * [Louisiana](https://www.facebook.com/groups/2271963943110602/?ref=share) | State Lead: [Meshelle](mailto:mshlljnsn@yahoo.com)
 * [Maryland](https://www.facebook.com/groups/520641302223494/) | State Lead: [Jamie](mailto:masksnowmaryland@gmail.com)
 * [Massachusetts](https://www.facebook.com/groups/2620127964977639/) | State Leads: [Isabel](mailto:isabel_hessler@emerson.edu), [Kathryn](mailto:kathryn_smith3@emerson.edu)
