@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 import styled from 'styled-components';
 import headerBackground from '../img/header-bg.png';
 import maskNowImg from '../img/header-masksnow.png';
+import { NavLink } from '../components/StyledElements/NavItem';
 
 const HamburgerLine = () => {
   return <span />;
@@ -50,18 +51,18 @@ const Navbar = () => {
 
   const navbar = (
     <div className="navbar-start has-text-centered">
-      <Link className="navbar-item" to="/volunteer">
+      <NavLink to="/volunteer" activeClassName={'active'}>
         Volunteer
-      </Link>
-      <Link className="navbar-item" to="/patterns">
+      </NavLink>
+      <NavLink to="/patterns" activeClassName={'active'}>
         Patterns
-      </Link>
-      <Link className="navbar-item" to="/psa">
+      </NavLink>
+      <NavLink to="/psa" activeClassName={'active'}>
         PSAs
-      </Link>
-      <Link className="navbar-item" to="/faq">
+      </NavLink>
+      <NavLink to="/faq" activeClassName={'active'}>
         FAQs
-      </Link>
+      </NavLink>
     </div>
   );
   return (
