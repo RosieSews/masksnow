@@ -16,7 +16,6 @@ order: 3
 hideFromFront: false
 ---
 
-### [Download Mask Cover Pattern (updated: 4-10)](https://masksnow.org/img/cfcmask-cover-4-7.pdf)
 
-## Mask Cover How-to Video
+## WATCH THE TUTORIAL VIDEO
 `youtube:https://www.youtube.com/embed/Dp1SUhPCM6M`
