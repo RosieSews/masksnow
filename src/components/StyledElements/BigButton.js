@@ -7,8 +7,8 @@ export const BigButton = styled(Link)`
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-align: center;
-  margin: 0 1em 1em;
-  min-width: 350px;
+  margin: 0 0 1em 0.5em;
+  min-width: 300px;
   padding: 8px 32px;
   white-space: nowrap;
 

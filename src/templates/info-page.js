@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import { PatternSection } from './patterns';
 
 export const PageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -12,12 +13,12 @@ export const PageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
+            <PatternSection>
               <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h1>
               <PageContent className="content" content={content} />
-            </div>
+            </PatternSection>
           </div>
         </div>
       </div>

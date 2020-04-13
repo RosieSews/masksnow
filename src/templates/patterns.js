@@ -2,30 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import { DownloadIcon, TextLink } from '../components/ListCard';
 
 const PatternTitle = styled.h1`
-  //color: #16356f;
   font-size: 3em;
   font-weight: bold;
 `;
 
-const PatternSection = styled.section`
+export const PatternSection = styled.section`
+  max-width: 900px;
   color: #16356f !important;
-  h1 h2 h3 h4 h5 h6 {
-    color: red !important;
-  }
+  margin: auto;
 `;
-// import PATTERN from "../img/MasksNOW-Mask-Pattern-MasksNOW-Mask-Pattern-Packet-by-Created-for-Crisis.png";
 export const PatternsTemplate = ({
   title,
   content,
   contentComponent,
   patternFile,
-  alternateTitle,
   patternArt,
   hideFromFront,
   updatedDate,
@@ -36,16 +31,15 @@ export const PatternsTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            {patternFile && (
-              <DownloadIcon
-                image={patternArt.childImageSharp.fluid}
-                file={patternFile.publicURL}
-              >
-                {`${title} Pattern`}
-              </DownloadIcon>
-            )}
-
             <PatternSection>
+              {patternFile && (
+                <DownloadIcon
+                  image={patternArt.childImageSharp.fluid}
+                  file={patternFile.publicURL}
+                >
+                  {`${title} Pattern`}
+                </DownloadIcon>
+              )}
               <PatternTitle>
                 {!hideFromFront && 'The'} {` ${title}`}
               </PatternTitle>

@@ -16,6 +16,16 @@ order: 3
 hideFromFront: false
 ---
 
+The Mask Cover Pattern Packet includes:
+- Introduction with supplies list
+- Written Directions
+- Tips
+- Illustrated Guide
+- Mask Pattern
+- Pleat Guide
+- Ties Pattern
+- Process Guide
+- Packing Slip
 
 ## WATCH THE TUTORIAL VIDEO
 `youtube:https://www.youtube.com/embed/Dp1SUhPCM6M`

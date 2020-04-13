@@ -7,6 +7,10 @@ import Content, { HTMLContent } from '../components/Content';
 import InfographicPage from '../pages/infographic-page';
 import { bpMaxMD } from '../lib/breakpoints';
 import { BigButton } from '../components/StyledElements/BigButton';
+import {
+  PatternSection,
+  CenteredSection,
+} from '../components/StyledElements/Sections';
 
 const HeroQuestion = styled.div`
   color: rgb(14, 61, 119);
@@ -15,7 +19,7 @@ const HeroQuestion = styled.div`
   font-weight: bold;
   text-align: right;
   padding: 4px;
-  min-width: 340px;
+  min-width: 100px;
   margin: 0 0 1em;
   ${bpMaxMD} {
     display: none;
@@ -27,30 +31,32 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section section--gradient">
-      <div className="centered">
-        <HeroQuestion>I want to...</HeroQuestion>
-        <BigButton to="/volunteer">Volunteer</BigButton>
-        <BigButton to={'/request-supplies'}>Get Masks</BigButton>
-      </div>
       <div className="container">
         <div className="columns main-page-columns">
           <div className="column is-10 is-offset-1">
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                margin: '1em 0',
-              }}
-            >
-              <InfographicPage />
-            </div>
-            <div className="section">
+            <PatternSection>
+              <CenteredSection>
+                <HeroQuestion>I want to...</HeroQuestion>
+                <BigButton to="/volunteer">Volunteer</BigButton>
+                <BigButton to={'/request-supplies'}>Get Masks</BigButton>
+              </CenteredSection>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  margin: '1em 0',
+                }}
+              >
+                <InfographicPage />
+              </div>
+              {/*<div className="section">*/}
               <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h1>
               <PageContent className="content" content={content} />
-            </div>
+              {/*</div>*/}
+            </PatternSection>
           </div>
         </div>
       </div>
