@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-import { TextLink } from '../components/ListCard';
+import { DownloadIcon, TextLink } from '../components/ListCard';
 
 const PatternTitle = styled.h1`
   //color: #16356f;
@@ -35,14 +36,25 @@ export const PatternsTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+            {patternFile && (
+              <DownloadIcon
+                image={patternArt.childImageSharp.fluid}
+                file={patternFile.publicURL}
+              >
+                {`${title} Pattern`}
+              </DownloadIcon>
+            )}
+
             <PatternSection>
               <PatternTitle>
                 {!hideFromFront && 'The'} {` ${title}`}
               </PatternTitle>
-              <TextLink href={patternFile.publicURL}>
-                {`DOWNLOAD ${title} PATTERN`}{' '}
-                {updatedDate && `(updated:${updatedDate})`}
-              </TextLink>
+              {patternFile && (
+                <TextLink href={patternFile.publicURL}>
+                  {`DOWNLOAD ${title} PATTERN`}{' '}
+                  {updatedDate && `(updated:${updatedDate})`}
+                </TextLink>
+              )}
               <PageContent className="content" content={content} />
             </PatternSection>
           </div>
