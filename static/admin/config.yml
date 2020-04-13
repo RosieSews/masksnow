@@ -38,13 +38,14 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Description (shown as detail text on patterns page)", name: "description", widget: "text"}
       - {label: "Pattern Art Image", name: "patternArt", widget: image}
-      - {label: "Pattern PDF File", name: "patternFile", widget: file}
+      - {label: "Pattern PDF File", name: "patternFile", widget: file, default: "/img/pattern-any-pattern-01.png"}
       - {label: "Meets Guidelines", name: "meetsGuidelines", default: true, widget: "boolean"}
       - {label: "Can Be Used For Donations", name: "forDonations", default: true, widget: "boolean"}
       - {label: "No Sewing Machine Required", name: "noSewingMachine", default: false, widget: "boolean"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Order listed", name: "order", widget: "number"}
       - {label: "Hide From Infographic Front Page List", name: "hideFromFront", widget: "boolean", default: false}
+      - - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
   - name: "pages"
     label: "Pages"
     files:

@@ -18,7 +18,18 @@ order: 1
 hideFromFront: false
 ---
 
-### [Download 3-Layer Mask Pattern (updated: 4-10)](https://masksnow.org/img/masksnow-cfcmask-410.pdf)
 
-## 3-Layer Mask (Large) How-to Video
+The 3-Layer Mask Pattern Packet includes:
+- Introduction with supplies list
+- Written Directions
+- Tips
+- Illustrated Guide
+- Mask Pattern
+- Pleat Guide
+- Ties Pattern
+- Process Guide
+- Packing Slip
+
+## WATCH THE TUTORIAL VIDEO
+Special thanks to Professor Pincushion for a fantastic video!
 `youtube:https://www.youtube.com/embed/J0HnaWUIyzg`

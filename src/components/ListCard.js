@@ -150,3 +150,34 @@ export const InfoBannerWrapper = styled.div`
 export const InfographicBanner = ({ children }) => {
   return <InfoBannerWrapper>{children}</InfoBannerWrapper>;
 };
+
+export const DownloadCardWrapper = styled.div`
+  color: #16356f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  max-width: 200px;
+  flex-wrap: wrap;
+  margin: 0.5em;
+  padding: 1em;
+`;
+
+export const DownloadIcon = ({ image, file, children }) => {
+  return (
+    <DownloadCardWrapper>
+      <Img
+        fluid={image}
+        alt="#MasksNOW logo"
+        style={{
+          objectFit: 'contain',
+          margin: '0 auto',
+          width: image.presentationWidth,
+        }}
+      />
+      <a href={file}>
+        <h2>{children}</h2>
+      </a>
+    </DownloadCardWrapper>
+  );
+};

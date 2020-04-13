@@ -17,10 +17,18 @@ tags:
 order: 2
 hideFromFront: false
 ---
-Download Created for Crisis Pocket Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
 
-### [Download Pocket Mask Pattern](https://masksnow.org/img/masksnow-cfcpocket-3-29.pdf)
+The Pocket Mask Pattern Packet includes:
+- Introduction with supplies list
+- Written Directions
+- Tips
+- Illustrated Guide
+- Mask Pattern
+- Pleat Guide
+- Ties Pattern
+- Process Guide
+- Packing Slip
 
-## Pocket Mask How-to Video
+## WATCH THE TUTORIAL VIDEO
 
 `youtube:https://www.youtube.com/embed/6NI8W5N06xo`
