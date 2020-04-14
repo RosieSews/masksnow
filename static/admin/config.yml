@@ -46,8 +46,8 @@ collections:
       - {label: "Order listed", name: "order", widget: "number"}
       - {label: "Hide From Infographic Front Page List", name: "hideFromFront", widget: "boolean", default: false}
       - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
-  - name: "pages"
-    label: "Pages"
+  - name: "landingPages"
+    label: "Landing Pages"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -57,52 +57,11 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Use Infographic HomePage", name: "infographicHomepage", widget: "boolean"}
-      - file: "src/pages/request-supplies/index.md"
-        label: "Request Masks"
-        name: "request-supplies"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/groups-directory/index.md"
-        label: "Groups Directory"
-        name: "groups-directory"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/volunteer/index.md"
-        label: "Volunteer"
-        name: "volunteer"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/faq/index.md"
-        label: "Faq"
-        name: "faq"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/contact/index.md"
-        label: "Contact"
-        name: "contact"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/psa/index.md"
-        label: "Psa"
-        name: "psa"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/about-us/index.md"
-        label: "About Us"
-        name: "about-us"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
