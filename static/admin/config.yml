@@ -47,16 +47,16 @@ collections:
       - {label: "Hide From Infographic Front Page List", name: "hideFromFront", widget: "boolean", default: false}
       - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
   - name: "landingPages"
-      label: "Landing Pages"
-      files:
-        - file: "src/pages/index.md"
-          label: "Landing Page"
-          name: "index"
-          fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Body", name: "body", widget: "markdown"}
-            - {label: "Use Infographic HomePage", name: "infographicHomepage", widget: "boolean"}
+    label: "Landing Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Use Infographic HomePage", name: "infographicHomepage", widget: "boolean"}
   - name: "pages"
     label: "Pages"
     folder: "content/pages"
