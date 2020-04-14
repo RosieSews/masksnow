@@ -1,14 +1,14 @@
 ---
 path: /patterns/3-layer
 templateKey: patterns
-title: 3-Layer Mask (updated 4-10)
+title: 3-Layer Mask (updated 4-14)
 alternateTitle: 3-Layer Mask
 description: >-
   Developed by Created for Crisis, this mask works almost as hard as our medical
   professionals. This pattern features a middle layer of non-woven material
   between two layers of cotton.
 patternArt: /img/pattern-art/pattern-3-layer-mask-01.png
-patternFile: /img/masksnow-cfcmask-410.pdf
+patternFile: /img/masksnow-cfcmask-413.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
