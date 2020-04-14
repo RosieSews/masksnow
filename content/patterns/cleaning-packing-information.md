@@ -1,7 +1,7 @@
 ---
 templateKey: patterns
-title: Cleaning & Packing Information
-alternateTitle: Cleaning & Packing Info
+title: Cleaning & Packing Guide
+alternateTitle: Cleaning & Packing Guide
 description: >-
   Download our Process Guide, which provides cleaning and packing guidelines, as
   well as a handy packing slip to let the recipient know exactly what the
@@ -9,7 +9,7 @@ description: >-
 patternArt: /img/cleaning-packing.png
 patternFile: /img/masksnow-cfc-cleaning-packing-413.pdf
 meetsGuidelines: false
-forDonations: false
+forDonations: true
 noSewingMachine: false
 tags:
   - cleaning packing
