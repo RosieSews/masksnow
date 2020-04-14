@@ -1,12 +1,12 @@
 ---
 templateKey: patterns
 title: Mask Cover
-alternateTitle: Mask Cover *NEW*
+alternateTitle: Mask Cover
 description: >-
   In an effort to help prolong the life of manufactured masks, the mask cover by
   Created for Crisis is being requested by staff across the United States.
 patternArt: /img/pattern-mask-cover-01.png
-patternFile: /img/cfcmask-cover-4-7.pdf
+patternFile: /img/masksnow-cfccover-413.pdf
 meetsGuidelines: false
 forDonations: true
 noSewingMachine: false
@@ -14,6 +14,7 @@ tags:
   - mask cover
 order: 3
 hideFromFront: false
+updatedDate: 2020-04-14T08:43:32.671Z
 ---
 
 The Mask Cover Pattern Packet includes:
