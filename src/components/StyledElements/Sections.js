@@ -9,12 +9,13 @@ export const PatternSection = styled.section`
 `;
 
 export const CenteredSection = styled.section`
-  max-width: 900px;
+  max-width: ${({ maxWidth }) => maxWidth || '900px'};
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0 auto;
   ${bpMaxMD} {
     justify-content: center;
   }

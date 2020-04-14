@@ -6,6 +6,10 @@ import styled from 'styled-components';
 import Content, { HTMLContent } from '../components/Content';
 import InfographicPage from '../pages/infographic-page';
 import { bpMaxMD } from '../lib/breakpoints';
+import {
+  CenteredSection,
+  PatternSection,
+} from '../components/StyledElements/Sections';
 import { BigButton } from '../components/StyledElements/BigButton';
 
 const HeroQuestion = styled.div`
@@ -15,7 +19,7 @@ const HeroQuestion = styled.div`
   font-weight: bold;
   text-align: right;
   padding: 4px;
-  min-width: 340px;
+  min-width: 100px;
   margin: 0 0 1em;
   ${bpMaxMD} {
     display: none;
@@ -27,11 +31,11 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section section--gradient">
-      <div className="centered">
+      <CenteredSection maxWidth={'800px'}>
         <HeroQuestion>I want to...</HeroQuestion>
         <BigButton to="/volunteer">Volunteer</BigButton>
         <BigButton to={'/request-supplies'}>Get Masks</BigButton>
-      </div>
+      </CenteredSection>
       <div className="container">
         <div className="columns main-page-columns">
           <div className="column is-10 is-offset-1">
