@@ -20,7 +20,6 @@ updatedDate: 2020-04-14T08:07:47.659Z
 This handy Process Guide includes:
 
 * Cleaning Guidelines
-
   * For everyone
   * For makers
   * For collection sites
