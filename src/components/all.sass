@@ -172,7 +172,7 @@ a:hover
   color: white
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .title
-  color: black
+  color: #16356f
 
 .navbar-item
   font-family: 'Oswald', sans-serif
@@ -207,9 +207,11 @@ a:hover
   height: 74px
   z-index: 10  // nav bar menu needs to appear over banner.
 
-.header-container
+.header-container 
   flex-direction: column
   display: flex
+  position: relative
+  right: 20px
 
 .call-to-action
   display: flex
@@ -290,7 +292,7 @@ footer.footer a
     max-width: 70%;
     margin: 0 0 1em;
   .header-logo-banner
-    width: auto;
+    width: 100%;
     display: block;
   .header-logo
     display: none !important
@@ -301,6 +303,8 @@ footer.footer a
   .main-page-columns
     display: flex
     flex-direction: column-reverse
+  .section
+    padding: 0.5em
 
 .mobile-navbar
   position: fixed

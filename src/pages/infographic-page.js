@@ -142,8 +142,7 @@ const InfographicPage = () => {
         <InfoCardRight>
           <h2>Donate Masks</h2>
           <StyledLink to={'/groups-directory'}>
-            {`YOUR STATE LEAD WILL EMAIL YOU WITH`}
-            <br />
+            {`YOUR STATE LEAD WILL EMAIL YOU WITH`}{' '}
             {`DIRECTIONS ABOUT HOW & WHERE`}
           </StyledLink>
           <TextLink

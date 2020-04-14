@@ -8,7 +8,7 @@ description: >-
   solution! The two layers of cotton open in the back to accommodate an insert
   (provided by mask-wearer).
 patternArt: /img/pattern-art/pattern-pocket-mask-01.png
-patternFile: /img/masksnow-cfcpocket-3-29.pdf
+patternFile: /img/masksnow-cfcpocket-413.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
@@ -16,12 +16,20 @@ tags:
   - pocket-mask
 order: 2
 hideFromFront: false
+updatedDate: 2020-04-14T08:45:56.190Z
 ---
 
-Download Created for Crisis Pocket Mask Pattern Packet which includes instructions, pattern, tips, materials guide, process guide and packing sheet.
+The Pocket Mask Pattern Packet includes:
+- Introduction with supplies list
+- Written Directions
+- Tips
+- Illustrated Guide
+- Mask Pattern
+- Pleat Guide
+- Ties Pattern
+- Process Guide
+- Packing Slip
 
-### [Download Pocket Mask Pattern](https://masksnow.org/img/cfc-pocket-mask-3-29.pdf)
-
-## Pocket Mask How-to Video
+## WATCH THE TUTORIAL VIDEO
 
 `youtube:https://www.youtube.com/embed/6NI8W5N06xo`

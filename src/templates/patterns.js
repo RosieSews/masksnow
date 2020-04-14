@@ -1,23 +1,56 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import styled from 'styled-components';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-// import PATTERN from "../img/MasksNOW-Mask-Pattern-MasksNOW-Mask-Pattern-Packet-by-Created-for-Crisis.png";
-export const PatternsTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
+import { DownloadIcon, TextLink } from '../components/ListCard';
 
+const PatternTitle = styled.h1`
+  font-size: 3em;
+  font-weight: bold;
+`;
+
+export const PatternSection = styled.section`
+  max-width: 900px;
+  color: #16356f !important;
+  margin: auto;
+`;
+export const PatternsTemplate = ({
+  title,
+  content,
+  contentComponent,
+  patternFile,
+  patternArt,
+  hideFromFront,
+  updatedDate,
+}) => {
+  const PageContent = contentComponent || Content;
   return (
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h1>
+            <PatternSection>
+              {patternFile && (
+                <DownloadIcon
+                  image={patternArt.childImageSharp.fluid}
+                  file={patternFile.publicURL}
+                >
+                  {`${title} Pattern`}
+                </DownloadIcon>
+              )}
+              <PatternTitle>
+                {!hideFromFront && 'The'} {` ${title}`}
+              </PatternTitle>
+              {patternFile && (
+                <TextLink href={patternFile.publicURL}>
+                  {`DOWNLOAD ${title} PATTERN`}{' '}
+                  {updatedDate && `(updated:${updatedDate})`}
+                </TextLink>
+              )}
               <PageContent className="content" content={content} />
-            </div>
+            </PatternSection>
           </div>
         </div>
       </div>
@@ -38,7 +71,7 @@ const Patterns = ({ data }) => {
     <Layout>
       <PatternsTemplate
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
+        {...post.frontmatter}
         content={post.html}
       />
     </Layout>
@@ -57,6 +90,23 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        description
+        meetsGuidelines
+        forDonations
+        noSewingMachine
+        hideFromFront
+        updatedDate(formatString: "MMMM DD, YYYY")
+        patternFile {
+          publicURL
+        }
+        patternArt {
+          childImageSharp {
+            fluid(maxWidth: 300, quality: 100) {
+              ...GatsbyImageSharpFluid
+              presentationWidth
+            }
+          }
+        }
       }
     }
   }

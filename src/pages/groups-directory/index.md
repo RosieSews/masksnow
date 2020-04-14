@@ -62,7 +62,7 @@ title: State/Regional Facebook Group Directory
 * [Kansas](https://www.facebook.com/groups/521675518530089/) | State Lead: [Megan](mailto:megan.kansas@masksnow.org)
 
   * [Kansas (Kansas City Metro)](https://www.facebook.com/groups/515249406050591/) | Regional Leads: [Mia](mailto:Miarichardson@masksnow.org), [Rebekah](mailto:rebekahbuckner@yahoo.com)
-* Kentucky | State Leads: [Susannah](mailto:susannah.stitzer@gmail.com), [Teresa](mailto:iamtbeck@gmail.com)
+* [Kentucky](https://www.facebook.com/groups/MasksNOWKentucky/) | State Leads: [Susannah](mailto:susannah.stitzer@gmail.com), [Teresa](mailto:iamtbeck@gmail.com)
 * [Louisiana](https://www.facebook.com/groups/2271963943110602/?ref=share) | State Lead: [Meshelle](mailto:mshlljnsn@yahoo.com)
 * [Maryland](https://www.facebook.com/groups/520641302223494/) | State Lead: [Jamie](mailto:masksnowmaryland@gmail.com)
 * [Massachusetts](https://www.facebook.com/groups/2620127964977639/) | State Leads: [Isabel](mailto:isabel_hessler@emerson.edu), [Kathryn](mailto:kathryn_smith3@emerson.edu)
@@ -111,6 +111,7 @@ title: State/Regional Facebook Group Directory
   * [Texas (Dallas)](https://www.facebook.com/groups/MasksNowDallasTX/) | Regional Lead: [Vanessa](mailto:vlynnesmith59@gmail.com)
   * [Texas (Houston metro)](https://www.facebook.com/groups/597450300982941/) | Regional Lead: [Janet](mailto:gatormom04@hotmail.com)
   * [Texas (San Antonio)](https://www.facebook.com/groups/MasksNowSanAntonioTexas/) | Regional Lead: [Lucas](mailto:lsevedge@gmail.com)
+* [Utah ](https://www.facebook.com/groups/masksNOWutah/)| State Lead: [Katie](mailto:57mamatee@gmail.com)
 * [Virginia](https://www.facebook.com/groups/860457351144099/) | State Leads: [Amelia](mailto:favere@gmail.com), [Ahmed](mailto:ahmed.elzamzami.17@cnu.edu), [Amanda](mailto:amandamsunde@gmail.com)
 
   * Virginia (Richmond) | Regional Lead: [Kevin](mailto:email@kevinblythe.com)
@@ -120,8 +121,6 @@ title: State/Regional Facebook Group Directory
   * Washington (Seattle) | Regional Lead: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mikaela.becker@gmail.com)
-
-
 
 **CANADA**
 

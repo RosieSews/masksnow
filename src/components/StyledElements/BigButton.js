@@ -7,13 +7,19 @@ export const BigButton = styled(Link)`
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-align: center;
-  margin: 0 1em 1em;
-  min-width: 350px;
+  margin: 0 0 1em 0.5em;
+  min-width: 250px;
   padding: 8px 32px;
   white-space: nowrap;
 
   background-color: rgb(234, 204, 98);
   &:hover {
     color: red;
+  }
+
+  @media only screen and (max-width: 400px) {
+    min-width: 100%;
+    padding: 0;
+    margin: 0.25em 0;
   }
 `;
