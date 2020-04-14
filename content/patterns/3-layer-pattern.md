@@ -1,8 +1,8 @@
 ---
 path: /patterns/3-layer
 templateKey: patterns
-title: 3-Layer Mask
-alternateTitle: 3-Layer Mask (updated 4-10)
+title: 3-Layer Mask (updated 4-10)
+alternateTitle: 3-Layer Mask
 description: >-
   Developed by Created for Crisis, this mask works almost as hard as our medical
   professionals. This pattern features a middle layer of non-woven material
@@ -16,6 +16,7 @@ tags:
   - 3-layer mask
 order: 1
 hideFromFront: false
+updatedDate: 2020-04-14T08:20:28.738Z
 ---
 
 
