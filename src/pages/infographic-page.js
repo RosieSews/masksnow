@@ -10,6 +10,7 @@ import {
   StyledLink,
   TextLink,
   WarningText,
+  AdditionalInfoText,
 } from '../components/ListCard';
 
 const InfographicPage = () => {
@@ -38,8 +39,51 @@ const InfographicPage = () => {
       ) {
         ...bannerImage150
       }
+      patterns: allMarkdownRemark(
+        sort: { order: ASC, fields: [frontmatter___order] }
+        filter: {
+          frontmatter: {
+            templateKey: { eq: "patterns" }
+            hideFromFront: { ne: true }
+          }
+          fields: { slug: { ne: "/" } }
+        }
+      ) {
+        edges {
+          node {
+            excerpt(pruneLength: 400)
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              templateKey
+              description
+              meetsGuidelines
+              forDonations
+              noSewingMachine
+              patternFile {
+                publicURL
+              }
+              alternateTitle
+              date(formatString: "MMMM DD, YYYY")
+              featuredpost
+              patternArt {
+                childImageSharp {
+                  fluid(maxWidth: 300, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                    presentationWidth
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   `);
+  const { patterns } = data;
   return (
     <>
       <InfoCard image={data.volunteer.childImageSharp.fluid}>
@@ -59,37 +103,39 @@ const InfographicPage = () => {
       <InfoCard image={data.pattern.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Get The Pattern</h2>
-          <InfoCardAnchor href={'/docs/CFCMask_3_27.pdf'}>
-            3-LAYER FACE MASK
-          </InfoCardAnchor>
-          <InfoCardAnchor href={'/docs/CFC_Pocket_Mask_3_28.pdf'}>
-            POCKET FACE MASK
-          </InfoCardAnchor>
-          <InfoCardAnchor href={'/docs/CFCMask_cover_4_7.pdf'}>
-            MASK COVER *NEW*
-          </InfoCardAnchor>
-          <InfoCardAnchor href={'/docs/CFC_Tshirt_Mask_4_8.pdf'}>
-            T-SHIRT FACE MASK
-          </InfoCardAnchor>
-          <WarningText>*PERSONAL USE ONLY</WarningText>
+          <AdditionalInfoText hasLeftSpacing>
+            (or use any pattern of your choosing)
+          </AdditionalInfoText>
+          {patterns.edges.map(pattern => {
+            return (
+              <React.Fragment key={pattern.node.frontmatter.title}>
+                <InfoCardAnchor
+                  href={pattern.node.frontmatter.patternFile.publicURL}
+                >
+                  {pattern.node.frontmatter.alternateTitle}
+                </InfoCardAnchor>
+                {!pattern.node.frontmatter.forDonations && (
+                  <WarningText>*PERSONAL USE ONLY</WarningText>
+                )}
+              </React.Fragment>
+            );
+          })}
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.clippers.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Make Masks!</h2>
-          <InfoCardLink to={'/patterns/3-layer-pattern'}>
-            WATCH 3-LAYER MASK VIDEO
-          </InfoCardLink>
-          <InfoCardLink to={'/patterns/pocket-pattern'}>
-            WATCH POCKET MASK VIDEO
-          </InfoCardLink>
-          <InfoCardLink to={'/patterns/mask-cover'}>
-            WATCH MASK COVER VIDEO *NEW*
-          </InfoCardLink>
-          <InfoCardLink to={'/patterns/t-shirt-mask-pattern'}>
-            WATCH T-SHIRT MASK VIDEO
-          </InfoCardLink>
-          <WarningText>*PERSONAL USE ONLY</WarningText>
+          {patterns.edges.map(pattern => (
+            <React.Fragment key={pattern.node.frontmatter.title}>
+              <InfoCardLink to={`/patterns${pattern.node.fields.slug}`}>
+                {`WATCH ${pattern.node.frontmatter.alternateTitle} VIDEO`}
+              </InfoCardLink>
+
+              {!pattern.node.frontmatter.forDonations && (
+                <WarningText>*PERSONAL USE ONLY</WarningText>
+              )}
+            </React.Fragment>
+          ))}
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.mask.childImageSharp.fluid}>
@@ -99,6 +145,15 @@ const InfographicPage = () => {
             {`YOUR STATE LEAD WILL EMAIL YOU WITH`}{' '}
             {`DIRECTIONS ABOUT HOW & WHERE`}
           </StyledLink>
+          <TextLink
+            href={
+              'https://rosiesews.freshdesk.com/support/solutions/articles/61000268414-can-i-use-a-different-pattern-than-what-you-provide-'
+            }
+          >
+            {`EVERY MASK MADE WILL BE DONATED`}
+            <br />
+            {`NO MATTER WHAT PATTERN YOU USE`}
+          </TextLink>
         </InfoCardRight>
       </InfoCard>
       <InfoCard image={data.question.childImageSharp.fluid}>
