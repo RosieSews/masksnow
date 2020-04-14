@@ -46,6 +46,20 @@ collections:
       - {label: "Order listed", name: "order", widget: "number"}
       - {label: "Hide From Infographic Front Page List", name: "hideFromFront", widget: "boolean", default: false}
       - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
+  - name: "resources"
+    label: "Downloadable Resources"
+    folder: "content/resources"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "patterns"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Description (shown as detail text on resources page)", name: "description", widget: "text"}
+      - {label: "Resource Art Image", name: "resourceArt", widget: image}
+      - {label: "Resource PDF File", name: "resourceFile", widget: file, default: "/img/cleaning-packing.png"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Order listed", name: "order", widget: "number"}
+      - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
   - name: "landingPages"
     label: "Landing Pages"
     files:

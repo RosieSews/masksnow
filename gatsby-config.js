@@ -52,6 +52,13 @@ module.exports = {
         name: 'patterns',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/resources`,
+        name: 'resources',
+      },
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
