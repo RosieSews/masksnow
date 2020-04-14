@@ -45,7 +45,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Order listed", name: "order", widget: "number"}
       - {label: "Hide From Infographic Front Page List", name: "hideFromFront", widget: "boolean", default: false}
-      - - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
+      - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
   - name: "pages"
     label: "Pages"
     files:
