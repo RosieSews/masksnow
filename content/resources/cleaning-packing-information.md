@@ -1,5 +1,5 @@
 ---
-templateKey: patterns
+templateKey: resources
 title: Cleaning & Packing Guide
 alternateTitle: Cleaning & Packing Guide
 description: >-
@@ -8,13 +8,9 @@ description: >-
   donated masks are made of. 
 patternArt: /img/cleaning-packing.png
 patternFile: /img/masksnow-cfc-cleaning-packing-413.pdf
-meetsGuidelines: false
-forDonations: true
-noSewingMachine: false
 tags:
   - cleaning packing
 order: 6
-hideFromFront: true
 updatedDate: 2020-04-14T08:07:47.659Z
 ---
 This handy Process Guide includes:

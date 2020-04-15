@@ -22,6 +22,5 @@ export const NavLink = styled(Link)`
   }
   &.active {
     color: ${styleVars.primary};
-    background: ${styleVars.primaryInvert};
   }
 `;
