@@ -28,6 +28,26 @@ exports.createPages = async ({ actions, graphql }) => {
           }
         }
       }
+      resources: allMarkdownRemark(
+        filter: {
+          fileAbsolutePath: { regex: "//content/resources//" }
+          fields: { slug: { ne: "/" } }
+        }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              tags
+              templateKey
+            }
+          }
+        }
+      }
       pages: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "//src/pages//" } }
         limit: 1000
@@ -69,12 +89,27 @@ exports.createPages = async ({ actions, graphql }) => {
     return Promise.reject(errors);
   }
 
-  const { pages, patterns, infoPages } = data;
+  const { pages, patterns, infoPages, resources } = data;
 
   patterns.edges.forEach(edge => {
     const id = edge.node.id;
     createPage({
       path: `/patterns${edge.node.fields.slug}`,
+      tags: edge.node.frontmatter.tags,
+      component: path.resolve(
+        `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+      ),
+      // additional data can be passed via context
+      context: {
+        id,
+      },
+    });
+  });
+
+  resources.edges.forEach(edge => {
+    const id = edge.node.id;
+    createPage({
+      path: `/resources${edge.node.fields.slug}`,
       tags: edge.node.frontmatter.tags,
       component: path.resolve(
         `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
