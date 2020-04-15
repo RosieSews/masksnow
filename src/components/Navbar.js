@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import headerBackground from '../img/header-bg.png';
 import maskNowImg from '../img/header-masksnow.png';
 import { NavLink } from '../components/StyledElements/NavItem';
+import DropdownNavItem from '../components/StyledElements/DropdownNavItem';
 
 const HamburgerLine = () => {
   return <span />;
@@ -54,15 +55,25 @@ const Navbar = () => {
       <NavLink to="/volunteer" activeClassName={'active'}>
         Volunteer
       </NavLink>
-      <NavLink to="/patterns" activeClassName={'active'}>
-        Patterns
-      </NavLink>
-      <NavLink to="/psa" activeClassName={'active'}>
-        PSAs
-      </NavLink>
+      <DropdownNavItem
+        title="Resources"
+        links={[
+          { text: 'Patterns', path: '/patterns' },
+          { text: 'State', path: '/' }, //TBD ?
+          { text: 'Knowledgebase', path: '/' }, //TBD ?
+        ]}
+      />
       <NavLink to="/faq" activeClassName={'active'}>
         FAQs
       </NavLink>
+      <DropdownNavItem
+        title="Media"
+        links={[
+          { text: 'PSAs', path: '/psa' },
+          { text: 'In the News', path: '/' }, //TBD ?
+          { text: 'Blog', path: '/' }, //TBD ?
+        ]}
+      />
     </div>
   );
   return (

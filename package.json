@@ -9,6 +9,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "@material-ui/core": "^4.9.10",
     "babel-plugin-styled-components": "^1.10.7",
     "bulma": "^0.8.0",
     "gatsby": "^2.13.31",
