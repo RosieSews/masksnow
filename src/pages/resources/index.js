@@ -39,7 +39,7 @@ const Resources = ({ resources }) => {
 
 const ResourcesPage = ({ title, data }) => {
   const { resources, pageContent } = data;
-
+  console.log('pageContent', pageContent);
   return (
     <Layout>
       <section className="section section--gradient">
