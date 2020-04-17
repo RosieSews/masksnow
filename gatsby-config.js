@@ -1,5 +1,9 @@
 const config = require('./config');
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
 
 module.exports = {
@@ -55,8 +59,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/resources`,
-        name: 'resources',
+        path: `${__dirname}/content/donate`,
+        name: 'donate',
       },
     },
     'gatsby-plugin-sharp',

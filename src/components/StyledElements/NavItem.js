@@ -1,7 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import { bpMaxMD } from '../../lib/breakpoints';
 
 export const NavLink = styled(Link)`
   max-height: 200px;
@@ -9,18 +7,19 @@ export const NavLink = styled(Link)`
   font-size: 1.5em;
   color: #fff;
   padding: 0.5rem 1rem;
+  border-radius: 5%;
   //margin: auto 0;
   text-align: center;
   transition: all 200ms ease-in-out;
   &:hover {
-    color: #16356f;
-    background: #fff;
+    color: ${({ theme }) => theme.colors.secondary};
+    background: ${({ theme }) => theme.colors.white};
   }
   &:active {
-    color: #b03619;
-    background: #fff;
+    color: ${({ theme }) => theme.colors.discord};
+    background: ${({ theme }) => theme.colors.white};
   }
   &.active {
-    color: #b03619;
+    color: ${({ theme }) => theme.colors.discord};
   }
 `;

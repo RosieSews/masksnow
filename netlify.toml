@@ -5,3 +5,10 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+
+[context.production.environment]
+  GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
+
+
+[context.deploy-preview.environment]
+  GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"

@@ -5,10 +5,12 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import './all.sass';
 import SEO from './SEO';
+import { ThemeProvider } from 'styled-components';
+import { theme, GlobalStyle } from '../styles/theme';
 
 const TemplateWrapper = ({ children }) => {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <SEO />
       <Helmet>
         <link
@@ -21,7 +23,7 @@ const TemplateWrapper = ({ children }) => {
       <Navbar />
       <div>{children}</div>
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 };
 

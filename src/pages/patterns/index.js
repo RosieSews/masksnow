@@ -56,7 +56,6 @@ const Patterns = ({ patterns }) => {
 
 const PatternsPage = ({ title, data }) => {
   const { patterns } = data;
-  console.log('patterns:', patterns);
 
   return (
     <Layout>

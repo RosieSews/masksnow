@@ -63,6 +63,9 @@ const Navbar = () => {
       <NavLink to="/faq" activeClassName={'active'}>
         FAQs
       </NavLink>
+      <NavLink to="/donate" activeClassName={'active'}>
+        Donate
+      </NavLink>
     </div>
   );
   return (

@@ -8,7 +8,7 @@ import {
   InfoCardRight,
   InfographicBanner,
 } from '../../components/ListCard';
-import PageContent, { HTMLContent } from '../../components/Content';
+import { HTMLContent } from '../../components/Content';
 
 const Resource = ({ title, description, link, patternArt }) => {
   return (
