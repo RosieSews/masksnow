@@ -10,7 +10,6 @@
   command = "npm run build:production"
   [context.production.environment]
     GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
-    GATSBY_DEPLOY_ENV = "production"
     GATSBY_ROSIE_ENV = "production"
 
 

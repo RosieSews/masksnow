@@ -66,6 +66,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "donate"}
           - {label: "Description (can be used for SEO/keyword work)", name: "description", widget: "text"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "subTitle (is the actual displayed title on the page)", name: "subTitle", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
   - name: "resources"

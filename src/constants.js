@@ -3,13 +3,12 @@ let API_PATH = process.env.GATSBY_EXPRESS_API_PATH;
 
 // let context = process.env.CONTEXT || 'development';
 // let netlify = process.env.NETLIFY || false;
-let GATSBY_DEPLOY_ENV = process.env.GATSBY_DEPLOY_ENV;
 let GATSBY_ROSIE_ENV = process.env.GATSBY_ROSIE_ENV;
 if (!GATSBY_ROSIE_ENV)
   throw new Error(
     `ROSIE_ENV not configured correctly, currently configured as: ${process.env.GATSBY_ROSIE_ENV}`
   );
-if (GATSBY_DEPLOY_ENV === 'production' || GATSBY_ROSIE_ENV === 'production') {
+if (GATSBY_ROSIE_ENV === 'production') {
   STRIPE_KEY = process.env.GATSBY_STRIPE_PUBLISHABLE_KEY_PROD;
 }
 
