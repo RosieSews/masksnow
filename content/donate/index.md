@@ -8,5 +8,5 @@ updatedDate: 2020-04-08
 ---
 
 
-Each $2 donated buys material to put one mask into the hands of healthcare workers & frontlines employees.
+$2 donated buys material to put one mask into the hands of healthcare workers & frontlines employees.
        

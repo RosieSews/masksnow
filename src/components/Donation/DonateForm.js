@@ -262,21 +262,21 @@ const FormContainer = () => {
                     placeholder="rosie@masksNOW.org"
                   />
                 </Cell>
-                <Cell>
-                  <TextInput
-                    label="Memo (optional)"
-                    name="memo"
-                    type="text"
-                    placeholder="credit to abc MasksNOW chapter"
-                    disclaimer={
-                      <DisclaimerText>
-                        If you want this donation credited to a specific
-                        masksnow chapter, name them below
-                      </DisclaimerText>
-                    }
-                  />
-                </Cell>
               </Grid>
+            </Row>
+            <Row>
+              <TextInput
+                label="Memo (optional)"
+                name="memo"
+                type="text"
+                placeholder="credit to abc MasksNOW chapter"
+                disclaimer={
+                  <DisclaimerText>
+                    If you want this donation credited to a specific masksnow
+                    chapter, name them below
+                  </DisclaimerText>
+                }
+              />
             </Row>
             {/* Donation Amounts */}
             <Row>
