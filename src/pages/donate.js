@@ -16,7 +16,7 @@ const DonatePage = ({ data }) => {
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {pageContent.frontmatter.title}
+                {pageContent.frontmatter.description}
               </h1>
               <AuthUserContext.Consumer>
                 {authUser => <Donateform authUser={authUser} />}
@@ -40,10 +40,7 @@ export const donatePageQuery = graphql`
       html
       frontmatter {
         title
-        templateKey
-        path
-        date(formatString: "MMMM DD, YYYY")
-        featuredpost
+        description
         featuredimage {
           childImageSharp {
             fluid(maxWidth: 150, quality: 100) {

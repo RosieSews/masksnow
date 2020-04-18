@@ -84,7 +84,13 @@ const ErrorText = styled.div`
   color: ${({ theme }) => theme.colors.discord};
 `;
 
-const TextInput = ({ label, ...props }) => {
+const DisclaimerText = styled.p`
+  font-size: 0.8em;
+  color: ${({ theme }) => theme.colors.text};
+  margin-bottom: 0.5em;
+`;
+
+const TextInput = ({ label, disclaimer, ...props }) => {
   // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
   // which we can spread on <input> and also replace ErrorMessage entirely.
   const [field, meta] = useField(props);
@@ -93,6 +99,7 @@ const TextInput = ({ label, ...props }) => {
       <Label style={{ marginTop: 0 }} htmlFor={props.id || props.name}>
         {label}
       </Label>
+      {disclaimer && disclaimer}
       <Input
         className={`text-input ${meta.touched && meta.error ? 'error' : ''}`}
         {...field}
@@ -151,14 +158,16 @@ const FormContainer = () => {
         initialValues={{
           name: '',
           email: '',
+          memo: '',
         }}
         validationSchema={Yup.object().shape({
           name: Yup.string()
-            .max(15, 'Must be 15 characters or less')
+            .max(30, 'Must be 30 characters or less')
             .required('Required'),
           email: Yup.string()
             .email('Invalid email address')
             .required('Required'),
+          memo: Yup.string().max(45, 'Must be 45 characters or less'),
         })}
         onSubmit={async (values, { setSubmitting }) => {
           if (!stripe || !elements) {
@@ -179,6 +188,7 @@ const FormContainer = () => {
                 amount: amount.value,
                 metadata: {
                   organization: 'MasksNOW',
+                  memo: values.memo,
                 },
               }),
             });
@@ -187,8 +197,7 @@ const FormContainer = () => {
               throw Error(errorText);
             }
             const useableResponse = await response.json();
-            console.log('response.statusText', response, useableResponse);
-            const clientSecret = await useableResponse.client_secret;
+            const clientSecret = useableResponse.client_secret;
 
             const { error, paymentIntent } = await stripe.confirmCardPayment(
               clientSecret,
@@ -196,7 +205,8 @@ const FormContainer = () => {
                 payment_method: {
                   card: elements.getElement(CardElement),
                   billing_details: {
-                    ...values,
+                    email: values.email,
+                    name: values.name,
                     // address: {
                     //   city: null,
                     //   country: null,
@@ -250,6 +260,20 @@ const FormContainer = () => {
                     name="email"
                     type="email"
                     placeholder="rosie@masksNOW.org"
+                  />
+                </Cell>
+                <Cell>
+                  <TextInput
+                    label="Memo (optional)"
+                    name="memo"
+                    type="text"
+                    placeholder="credit to abc MasksNOW chapter"
+                    disclaimer={
+                      <DisclaimerText>
+                        If you want this donation credited to a specific
+                        masksnow chapter, name them below
+                      </DisclaimerText>
+                    }
                   />
                 </Cell>
               </Grid>
