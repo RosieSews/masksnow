@@ -11,6 +11,7 @@ We are profoundly grateful to the following organizations that are working with 
 * Calendly
 * Canada Sews
 * Coats & Clark
+* Colorado Mask Project
 * COVID Mask Crafters
 * Created For Crisis
 * Democratic Coalition
