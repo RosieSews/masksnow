@@ -6,16 +6,24 @@
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 
-[context.production.environment]
-  GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
-  DEPLOY_ENV = "production"
-  ROSIE_ENV = "production"
+[context.production]
+  command = "npm run build:production"
+  [context.production.environment]
+    GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
+    DEPLOY_ENV = "production"
+    ROSIE_ENV = "production"
 
 
-[context.deploy-preview.environment]
-  GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
-  DEPLOY_ENV = "deploy-preview"
+[context.deploy-preview]
+  command = "npm run build"
 
-[context.branch-deploy.environment]
-  GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
-  DEPLOY_ENV = "branch-deploy"
+  [context.deploy-preview.environment]
+    GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
+    ROSIE_ENV = "deploy-preview"
+
+[context.branch-deploy]
+  command = "npm run build"
+
+  [context.branch-deploy.environment]
+    GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
+    ROSIE_ENV = "branch-deploy"
