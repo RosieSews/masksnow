@@ -9,7 +9,7 @@ Please see our [volunteer knowledgebase](https://rosiesews.freshdesk.com/support
 
 ## Why are you making homemade masks?
 
-Over 700 organizations in 42 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
+Over 1,100 organizations in 46 states are requesting handsewn mask donations to battle the shortage caused by the coronavirus crisis. 
 
 ## Are homemade masks effective?
 
@@ -31,11 +31,11 @@ In response to the respirator shortage crisis due to COVID-19, the CDC [has indi
 
 ## How many volunteers do you have?
 
-As of today we have over 4,000 volunteers spread amongst every state plus DC and Puerto Rico.
+As of today we have over 10,000 volunteers spread amongst every state plus DC and Puerto Rico.
 
 ## How many organizers are there in The Masks Now Coalition?
 
-We have 19 national organizers and 70 leads in 40 states, but we’re always looking for more state/regional organizers, in addition to people who can find organizations that need masks, who can sew a pretty awesome mask, and who can distribute masks.
+We have 19 national organizers and 125 leads in 42 states, but we’re always looking for more state/regional organizers, in addition to people who can find organizations that need masks, who can sew a pretty awesome mask, and who can distribute masks.
 
 ## Are these masks made for children?
 
@@ -47,4 +47,4 @@ Any organization can request masks, including healthcare facilities that have pa
 
 ## How many organizations are asking for hand sewn masks?
 
-Over 700 organizations in 42 states have asked for handsewn masks, with over 220 healthcare facilities requesting masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
+Over 1,100 organizations in 46 states have asked for handsewn masks, with over 350 healthcare facilities requesting masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
