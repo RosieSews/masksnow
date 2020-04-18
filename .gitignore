@@ -11,3 +11,5 @@ yarn-error.log
 lambda-build/
 
 package-lock.json
+# dotenv environment variable files
+.env*

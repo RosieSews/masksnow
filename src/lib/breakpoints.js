@@ -1,5 +1,5 @@
-const maxSM = 600;
-const maxMD = 1200;
+const maxSM = 767;
+const maxMD = 1023;
 
 export const bpMaxSM = `@media (max-width: ${maxSM}px)`;
 export const bpMaxMD = `@media (max-width: ${maxMD}px)`;

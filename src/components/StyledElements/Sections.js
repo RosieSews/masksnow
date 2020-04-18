@@ -1,8 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
 import { bpMaxMD } from '../../lib/breakpoints';
 
-export const PatternSection = styled.section`
+export const StyledSection = styled.section`
   max-width: 900px;
   color: #16356f !important;
   margin: auto;

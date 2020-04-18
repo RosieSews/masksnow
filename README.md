@@ -19,8 +19,8 @@ how's that?
 ### contribute
 
 1. Make a local copy by running `git clone https://github.com/RosieSews/masksnow.git`
-2. Run `yarn` or `npm i` to install dependencies locally
-3. Install `gatsby-cli` with `yarn global add gatsby-cli` or `npm i -g gatsby-cli`
+2. Run `yarn` to install dependencies locally
+3. Install `gatsby-cli` with `yarn global add gatsby-cli`
 4. Create a new branch with a description of your feature `git checkout -b FEATURE` - ex. `git checkout -b make-images-responsive`
 5. Work your magic
 6. Add any new files, make your commits, and submit a PR. If you run `git push` your terminal should give you directions that look something like `git push --set-upstream origin FEATURE`. Run that code.
@@ -33,7 +33,7 @@ The quick and dirty to get this up and running is:
 
 1. install and run `yarn`
 2. install `gatsby-cli` globally: `yarn global add gatsby-cli`.
-3. Run `gatsby develop` to spin up a dev environment
+3. Run `yarn start` to spin up a dev environment
 
 ### add a page
 

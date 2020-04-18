@@ -56,6 +56,18 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resources"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+  - name: "donatePage"
+    label: "Donate Page"
+    files:
+      - file: "content/donate/index.md"
+        label: "Donate Page"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "donate"}
+          - {label: "Description (can be used for SEO/keyword work)", name: "description", widget: "text"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
   - name: "resources"
     label: "Downloadable Resources"
     folder: "content/resources"

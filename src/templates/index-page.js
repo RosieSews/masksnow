@@ -6,10 +6,7 @@ import styled from 'styled-components';
 import Content, { HTMLContent } from '../components/Content';
 import InfographicPage from '../pages/infographic-page';
 import { bpMaxMD } from '../lib/breakpoints';
-import {
-  CenteredSection,
-  PatternSection,
-} from '../components/StyledElements/Sections';
+import { CenteredSection } from '../components/StyledElements/Sections';
 import { BigButton } from '../components/StyledElements/BigButton';
 
 const HeroQuestion = styled.div`
