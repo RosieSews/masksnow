@@ -16,7 +16,6 @@ how's that?
 
 ## How-to's
 
-
 ### contribute
 
 1. Make a local copy by running `git clone https://github.com/RosieSews/masksnow.git`
