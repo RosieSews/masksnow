@@ -12,3 +12,6 @@
 
 [context.deploy-preview.environment]
   GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
+
+[context.branch-deploy.environment]
+  GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
