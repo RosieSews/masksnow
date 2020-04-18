@@ -3,7 +3,8 @@ let API_PATH = process.env.GATSBY_EXPRESS_API_PATH;
 
 // let context = process.env.CONTEXT || 'development';
 // let netlify = process.env.NETLIFY || false;
-let DEPLOY_ENV = process.env.DEPLOY_ENV || 'development';
+let DEPLOY_ENV = process.env.DEPLOY_ENV;
+if (!DEPLOY_ENV) throw new Error('DEPLOY_ENV not configured correctly');
 if (DEPLOY_ENV === 'production') {
   STRIPE_KEY = process.env.GATSBY_STRIPE_PUBLISHABLE_KEY_PROD;
 }

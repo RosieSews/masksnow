@@ -18,12 +18,15 @@ const DonatePage = ({ data }) => {
             <div className="column is-10 is-offset-1">
               <StyledSection>
                 <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
+                  {pageContent.frontmatter.subTitle}
+                </h1>
+                <h1 className="title is-size-5 is-bold-light">
                   {pageContent.frontmatter.description}
                 </h1>
-                <HTMLContent className="content" content={pageContent.html} />
                 <AuthUserContext.Consumer>
                   {authUser => <Donateform authUser={authUser} />}
                 </AuthUserContext.Consumer>
+                <HTMLContent className="content" content={pageContent.html} />
               </StyledSection>
             </div>
           </div>
@@ -43,6 +46,7 @@ export const donatePageQuery = graphql`
       html
       frontmatter {
         title
+        subTitle
         description
         featuredimage {
           childImageSharp {
