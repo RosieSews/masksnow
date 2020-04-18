@@ -9,6 +9,7 @@
 [context.production.environment]
   GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
   DEPLOY_ENV = "production"
+  ROSIE_ENV = "production"
 
 
 [context.deploy-preview.environment]
