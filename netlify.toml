@@ -8,10 +8,13 @@
 
 [context.production.environment]
   GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
+  DEPLOY_ENV = "production"
 
 
 [context.deploy-preview.environment]
   GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
+  DEPLOY_ENV = "deploy-preview"
 
 [context.branch-deploy.environment]
   GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
+  DEPLOY_ENV = "branch-deploy"

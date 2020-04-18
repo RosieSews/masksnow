@@ -1,9 +1,10 @@
 let STRIPE_KEY = process.env.GATSBY_STRIPE_PUBLISHABLE_KEY_TEST;
 let API_PATH = process.env.GATSBY_EXPRESS_API_PATH;
 
-let context = process.env.CONTEXT || 'development';
-let netlify = process.env.NETLIFY || false;
-if (netlify && context === 'production') {
+// let context = process.env.CONTEXT || 'development';
+// let netlify = process.env.NETLIFY || false;
+let DEPLOY_ENV = process.env.DEPLOY_ENV || 'development';
+if (DEPLOY_ENV === 'production') {
   STRIPE_KEY = process.env.GATSBY_STRIPE_PUBLISHABLE_KEY_PROD;
 }
 
