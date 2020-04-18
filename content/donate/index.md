@@ -9,4 +9,4 @@ description: >-
   manufactured masks for healthcare workers.
 updatedDate: 2020-04-08T00:00:00.000Z
 ---
-We currently have requests for more than 300,000 masks and that number is growing!
+Created for Crisis (CFC), a founding member of the MasksNow Coalition, will be taking donations for the Coalition so your receipt will be coming from them. It’s a nonprofit incorporated in North Carolina with an application pending for a 501c3 tax exempt organization.
