@@ -8,4 +8,4 @@ description: >-
   that will preserve manufactured masks for healthcare & frontline workers.
 updatedDate: 2020-04-08T00:00:00.000Z
 ---
-We currently have requests for more than 300,000 masks!
+We currently have requests for more than 300,000 masks and that number is growing fast!
