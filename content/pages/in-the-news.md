@@ -1,6 +1,6 @@
 ---
 templateKey: info-page
-title: In the News
+title: Media Hits
 ---
 April 16, 2020: **WMAR 2 Baltimore**
 
