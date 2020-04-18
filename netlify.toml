@@ -10,8 +10,8 @@
   command = "npm run build:production"
   [context.production.environment]
     GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis.cloudfunctions.net/app"
-    DEPLOY_ENV = "production"
-    ROSIE_ENV = "production"
+    GATSBY_DEPLOY_ENV = "production"
+    GATSBY_ROSIE_ENV = "production"
 
 
 [context.deploy-preview]
@@ -19,11 +19,11 @@
 
   [context.deploy-preview.environment]
     GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
-    ROSIE_ENV = "deploy-preview"
+    GATSBY_ROSIE_ENV = "deploy-preview"
 
 [context.branch-deploy]
   command = "npm run build"
 
   [context.branch-deploy.environment]
     GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
-    ROSIE_ENV = "branch-deploy"
+    GATSBY_ROSIE_ENV = "branch-deploy"
