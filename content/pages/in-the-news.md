@@ -14,7 +14,7 @@ April 13, 2020: **Indianapolis Monthly**
 
 ## [Masks Now coalition making homemade masks, asking for volunteers](https://www.indianapolismonthly.com/arts-and-culture/how-to-volunteer-and-provide-help-to-local-resources#.XpWfJ9jv6po.facebook)
 
-April 11, 2020: **ABC 11 NC**
+April 11, 2020: **ABC 11 Raleigh-Durham**
 
 ## [Grassroots movement "MasksNOW" producing thousands of masks nationwide, 10,000 in North Carolina](https://abc11.com/masksnow-the-coalition-masks-now-volunteerpatterns/6096098/)
 
@@ -40,4 +40,4 @@ April 3, 2020: **WKTR Virginia Beach**
 
 April 2, 2020: **Housing Wire**
 
-## [\[PULSE\] Public-private partnerships are key to helping consumers navigate confusing times](https://www.housingwire.com/articles/pulse-public-private-partnerships-are-key-to-helping-consumers-navigate-confusing-times/)
+## [\[PULSE] Public-private partnerships are key to helping consumers navigate confusing times](https://www.housingwire.com/articles/pulse-public-private-partnerships-are-key-to-helping-consumers-navigate-confusing-times/)
