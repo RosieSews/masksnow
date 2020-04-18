@@ -241,6 +241,13 @@ const FormContainer = () => {
           <Message>
             <header>Thank you!</header>
             <p>We successfully processed your donation.</p>
+            <p>
+              Created for Crisis (CFC), a founding member of the MasksNow
+              Coalition, will be taking donations for the Coalition so your
+              receipt will be coming from them. It's a nonprofit incorporated in
+              North Carolina with an application pending for a 501c3 tax exempt
+              organization.
+            </p>
           </Message>
         ) : (
           <Form style={{ margin: 0 }}>
