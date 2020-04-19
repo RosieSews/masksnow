@@ -12,10 +12,12 @@ if (GATSBY_ROSIE_ENV === 'production') {
   STRIPE_KEY = process.env.GATSBY_STRIPE_PUBLISHABLE_KEY_PROD;
 }
 
-// console.log('STRIPE_KEY', STRIPE_KEY);
-// console.log('API_PATH', API_PATH);
-if (!STRIPE_KEY) throw new Error('STRIPE_KEY not configured correctly');
-if (!API_PATH) throw new Error('API_PATH not configured correctly');
+// If we're in any environment other than development
+// we should have these set
+if (GATSBY_ROSIE_ENV !== 'development') {
+  if (!STRIPE_KEY) throw new Error('STRIPE_KEY not configured correctly');
+  if (!API_PATH) throw new Error('API_PATH not configured correctly');
+}
 
 module.exports = {
   STRIPE_KEY,

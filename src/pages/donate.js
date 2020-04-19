@@ -23,10 +23,10 @@ const DonatePage = ({ data }) => {
                 <h1 className="title is-size-5 is-bold-light">
                   {pageContent.frontmatter.description}
                 </h1>
+                <HTMLContent className="content" content={pageContent.html} />
                 <AuthUserContext.Consumer>
                   {authUser => <Donateform authUser={authUser} />}
                 </AuthUserContext.Consumer>
-                <HTMLContent className="content" content={pageContent.html} />
               </StyledSection>
             </div>
           </div>

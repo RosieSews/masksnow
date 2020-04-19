@@ -69,11 +69,10 @@
   "main": "n/a",
   "scripts": {
     "clean": "gatsby clean",
-    "start": "BUILD_ENV=development yarn run develop",
-    "build:local": "ROSIE_ENV=development yarn run clean && gatsby build",
-    "build": "ROSIE_ENV=development yarn run clean && gatsby build",
+    "start": "yarn run develop",
+    "build": "GATSBY_ROSIE_ENV=development yarn run clean && gatsby build",
     "build:production": "ROSIE_ENV=production yarn run clean && gatsby build",
-    "develop": "yarn run clean && gatsby develop",
+    "develop": "GATSBY_ROSIE_ENV=development yarn run clean && gatsby develop",
     "format": "prettier --config ./prettier.config.js --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
