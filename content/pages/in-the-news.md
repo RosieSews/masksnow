@@ -2,6 +2,10 @@
 templateKey: info-page
 title: Media Hits
 ---
+April 17, 2020: **Educate Tanzania**
+
+## [Nkwenda Center Just Made 5000 Masks to Protect Against COVID-19!](http://educatetanzania.org/2020/04/covid19-5000-masks-counting/?fbclid=IwAR0vET5eVqlvGIVMrTiMn-o32_d2cp3pZjtPUOM7qLp0eJX4O_UtBzPEbwQ)
+
 April 16, 2020: **WMAR 2 Baltimore**
 
 ## [Baltimore County teens make hundreds of masks, need more volunteers to meet demand](https://www.wmar2news.com/were-open/stronger2gether/baltimore-county-teens-make-hundreds-of-masks-need-more-volunteers-to-meet-demand)
