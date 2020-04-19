@@ -4,7 +4,15 @@ import Img from 'gatsby-image';
 import styled from 'styled-components';
 import headerBackground from '../img/header-bg.png';
 import maskNowImg from '../img/header-masksnow.png';
-import { NavLink, NavCTA } from '../components/StyledElements/NavItem';
+import {
+  NavLink,
+  NavCTA,
+  ExternalNavLink,
+} from '../components/StyledElements/NavItem';
+import {
+  MoreDotsMenu,
+  DropDownMenu,
+} from '../components/StyledElements/MoreDots';
 
 const HamburgerLine = () => {
   return <span />;
@@ -49,32 +57,79 @@ const Navbar = () => {
     };
   };
 
-  const navbar = (
+  const topNavBar = (
     <div className="navbar-start has-text-centered">
       <NavLink to="/volunteer" activeClassName={'active'}>
         Volunteer
       </NavLink>
-      <NavLink to="/patterns" activeClassName={'active'}>
-        Patterns
-      </NavLink>
-      <NavLink to="/psa" activeClassName={'active'}>
-        PSAs
-      </NavLink>
-      <NavLink to="/faq" activeClassName={'active'}>
-        FAQs
-      </NavLink>
-      <NavLink to="/about-us" activeClassName={'active'}>
-        About Us
-      </NavLink>
+
+      <DropDownMenu title={'Resources'}>
+        <NavLink to="/resources" activeClassName={'active'} wide={true}>
+          Downloadable Resources
+        </NavLink>
+        <NavLink to="/patterns" activeClassName={'active'} wide={true}>
+          Patterns
+        </NavLink>
+        <NavLink to="/groups-directory" activeClassName={'active'} wide={true}>
+          Local Chapters
+        </NavLink>
+        <ExternalNavLink
+          href="https://rosiesews.freshdesk.com/support/home"
+          wide={true}
+          target={'_blank'}
+          rel="noopener"
+        >
+          Knowledgebase
+        </ExternalNavLink>
+      </DropDownMenu>
+      <DropDownMenu title={'About'}>
+        <NavLink to="/about-us" activeClassName={'active'} wide={true}>
+          About MNC
+        </NavLink>
+        <NavLink to="/partners" activeClassName={'active'} wide={true}>
+          Partners
+        </NavLink>
+        <NavLink to="/faq" activeClassName={'active'} wide={true}>
+          FAQs
+        </NavLink>
+      </DropDownMenu>
+
+      <DropDownMenu title={'Press'}>
+        <NavLink to="/psa" activeClassName={'active'} wide={true}>
+          PSAs
+        </NavLink>
+        <NavLink to="/in-the-news" activeClassName={'active'} wide={true}>
+          Media Hits
+        </NavLink>
+        <NavLink to="/press-releases" activeClassName={'active'} wide={true}>
+          Press Releases
+        </NavLink>
+        <ExternalNavLink
+          href="https://medium.com/themasksnowcoalition"
+          wide={true}
+          target={'_blank'}
+          rel="noopener"
+        >
+          Blog
+        </ExternalNavLink>
+      </DropDownMenu>
       <NavCTA to="/donate" activeClassName={'active'}>
         Donate
       </NavCTA>
+      <MoreDotsMenu>
+        <NavLink to="/contact" activeClassName={'active'} wide={true}>
+          Contact
+        </NavLink>
+        <NavLink to="/fundraising-goals" activeClassName={'active'} wide={true}>
+          Fundraising
+        </NavLink>
+      </MoreDotsMenu>
     </div>
   );
   return (
     <div>
       <div className={`mobile-navbar navbar-menu ${navBarActiveClass}`}>
-        {navbar}
+        {topNavBar}
         <div
           className="mobile-backdrop"
           role="button"
@@ -123,7 +178,7 @@ const Navbar = () => {
               </div>{' '}
               {/* Navbar-burger */}
               <div id="navMenu" className={`navbar-menu`}>
-                {navbar} {/* Navbar-start */}
+                {topNavBar} {/* Navbar-start */}
               </div>{' '}
               {/* navMenu */}
             </div>{' '}
