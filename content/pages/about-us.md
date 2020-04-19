@@ -11,7 +11,13 @@ Mask makers, a physician, logistics and IT experts, creators, former federal off
 
 Our goal is to give each citizen the ability to take control of their community’s public health by making homemade masks for patients in order to conserve the manufactured masks that protect our irreplaceable healthcare workers and doctors.
 
-## Coalition partners:
+## [Press Releases](https://masksnow.org/press-releases/)
+
+## [Media Hits](https://masksnow.org/in-the-news/)
+
+## [Blog](https://medium.com/themasksnowcoalition)
+
+## Coalition Partners
 
 * Democratic Coalition
 * Rosie Sews
@@ -21,7 +27,7 @@ Our goal is to give each citizen the ability to take control of their community�
 * Coronavirus Army
 * Resistbot
 
-## The Masks Now Coalition’s seven-person steering committee:
+## The Masks Now Coalition’s Seven-Person Steering Committee:
 
 * [Francey Youngberg](mailto:francey.youngberg@masksnow.org)
 * [Grant Stern](mailto:grantstern@masksnow.org)
