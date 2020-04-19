@@ -6,6 +6,10 @@ title: Media Hits
 
 **Educate Tanzania**, April 17, 2020
 
+### ["Local Masks Now Coalition" makes thousands of masks for essential workers](https://foxbaltimore.com/news/coronavirus/local-masks-now-coalition-makes-thousands-of-masks-for-essential-workers)
+
+**WBFF FOX 45 Baltimore**, April 17, 2020
+
 ### [Baltimore County teens make hundreds of masks, need more volunteers to meet demand](https://www.wmar2news.com/were-open/stronger2gether/baltimore-county-teens-make-hundreds-of-masks-need-more-volunteers-to-meet-demand)
 
 **WMAR 2 Baltimore**, April 16, 2020
@@ -30,7 +34,7 @@ title: Media Hits
 
 **WECT Wilmington**, April 9, 2020
 
-#v# [91-yr-old woman makes up mother-daughter duo team making masks for those in need](https://www.wfmynews2.com/article/news/local/mother-daughter-duo-team-up-to-make-masks-for-those-in-need/83-40f96b48-720f-493a-8faf-85910d0aa60b)
+### [91-yr-old woman makes up mother-daughter duo team making masks for those in need](https://www.wfmynews2.com/article/news/local/mother-daughter-duo-team-up-to-make-masks-for-those-in-need/83-40f96b48-720f-493a-8faf-85910d0aa60b)
 
 **WFMY News 2 NC**, April 8, 2020
 
