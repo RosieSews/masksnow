@@ -1,28 +1,19 @@
 ---
 templateKey: patterns
 title: Cleaning & Packing Guide
-alternateTitle: Cleaning & Packing Guide
+alternateTitle: Packing Slip
 description: >-
-  Download our Process Guide, which provides cleaning and packing guidelines, as
-  well as a handy packing slip to let the recipient know exactly what the
-  donated masks are made of. 
-patternArt: /img/cleaning-packing.png
-patternFile: /img/masksnow-cfc-cleaning-packing-413.pdf
+  Download a handy packing slip to let the recipient know exactly what the
+  donated masks are made of and how to clean them.
+patternArt: /img/packing-slip.png
+patternFile: /img/masksnow-packing-slip-by-created-for-crisis-413.pdf
 meetsGuidelines: false
 forDonations: true
 noSewingMachine: false
 tags:
-  - cleaning packing
+  - packing slip
 order: 6
 hideFromFront: true
 updatedDate: 2020-04-14T08:07:47.659Z
 ---
-This handy Process Guide includes:
-
-* Cleaning Guidelines
-  * For everyone
-  * For makers
-  * For collection sites
-* Packing Guidelines
-* Packing Slip
-* Mask Care Guide
+You can include this packing slip with every donation you make. It will tell the recipient how many masks you've donated, the style of the masks, and what fabric is used so that they know exactly what they're getting. It also includes a mask care guide so they know best practices for cleaning the masks.
