@@ -8,8 +8,8 @@ The Masks Now Coalition is a collaborative effort of volunteers working to suppo
 
 ## Our Goals
 
-* Create a streamlined process to enable our volunteers to make and deliver 300,000+ fabric masks to 1,000+ organizations in need*
-* Provide the technological infrastructure to enable 125+ state/regional leads to coordinate 10,000+ volunteers to track and fulfill mask requests\*\*numbers updated 4/18/20
+* Create a streamlined process to enable our volunteers to make and deliver 300,000+ fabric masks to 1,000+ organizations in need
+* Provide the technological infrastructure to enable 125+ state/regional leads to coordinate 10,000+ volunteers to track and fulfill mask requests
 * Supply volunteers with materials to make masks through the establishment of factory-produced mask kits and through at-cost purchasing of fabric, interfacing, and thread
 
 ## How You Can Help
