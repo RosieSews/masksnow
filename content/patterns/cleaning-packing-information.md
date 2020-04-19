@@ -1,6 +1,6 @@
 ---
 templateKey: patterns
-title: Cleaning & Packing Guide
+title: Packing Slip
 alternateTitle: Packing Slip
 description: >-
   Download a handy packing slip to let the recipient know exactly what the
