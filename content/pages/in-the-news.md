@@ -33,4 +33,4 @@ April 3, 2020: **WKTR Virginia Beach**\
 [Masks Now coalition making homemade masks, asking for volunteers](https://www.wtkr.com/news/masks-now-coalition-making-homemade-masks-ask-for-volunteers)
 
 April 2, 2020: **Housing Wire**\
-[\[PULSE\] Public-private partnerships are key to helping consumers navigate confusing times](https://www.housingwire.com/articles/pulse-public-private-partnerships-are-key-to-helping-consumers-navigate-confusing-times/)
+[(PULSE) Public-private partnerships are key to helping consumers navigate confusing times](https://www.housingwire.com/articles/pulse-public-private-partnerships-are-key-to-helping-consumers-navigate-confusing-times/)
