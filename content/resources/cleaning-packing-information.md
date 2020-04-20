@@ -1,6 +1,6 @@
 ---
 templateKey: resources
-title: Packing Slip
+title: Cleaning & Packing Information
 description: >-
   Download a handy packing slip to let the recipient know exactly what the
   donated masks are made of and how to clean them.
