@@ -3,9 +3,13 @@ templateKey: info-page
 path: /contact
 title: Contact
 ---
+## Knowledgebase
+
+If you are a volunteer with questions, please first visit our [knowledgebase](https://rosiesews.freshdesk.com/support/home) for answers. 
+
 ## General Information
 
-If you are a volunteer with questions, please first visit our [knowledgebase](https://rosiesews.freshdesk.com/support/home) for answers. If you can't find an answer there, send us an email.
+If you have a general question:
 
 [info@masksnow.org](mailto:info@masksnow.org)
 
@@ -14,6 +18,7 @@ If you are a volunteer with questions, please first visit our [knowledgebase](ht
 If you'd like to take a leadership role and help manage your state/region, contact our national volunteer coordinator.
 
 [astrid@masksnow.org ](mailto:astrid@masksnow.org)
+[annika@masksnow.org ](mailto:annika@masksnow.org)
 
 ## Coalition Members
 
@@ -31,10 +36,11 @@ Tech team: [joe@masksnow.org](mailto:joe@masksnow.org)
 
 ## Industry Partnerships
 
-If your company would like to join our mission through materials donations/supply, logistics, operations, etc., we would love to collaborate with you.
+If you or your company would like to join our mission through materials supply, logistics, operations, etc., we would love to collaborate with you.
 
 [rachel@masksnow.org](mailto:rachel@masksnow.org)\
-[jodimurray@masksnow.org](mailto:jodimurray@masksnow.org)
+[jodimurray@masksnow.org](mailto:jodimurray@masksnow.org)\
+[astrid@masksnow.org ](mailto:astrid@masksnow.org)
 
 ## Social Media
 
