@@ -64,11 +64,14 @@ const Navbar = () => {
       </NavLink>
 
       <DropDownMenu title={'Resources'}>
-        <NavLink to="/resources" activeClassName={'active'} wide={true}>
-          Downloadable Resources
-        </NavLink>
         <NavLink to="/patterns" activeClassName={'active'} wide={true}>
           Patterns
+        </NavLink>
+        <NavLink to="/mask-kits" activeClassName={'active'} wide={true}>
+          Mask Kits
+        </NavLink>
+        <NavLink to="/resources" activeClassName={'active'} wide={true}>
+          Guides
         </NavLink>
         <NavLink to="/groups-directory" activeClassName={'active'} wide={true}>
           Local Chapters
