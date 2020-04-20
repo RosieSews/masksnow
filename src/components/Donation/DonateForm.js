@@ -13,7 +13,7 @@ import {
 import Button from '../button';
 import StripeForm from './StripeForm';
 import AmountSelection from './AmountSelection';
-import { STRIPE_KEY, API_PATH } from '../../constants';
+import { STRIPE_KEY, API_PATH, ROSIE_ENV, isProd } from '../../constants';
 
 const stripePromise = loadStripe(STRIPE_KEY);
 
@@ -194,7 +194,13 @@ const FormContainer = () => {
             });
             if (!response.ok) {
               let errorText = await response.text();
-              throw Error(errorText);
+              if (!isProd) {
+                throw Error(errorText);
+              } else {
+                throw new Error(
+                  "We're unable to process your donation. Try again later. If this persists please contact our support team."
+                );
+              }
             }
             const useableResponse = await response.json();
             const clientSecret = useableResponse.client_secret;
@@ -314,6 +320,13 @@ const FormContainer = () => {
           </Form>
         )}
       </Formik>
+      {/* Show Development Mode */}
+      {!isProd && (
+        <Message error style={{ marginTop: '2rem' }}>
+          <header>Development Mode is Enabled</header>
+          <p>All donation submissions will hit the test Stripe account.</p>
+        </Message>
+      )}
     </DonateContainer>
   );
 };
