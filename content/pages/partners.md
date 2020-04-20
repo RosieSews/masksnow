@@ -27,5 +27,5 @@ We are profoundly grateful to the following organizations that are working with 
 * Slack
 * Spinrite Yarns
 * Spoonflower
-* Therm O Web
+* Therm O Web, makers of HeatnBond®
 * Twilio
