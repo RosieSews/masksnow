@@ -121,7 +121,7 @@ const Navbar = () => {
           Contact
         </NavLink>
         <NavLink to="/fundraising-goals" activeClassName={'active'} wide={true}>
-          Fundraising
+          Help Us ❤️
         </NavLink>
       </MoreDotsMenu>
     </div>
