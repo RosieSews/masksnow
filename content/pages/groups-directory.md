@@ -3,7 +3,7 @@ templateKey: groups-directory
 path: /groups-directory
 title: State/Regional Facebook Group Directory
 ---
-*last updated: 04/1/2020*
+*last updated: 04/20/2020*
 
 **Find your local #MasksNOW chapter**
 
