@@ -2,7 +2,7 @@
 templateKey: info-page
 title: Media Hits
 ---
-### [Nkwenda Center Just Made 5000 Masks to Protect Against COVID-19!](http://educatetanzania.org/2020/04/covid19-5000-masks-counting/?fbclid=IwAR0vET5eVqlvGIVMrTiMn-o32_d2cp3pZjtPUOM7qLp0eJX4O_UtBzPEbwQ)
+### [(Partner) Nkwenda Center Just Made 5000 Masks to Protect Against COVID-19!](http://educatetanzania.org/2020/04/covid19-5000-masks-counting/?fbclid=IwAR0vET5eVqlvGIVMrTiMn-o32_d2cp3pZjtPUOM7qLp0eJX4O_UtBzPEbwQ)
 
 **Educate Tanzania**, April 17, 2020
 
