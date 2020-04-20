@@ -10,9 +10,9 @@ import {
 } from '../../components/ListCard';
 import { HTMLContent } from '../../components/Content';
 
-const Resource = ({ title, description, link, patternArt }) => {
+const Resource = ({ title, description, link, resourceArt }) => {
   return (
-    <InfoCard image={patternArt.childImageSharp.fluid} link={link}>
+    <InfoCard image={resourceArt.childImageSharp.fluid} link={link}>
       <InfoCardRight>
         <Link to={link}>
           <h2>{title}</h2>
@@ -51,7 +51,6 @@ const ResourcesPage = ({ title, data }) => {
                 {title}
               </h1>
               <HTMLContent className="content" content={pageContent.html} />
-              <InfographicBanner>Resources</InfographicBanner>
               <Resources resources={resources} />
               {/*</div>*/}
             </div>
@@ -109,7 +108,7 @@ export const patternPageQuery = graphql`
             templateKey
             description
             date(formatString: "MMMM DD, YYYY")
-            patternArt {
+            resourceArt {
               childImageSharp {
                 fluid(maxWidth: 300, quality: 100) {
                   ...GatsbyImageSharpFluid

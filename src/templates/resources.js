@@ -20,8 +20,8 @@ export const ResourcesTemplate = ({
   title,
   content,
   contentComponent,
-  patternFile,
-  patternArt,
+  resourceFile,
+  resourceArt,
   hideFromFront,
   updatedDate,
 }) => {
@@ -32,10 +32,10 @@ export const ResourcesTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <ResourceSection>
-              {patternFile && (
+              {resourceFile && (
                 <DownloadIcon
-                  image={patternArt.childImageSharp.fluid}
-                  file={patternFile.publicURL}
+                  image={resourceArt.childImageSharp.fluid}
+                  file={resourceFile.publicURL}
                 >
                   {`${title} Resource`}
                 </DownloadIcon>
@@ -43,8 +43,8 @@ export const ResourcesTemplate = ({
               <ResourceTitle>
                 {!hideFromFront && 'The'} {` ${title}`}
               </ResourceTitle>
-              {patternFile && (
-                <TextLink href={patternFile.publicURL}>
+              {resourceFile && (
+                <TextLink href={resourceFile.publicURL}>
                   {`DOWNLOAD ${title} PATTERN`}{' '}
                   {updatedDate && `(updated:${updatedDate})`}
                 </TextLink>
@@ -91,15 +91,11 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         description
-        meetsGuidelines
-        forDonations
-        noSewingMachine
-        hideFromFront
         updatedDate(formatString: "MMMM DD, YYYY")
-        patternFile {
+        resourceFile {
           publicURL
         }
-        patternArt {
+        resourceArt {
           childImageSharp {
             fluid(maxWidth: 300, quality: 100) {
               ...GatsbyImageSharpFluid
