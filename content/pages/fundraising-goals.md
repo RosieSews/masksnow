@@ -1,6 +1,6 @@
 ---
 templateKey: info-page
-title: Fundraising Goals
+title: Why donate?
 ---
 ## Our Mission
 
