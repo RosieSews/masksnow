@@ -67,11 +67,12 @@ title: State/Regional Facebook Group Directory
 * [Maryland](https://www.facebook.com/groups/520641302223494/) | State Lead: [Jamie](mailto:masksnowmaryland@gmail.com)
 * [Massachusetts](https://www.facebook.com/groups/2620127964977639/) | State Leads: [Isabel](mailto:isabel_hessler@emerson.edu), [Kathryn](mailto:kathryn_smith3@emerson.edu)
 * Michigan | State Leads: [Larisa](mailto:larisabreton@icloud.com), [Brandy](mailto:bshumaker27@yahoo.com), [Gabrielle](mailto:gabriellebreton16@gmail.com)
-
   * Michigan (Detroit) | Regional Lead: [Tracie](mailto:traciemi@masksnow.org)
+  * Michigan (Detroit) | Macomb County Lead: [Connie](mailto:bitothisbitothat@gmail.com)
+  * Michigan (Detroit) | Oakland County Lead: [Janie](mailto:oaklandcountymaskdonations@gmail.com)
+  * Michigan (Detroit) | Wayne County Lead: [Diana](mailto:diana@telamongroup.com)
 * [Mississippi](https://www.facebook.com/groups/554045278817832/) | State Lead: [Lisa](mailto:LisaMS@masksnow.org)
 * [Missouri](https://www.facebook.com/groups/693560934789022/about/) | State Lead: [Heather](mailto:hrippetoe@masksnow.org)
-
   * [Missouri (Kansas City metro)](https://www.facebook.com/groups/515249406050591/) | Regional Leads: [Mia](mailto:Miarichardson@masksnow.org), [Rebekah](mailto:rebekahbuckner@yahoo.com)
 * [Montana](https://www.facebook.com/groups/3055128074518037) | State Lead: [Kathleen](mailto:kaa.burke@gmail.com)
 * [Nebraska](https://www.facebook.com/groups/238497197292741/) | State Lead: [Beth](mailto:bethbackora@masksnow.org)
