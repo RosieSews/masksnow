@@ -67,9 +67,14 @@ const Navbar = () => {
         <NavLink to="/patterns" activeClassName={'active'} wide={true}>
           Patterns
         </NavLink>
-        <NavLink to="/mask-kits" activeClassName={'active'} wide={true}>
-          Mask Kits
-        </NavLink>
+        <ExternalNavLink
+          href="https://thermowebmasksnow.com/"
+          wide={true}
+          target={'_blank'}
+          rel="noopener"
+        >
+          Buy Interfacing
+        </ExternalNavLink>
         <NavLink to="/resources" activeClassName={'active'} wide={true}>
           Guides
         </NavLink>
