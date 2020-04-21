@@ -189,6 +189,7 @@ const FormContainer = () => {
                 description: values.memo,
                 metadata: {
                   organization: 'MasksNOW',
+                  memo: values.memo,
                 },
               }),
             });
