@@ -12,7 +12,7 @@ forDonations: true
 noSewingMachine: false
 tags:
   - packing slip
-order: 6
+order: 7
 hideFromFront: true
 updatedDate: 2020-04-18T08:07:47.659Z
 ---
