@@ -8,7 +8,7 @@ description: >-
   convertible design that can be worn as an ear-saving headband or extended to a
   full coverage cap.
 patternArt: /img/care-cap-cover-image-01.png
-patternFile: /img/mn-cfc-carecap-packet.pdf
+patternFile: /img/mn-cfc-ccarecap-packet.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
