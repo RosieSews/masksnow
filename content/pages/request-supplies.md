@@ -3,6 +3,8 @@ templateKey: info-page
 path: /request-supplies
 title: Request Masks
 ---
+### If you're in Canada, request masks with our partner at [Canada Sews](https://www.canadasews.ca/).
+
 <div style="height: 600px;">
 <iframe
     className="airtable-embed airtable-dynamic-height"
