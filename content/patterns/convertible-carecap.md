@@ -9,7 +9,7 @@ description: >-
   full coverage cap.
 patternArt: /img/care-cap-cover-image-01.png
 patternFile: /img/mn-cfc-ccarecap-packet.pdf
-meetsGuidelines: true
+meetsGuidelines: false
 forDonations: true
 noSewingMachine: false
 tags:
