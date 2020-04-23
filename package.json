@@ -3,6 +3,9 @@
   "description": "MasksNOW connects mask makers with those in need.",
   "version": "0.1.0",
   "author": "Garrett, Jon, Chaney",
+  "engines": {
+    "node": "12.*"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -16,6 +19,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "bulma": "^0.8.0",
     "cleave.js": "^1.5.10",
+    "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "firebase": "^7.14.0",
     "formik": "^2.1.4",
@@ -74,9 +78,9 @@
   "scripts": {
     "clean": "gatsby clean",
     "start": "yarn run develop",
-    "build": "GATSBY_ROSIE_ENV=development yarn run clean && gatsby build",
-    "build:production": "ROSIE_ENV=production yarn run clean && gatsby build",
-    "develop": "GATSBY_ROSIE_ENV=development yarn run clean && gatsby develop",
+    "build": "yarn run clean && cross-env GATSBY_ROSIE_ENV=development gatsby build",
+    "build:production": "yarn run clean && cross-env ROSIE_ENV=production gatsby build",
+    "develop": "yarn run clean && cross-env GATSBY_ROSIE_ENV=development gatsby develop",
     "format": "prettier --config ./prettier.config.js --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
