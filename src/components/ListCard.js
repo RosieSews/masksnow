@@ -49,6 +49,7 @@ export const InfoCardLink = styled(Link)`
     content: '\\25ba';
     color: #b03619;
     text-decoration: none;
+    display: inline-block;
     margin: 0 10px 0 0;
   }
 `;
@@ -64,7 +65,8 @@ export const InfoCardAnchor = styled.a`
   &::before {
     content: '\\25ba';
     color: #b03619;
-    text-decoration: unset;
+    text-decoration: none;
+    display: inline-block;
     margin: 0 10px 0 0;
   }
 `;
