@@ -23,6 +23,9 @@ const MoreDotsPopupMenu = styled(Menu)`
   .MuiList-root {
     background: ${({ theme }) => theme.colors.primary};
   }
+  .MuiPaper-rounded {
+    border-radius: 0px;
+  }
 `;
 
 const MoreDotsMenuItem = styled(MenuItem)`
@@ -42,7 +45,7 @@ const MoreStuffButton = styled(Button)`
     font-weight: bold;
     color: #fff;
     padding: 0.5rem 1rem;
-    border-radius: 5%;
+    border-radius: 0px;
     //margin: auto 0;
     text-align: center;
     transition: all 200ms ease-in-out;
