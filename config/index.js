@@ -16,7 +16,7 @@ module.exports = {
   manifestJPG: 'static/img/mn-site-image.png',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  // userTwitter: '@minimal', // Twitter Username - Optional
+  userTwitter: '@masksnoworg', // Twitter Username - Optional
   // ogSiteName: 'minimal', // Facebook Site Name - Optional
   ogLanguage: 'en_US', // Facebook Language
   googleAnalyticsID: 'UA-161473355-1',
