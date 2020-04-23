@@ -3,6 +3,9 @@
   "description": "MasksNOW connects mask makers with those in need.",
   "version": "0.1.0",
   "author": "Garrett, Jon, Chaney",
+  "engines": {
+    "node": "12.*"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
