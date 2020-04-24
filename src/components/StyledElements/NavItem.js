@@ -8,7 +8,7 @@ export const NavLink = styled(Link)`
   font-size: 1.5em;
   color: #fff;
   padding: 0.5rem 1rem;
-  border-radius: 5%;
+  border-radius: 0px;
   //margin: auto 0;
   text-align: center;
   transition: all 200ms ease-in-out;
@@ -32,7 +32,7 @@ export const ExternalNavLink = styled.a`
   font-size: 1.5em;
   color: #fff;
   padding: 0.5rem 1rem;
-  border-radius: 5%;
+  border-radius: 0px;
   //margin: auto 0;
   text-align: center;
   transition: all 200ms ease-in-out;
@@ -57,7 +57,7 @@ export const NavCTA = styled(Link)`
   color: #fff;
   background: ${({ theme }) => theme.colors.secondary};
   padding: 0.5rem 1rem;
-  border-radius: 5%;
+  border-radius: 0px;
   //margin: auto 0;
   text-align: center;
   box-sizing: border-box;
