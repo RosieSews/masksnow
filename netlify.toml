@@ -19,6 +19,7 @@
   [context.deploy-preview.environment]
     GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
     GATSBY_ROSIE_ENV = "deploy-preview"
+    GATSBY_ROSIE_URL = "https://deploy-preview-127--eloquent-montalcini-4aed93.netlify.app"
 
 [context.branch-deploy]
   command = "npm run build"
@@ -26,3 +27,4 @@
   [context.branch-deploy.environment]
     GATSBY_EXPRESS_API_PATH = "https://us-central1-created-for-crisis-development.cloudfunctions.net/app"
     GATSBY_ROSIE_ENV = "branch-deploy"
+    GATSBY_ROSIE_URL = "https://staging--eloquent-montalcini-4aed93.netlify.app"

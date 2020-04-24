@@ -6,7 +6,6 @@ import {
   InfoCard,
   InfoCardLink,
   InfoCardRight,
-  InfographicBanner,
 } from '../../components/ListCard';
 import { HTMLContent } from '../../components/Content';
 
@@ -39,20 +38,17 @@ const Resources = ({ resources }) => {
 
 const ResourcesPage = ({ title, data }) => {
   const { resources, pageContent } = data;
-  console.log('pageContent', pageContent);
   return (
-    <Layout>
+    <Layout title={pageContent.frontmatter.title}>
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              {/*<div className="section">*/}
               <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h1>
               <HTMLContent className="content" content={pageContent.html} />
               <Resources resources={resources} />
-              {/*</div>*/}
             </div>
           </div>
         </div>

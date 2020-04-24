@@ -32,11 +32,21 @@ PageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const Page = ({ data }) => {
+const Page = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
+  const image = post.frontmatter.featuredimage
+    ? post.frontmatter.featuredimage.childImageSharp.resize
+    : null;
+
   return (
-    <Layout>
+    <Layout
+      article
+      title={post.frontmatter.title}
+      pathname={location.pathname}
+      description={post.frontmatter.description || post.excerpt}
+      metaImage={image}
+    >
       <PageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -56,8 +66,13 @@ export const infoPageQuery = graphql`
   query InfoPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      excerpt(pruneLength: 160)
       frontmatter {
         title
+        description
+        featuredimage {
+          ...featureImage1200
+        }
       }
     }
   }

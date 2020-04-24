@@ -7,11 +7,21 @@ import { HTMLContent } from '../components/Content';
 import { AuthUserContext } from '../components/Session';
 import { StyledSection } from '../components/StyledElements/Sections';
 
-const DonatePage = ({ data }) => {
+const DonatePage = ({ data, location }) => {
   const { pageContent } = data;
+  const { frontmatter } = pageContent;
+  const image = frontmatter.featuredimage
+    ? frontmatter.featuredimage.childImageSharp.resize
+    : null;
 
   return (
-    <Layout>
+    <Layout
+      article
+      title={frontmatter.title}
+      description={frontmatter.description}
+      metaImage={image}
+      pathname={location.pathname}
+    >
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
@@ -49,11 +59,7 @@ export const donatePageQuery = graphql`
         subTitle
         description
         featuredimage {
-          childImageSharp {
-            fluid(maxWidth: 150, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
+          ...featureImage1200
         }
       }
     }

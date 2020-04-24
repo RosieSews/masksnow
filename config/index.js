@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: 'MasksNOW', // Navigation and Site Title
   siteTitleAlt: 'The MasksNOW coalition', // Alternative Site title for SEO
   siteTitleManifest: 'masksNOW',
-  siteUrl: 'https://masksnow.org', // Domain of your site. No trailing slash!
+  siteUrl: process.env.GATSBY_ROSIE_URL || 'https://masksnow.org', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteHeadline: 'We Can Do It!', // Headline for schema.org JSONLD
   siteBanner: '/img/mn-site-image.png', // Your image for og:image tag. You can find it in the /static folder
