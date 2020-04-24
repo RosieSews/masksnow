@@ -28,7 +28,7 @@ export const bannerImage = graphql`
 
   fragment featureImage1200 on File {
     childImageSharp {
-      resize(width: 1200, fit: 'contain') {
+      resize(width: 1200, fit: "contain") {
         src
         height
         width
