@@ -8,6 +8,7 @@ description: >-
 title: Donate to MasksNOW
 subTitle: Get masks to our front lines!
 updatedDate: 2020-04-08T00:00:00.000Z
+featuredimage: /img/mn-donate-now1200x1200.png
 ---
 Learn about [our mission, our fundraising goals, and the companies and groups who have partnered with us](https://masksnow.org/fundraising-goals/) in our efforts to get fabric masks to where they're needed.
 
