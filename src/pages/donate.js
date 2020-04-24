@@ -59,13 +59,7 @@ export const donatePageQuery = graphql`
         subTitle
         description
         featuredimage {
-          childImageSharp {
-            resize(width: 1200) {
-              src
-              height
-              width
-            }
-          }
+          ...featureImage1200
         }
       }
     }

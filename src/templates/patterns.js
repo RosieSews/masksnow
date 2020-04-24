@@ -117,13 +117,7 @@ export const aboutPageQuery = graphql`
           }
         }
         featuredimage: patternArt {
-          childImageSharp {
-            resize(width: 1200) {
-              src
-              height
-              width
-            }
-          }
+          ...featureImage1200
         }
       }
     }

@@ -69,6 +69,7 @@ collections:
           - {label: "subTitle (is the actual displayed title on the page)", name: "subTitle", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Last Updated Date", name: "updatedDate", widget: "datetime"}
+          - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
   - name: "resources"
     label: "Downloadable Resources"
     folder: "content/resources"
@@ -102,3 +103,4 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featuredimage", widget: image, required: false}

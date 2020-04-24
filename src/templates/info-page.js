@@ -35,12 +35,17 @@ PageTemplate.propTypes = {
 const Page = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
+  const image = post.frontmatter.featuredimage
+    ? post.frontmatter.featuredimage.childImageSharp.resize
+    : null;
+
   return (
     <Layout
       article
       title={post.frontmatter.title}
       pathname={location.pathname}
       description={post.frontmatter.description || post.excerpt}
+      metaImage={image}
     >
       <PageTemplate
         contentComponent={HTMLContent}
@@ -65,6 +70,9 @@ export const infoPageQuery = graphql`
       frontmatter {
         title
         description
+        featuredimage {
+          ...featureImage1200
+        }
       }
     }
   }
