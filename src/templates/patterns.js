@@ -64,11 +64,20 @@ PatternsTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const Patterns = ({ data }) => {
+const Patterns = ({ data, location }) => {
   const { markdownRemark: post } = data;
+  const { frontmatter } = post;
+  const image = frontmatter.featuredimage
+    ? frontmatter.featuredimage.childImageSharp.resize
+    : null;
 
   return (
-    <Layout>
+    <Layout
+      description={post.frontmatter.description}
+      title={frontmatter.title}
+      pathname={location.pathname}
+      metaImage={image}
+    >
       <PatternsTemplate
         contentComponent={HTMLContent}
         {...post.frontmatter}
@@ -106,6 +115,9 @@ export const aboutPageQuery = graphql`
               presentationWidth
             }
           }
+        }
+        featuredimage: patternArt {
+          ...featureImage1200
         }
       }
     }

@@ -25,4 +25,14 @@ export const bannerImage = graphql`
       }
     }
   }
+
+  fragment featureImage1200 on File {
+    childImageSharp {
+      resize(width: 1200, fit: CONTAIN) {
+        src
+        height
+        width
+      }
+    }
+  }
 `;

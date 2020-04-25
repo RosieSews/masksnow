@@ -36,11 +36,15 @@ GroupsDirectoryTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const GroupsDirectory = ({ data }) => {
+const GroupsDirectory = ({ data, location }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout
+      title={post.frontmatter.title}
+      pathname={location.pathname}
+      description={post.frontmatter.description}
+    >
       <GroupsDirectoryTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

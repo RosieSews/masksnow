@@ -6,12 +6,12 @@ import Navbar from '../components/Navbar';
 import './all.sass';
 import SEO from './SEO';
 import { ThemeProvider } from 'styled-components';
-import { theme, GlobalStyle } from '../styles/theme';
+import { theme } from '../styles/theme';
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, ...otherProps }) => {
   return (
     <ThemeProvider theme={theme}>
-      <SEO />
+      <SEO {...otherProps} />
       <Helmet>
         <link
           rel="icon"

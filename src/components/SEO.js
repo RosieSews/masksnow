@@ -5,28 +5,24 @@ import Helmet from 'react-helmet';
 import config from '../../config';
 
 const SEO = props => {
-  const { postNode, postPath, article, buildTime } = props;
+  const { article, description, metaImage, title, pathname } = props;
+  const buildTime = null; //todo: pass this in somehow
 
-  let title;
-  let description;
+  let pageTitle;
+  let pageDescription;
   let keywords;
 
   const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
   const homeURL = `${config.siteUrl}${realPrefix}`;
-  const URL = `${homeURL}${postPath || ''}`;
-  const image = `${homeURL}${config.siteBanner}`;
+  const URL = `${homeURL}${pathname || ''}`;
+  const image = metaImage
+    ? `${homeURL}${metaImage.src}`
+    : `${homeURL}${config.siteBanner}`;
 
-  if (article) {
-    const postMeta = postNode.frontmatter;
-    title = `${postMeta.title} | ${config.siteTitle}`;
-    description = postNode.excerpt;
-    keywords = postNode.frontmatter.keywords.join();
-  } else {
-    title = config.siteTitleAlt;
-    description = config.siteDescription;
-    keywords =
-      'Donate medical masks, covid19, homemade masks, homemade surgical mask, surgical mask, reuseable masks';
-  }
+  keywords =
+    'Donate medical masks, covid19, homemade masks, homemade surgical mask, surgical mask, reuseable masks';
+  pageTitle = title ? `${title} | ${config.siteTitle}` : config.siteTitleAlt;
+  pageDescription = description ? description : config.siteDescription;
 
   // schema.org in JSONLD format
   // https://developers.google.com/search/docs/guides/intro-structured-data
@@ -113,6 +109,7 @@ const SEO = props => {
 
   let schemaArticle = null;
 
+  //todo: get post dates
   if (article) {
     schemaArticle = {
       '@context': 'http://schema.org',
@@ -125,7 +122,7 @@ const SEO = props => {
         '@type': 'Person',
         name: config.author,
       },
-      copyrightYear: postNode.parent.birthtime,
+      // copyrightYear: postNode.parent.birthtime,
       creator: {
         '@type': 'Person',
         name: config.author,
@@ -138,13 +135,13 @@ const SEO = props => {
           url: `${homeURL}${config.siteLogo}`,
         },
       },
-      datePublished: postNode.parent.birthtime,
-      dateModified: postNode.parent.mtime,
-      description,
-      headline: title,
+      // datePublished: postNode.parent.birthtime,
+      // dateModified: postNode.parent.mtime,
+      description: pageDescription,
+      headline: pageTitle,
       inLanguage: 'en',
       url: URL,
-      name: title,
+      name: pageTitle,
       image: {
         '@type': 'ImageObject',
         url: image,
@@ -156,7 +153,7 @@ const SEO = props => {
       '@type': 'ListItem',
       item: {
         '@id': URL,
-        name: title,
+        name: pageTitle,
       },
       position: 3,
     });
@@ -173,9 +170,9 @@ const SEO = props => {
   return (
     <Helmet>
       <html lang={config.siteLanguage} />
-      <title>{title}</title>
+      <title>{pageTitle}</title>
       <meta name="keywords" content={keywords} />
-      <meta name="description" content={description} />
+      <meta name="description" content={pageDescription} />
       <meta name="image" content={image} />
       <meta name="gatsby-starter" content="Gatsby Starter Minimal Blog" />
       <meta property="og:locale" content={config.ogLanguage} />
@@ -185,12 +182,16 @@ const SEO = props => {
       />
       <meta property="og:url" content={URL} />
       <meta property="og:type" content={article ? 'article' : 'website'} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:title" content={pageTitle} />
+      <meta property="og:description" content={pageDescription} />
       <meta property="og:image" content={image} />
-      <meta property="og:image:height" content={'600'} />
-      <meta property="og:image:width" content={'600'} />
-      <meta property="og:image:alt" content={description} />
+      {metaImage && (
+        <>
+          <meta property="og:image:height" content={metaImage.height} />
+          <meta property="og:image:width" content={metaImage.width} />
+        </>
+      )}
+      <meta property="og:image:alt" content={pageDescription} />
       {config.siteFBAppID && (
         <meta property="fb:app_id" content={config.siteFBAppID} />
       )}
@@ -199,11 +200,11 @@ const SEO = props => {
         name="twitter:creator"
         content={config.userTwitter ? config.userTwitter : ''}
       />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:url" content={config.siteUrl} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={pageTitle} />
+      <meta name="twitter:url" content={URL} />
+      <meta name="twitter:description" content={pageDescription} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:image:alt" content={description} />
+      <meta name="twitter:image:alt" content={pageDescription} />
       {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
       {!article && (
         <script type="application/ld+json">
@@ -220,18 +221,19 @@ const SEO = props => {
   );
 };
 
-export default SEO;
+SEO.defaultProps = {
+  description: ``,
+};
 
 SEO.propTypes = {
-  postNode: PropTypes.object,
-  postPath: PropTypes.string,
-  article: PropTypes.bool,
-  buildTime: PropTypes.string,
+  description: PropTypes.string,
+  title: PropTypes.string,
+  metaImage: PropTypes.shape({
+    src: PropTypes.string.isRequired,
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
+  pathname: PropTypes.string,
 };
 
-SEO.defaultProps = {
-  postNode: null,
-  postPath: null,
-  article: false,
-  buildTime: null,
-};
+export default SEO;
