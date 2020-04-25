@@ -51,7 +51,11 @@ Our public relations team is available for you for media inquiries.
 
 ## Steering Committee
 
+Contact the entire steering committee:
+
 [steering@masksnow.org](mailto:steering@masksnow.org)
+
+Contact individual steering committee members:
 
 Francey Youngberg | [francey.youngberg@masksnow.org](mailto:francey.youngberg@masksnow.org)\
 Grant Stern | [grantstern@masksnow.org](mailto:grantstern@masksnow.org)\
