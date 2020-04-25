@@ -13,3 +13,6 @@ lambda-build/
 package-lock.json
 # dotenv environment variable files
 .env*
+
+# cypress generated data
+cypress/videos

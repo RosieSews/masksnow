@@ -82,10 +82,12 @@
     "build:production": "yarn run clean && cross-env ROSIE_ENV=production gatsby build",
     "develop": "yarn run clean && cross-env GATSBY_ROSIE_ENV=development gatsby develop",
     "format": "prettier --config ./prettier.config.js --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:test": "yarn cypress run"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "cypress": "^4.4.1",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-config-react-app": "^5.2.1",

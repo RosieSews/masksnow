@@ -14,6 +14,11 @@ import {
   DropDownMenu,
 } from '../components/StyledElements/MoreDots';
 
+import testIds from '../../shared/testIds';
+const {
+  common: { navbar },
+} = testIds;
+
 const HamburgerLine = () => {
   return <span />;
 };
@@ -59,7 +64,11 @@ const Navbar = () => {
 
   const topNavBar = (
     <div className="navbar-start has-text-centered">
-      <NavLink to="/volunteer" activeClassName={'active'}>
+      <NavLink
+        to="/volunteer"
+        data-testid={navbar.volunteer}
+        activeClassName={'active'}
+      >
         Volunteer
       </NavLink>
 
