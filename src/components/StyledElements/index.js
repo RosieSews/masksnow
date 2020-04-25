@@ -38,11 +38,12 @@ export const FacebookBrandIcon = ({ size = DEFAULT_SOCIAL_ICON_SIZE }) => {
   return <FontAwesomeIcon icon={faFacebook} size={size} />;
 };
 
-export const FacebookLinkIcon = ({ size }) => (
+export const FacebookLinkIcon = ({ size, ...restProps }) => (
   <SocialMediaIconLink
     href={'https://www.facebook.com/groups/masksnoworg'}
     target={'_blank'}
     color={'#3B5998'}
+    {...restProps}
   >
     <FacebookBrandIcon size={size} />
   </SocialMediaIconLink>
@@ -52,12 +53,13 @@ export const InstagramBrandIcon = ({ size = DEFAULT_SOCIAL_ICON_SIZE }) => {
   return <FontAwesomeIcon icon={faInstagram} size={size} />;
 };
 
-export const InstagramLinkIcon = ({ size }) => (
+export const InstagramLinkIcon = ({ size, ...restProps }) => (
   <SocialMediaIconLink
     href="https://www.instagram.com/masksnoworg"
     target="_blank"
     color="black"
     background="radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"
+    {...restProps}
   >
     <InstagramBrandIcon size={size} />
   </SocialMediaIconLink>
@@ -67,11 +69,12 @@ export const TwitterBrandIcon = ({ size = DEFAULT_SOCIAL_ICON_SIZE }) => {
   return <FontAwesomeIcon icon={faTwitter} size={size} />;
 };
 
-export const TwitterLinkIcon = ({ size }) => (
+export const TwitterLinkIcon = ({ size, ...restProps }) => (
   <SocialMediaIconLink
     href="https://twitter.com/masksnoworg"
     target="_blank"
     color="#1da1f2"
+    {...restProps}
   >
     <TwitterBrandIcon size={size} />
   </SocialMediaIconLink>

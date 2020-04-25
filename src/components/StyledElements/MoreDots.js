@@ -65,7 +65,7 @@ const MoreStuffButton = styled(Button)`
   }
 `;
 
-export const MoreDotsMenu = ({ children }) => {
+export const MoreDotsMenu = ({ children, ...restProps }) => {
   const popupState = usePopupState({ variant: 'popover', popupId: 'demoMenu' });
   return (
     <>
@@ -75,6 +75,7 @@ export const MoreDotsMenu = ({ children }) => {
         aria-controls="long-menu"
         aria-haspopup="true"
         {...bindTrigger(popupState)}
+        {...restProps}
       >
         <MoreDotsButton />
       </IconButton>
@@ -92,7 +93,7 @@ export const MoreDotsMenu = ({ children }) => {
 };
 const anchorOriginMobile = { horizontal: 'right' };
 const anchorOriginDesktop = { vertical: 'bottom' };
-export const DropDownMenu = ({ title, children }) => {
+export const DropDownMenu = ({ title, children, ...restProps }) => {
   const isMobile = useMobile();
   const anchorOrigin = isMobile ? anchorOriginMobile : anchorOriginDesktop;
   const popupState = usePopupState({ variant: 'popover', popupId: 'demoMenu' });
@@ -103,6 +104,7 @@ export const DropDownMenu = ({ title, children }) => {
         aria-controls="long-menu"
         aria-haspopup="true"
         {...bindTrigger(popupState)}
+        {...restProps}
       >
         {title}
       </MoreStuffButton>

@@ -7,20 +7,32 @@ import {
   TwitterLinkIcon,
 } from '../components/StyledElements';
 
+import testIds from '../../shared/testIds';
+
+const {
+  common: { footer },
+} = testIds;
+
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer">
         <div className="social-media">
-          <FacebookLinkIcon />
-          <InstagramLinkIcon />
-          <TwitterLinkIcon />
+          <FacebookLinkIcon data-testid={footer.social.facebook} />
+          <InstagramLinkIcon data-testid={footer.social.instagram} />
+          <TwitterLinkIcon data-testid={footer.social.twitter} />
         </div>
-        <Link to={'/faq'}>FAQ's</Link>
+        <Link to={'/faq'} data-testid={footer.links.faqs}>
+          FAQ's
+        </Link>
         {' | '}
-        <Link to={'/contact'}>Contact</Link>
+        <Link to={'/contact'} data-testid={footer.links.contact}>
+          Contact
+        </Link>
         {' | '}
-        <Link to={'/about-us'}>About Us</Link>
+        <Link to={'/about-us'} data-testid={footer.links.aboutUs}>
+          About Us
+        </Link>
         <p className="external-links">
           External Resources:{' '}
           <a href="https://www.endcoronavirus.org/">endcoronavirus.org</a>
