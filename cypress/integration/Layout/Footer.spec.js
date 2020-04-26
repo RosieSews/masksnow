@@ -8,7 +8,7 @@ const {
   common: { footer },
 } = testIds;
 
-describe('[Navbar] Integration test', () => {
+describe('[Footer] Integration test', () => {
   before(() => {
     cy.visit('/');
   });
