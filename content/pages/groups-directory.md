@@ -120,7 +120,6 @@ title: State/Regional Facebook Group Directory
   * [Texas (Austin metro)](https://www.facebook.com/groups/mllionmaskmaydayTX/) | Regional Lead: [Andrea](mailto:AndreaATX@masksnow.org)
   * Texas (College Station area) | Regional Lead: [Joseph](mailto:josephwebster.exe@gmail.com)
   * [Texas (Dallas)](https://www.facebook.com/groups/MasksNowDallasTX/) | Regional Lead: [Vanessa](mailto:vlynnesmith59@gmail.com)
-  * [Texas (Houston metro)](https://www.facebook.com/groups/597450300982941/) | Regional Lead: [Janet](mailto:gatormom04@hotmail.com)
   * [Texas (San Antonio)](https://www.facebook.com/groups/MasksNowSanAntonioTexas/) | Regional Lead: [Lucas](mailto:lsevedge@gmail.com)
 * [Utah ](https://www.facebook.com/groups/masksNOWutah/)| State Lead: [Katie](mailto:57mamatee@gmail.com)
 * [Virginia](https://www.facebook.com/groups/860457351144099/) | State Leads: [Amelia](mailto:favere@gmail.com), [Ahmed](mailto:ahmed.elzamzami.17@cnu.edu), [Amanda](mailto:amandamsunde@gmail.com)
@@ -132,7 +131,5 @@ title: State/Regional Facebook Group Directory
   * Washington (Seattle) | Regional Lead: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mikaela.becker@gmail.com)
-
-
 
 If you do not see your state/region listed, email [astrid@masksnow.org](mailto:astrid@masksnow.org) to start a chapter!
