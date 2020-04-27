@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { lighten } from 'polished';
 import { Link } from 'gatsby';
 
 export const NavLink = styled(Link)`

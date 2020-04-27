@@ -13,7 +13,7 @@ import {
 import Button from '../button';
 import StripeForm from './StripeForm';
 import AmountSelection from './AmountSelection';
-import { STRIPE_KEY, API_PATH, ROSIE_ENV, isProd } from '../../constants';
+import { STRIPE_KEY, API_PATH, isProd } from '../../constants';
 
 const stripePromise = loadStripe(STRIPE_KEY);
 

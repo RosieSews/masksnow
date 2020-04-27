@@ -11,7 +11,6 @@ import {
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { useMobile } from '../../hooks/useMobile';
-import { NavLink } from './NavItem';
 
 const MoreDotsButton = styled(MoreVertIcon)`
   margin: 0.25em 0.25em 0;
