@@ -110,9 +110,9 @@ export const DropDownMenu = ({ title, children }) => {
         anchorOrigin={anchorOrigin}
         getContentAnchorEl={null}
       >
-        {children.map(child => {
+        {children.map((child, index) => {
           return (
-            <MoreDotsMenuItem key={child.props.to} onClick={popupState.close}>
+            <MoreDotsMenuItem key={index} onClick={popupState.close}>
               {child}
             </MoreDotsMenuItem>
           );
