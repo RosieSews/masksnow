@@ -2,6 +2,10 @@
 templateKey: info-page
 title: Media Hits
 ---
+### [The Masks Now Coalition Announces First Fully CDC Compliant Facemask Design For The Public](https://www.textileworld.com/textile-world/2020/04/the-masks-now-coalition-announces-first-fully-cdc-compliant-facemask-design-for-the-public/)
+
+**Textile World**, April 24, 2020
+
 ### [(Partner) Nkwenda Center Just Made 5000 Masks to Protect Against COVID-19!](http://educatetanzania.org/2020/04/covid19-5000-masks-counting/?fbclid=IwAR0vET5eVqlvGIVMrTiMn-o32_d2cp3pZjtPUOM7qLp0eJX4O_UtBzPEbwQ)
 
 **Educate Tanzania**, April 17, 2020
