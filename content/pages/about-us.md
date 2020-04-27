@@ -29,6 +29,6 @@ Our goal is to give each citizen the ability to take control of their communityâ
 * [Dr. Kelly Sennholz](mailto:DrSennholz@masksnow.org)
 * [Rachel Emard](mailto:rachel@masksnow.org)  
 * [Joe Cooter](mailto:joe@masksnow.org)
-* [Scott Dworkin](scott@masksnow.org)
+* [Scott Dworkin](mailto:scott@masksnow.org)
 
 For interviews, please contact [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
