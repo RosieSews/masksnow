@@ -140,7 +140,6 @@ exports.createPages = async ({ actions, graphql }) => {
   pages.edges.forEach(edge => {
     const id = edge.node.id;
     const infographicHomepage = edge.node.frontmatter.infographicHomepage;
-    // console.log('FRONTMATTER:', edge.node.frontmatter);
     if (infographicHomepage) {
       // build a "page" that ignores all the content and instead displays the new
       // infographic
@@ -200,7 +199,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
-    console.log('slugL', value);
     createNodeField({
       name: `slug`,
       node,

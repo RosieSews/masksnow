@@ -228,7 +228,6 @@ const FormContainer = () => {
               }
             );
             if (error) {
-              // console.log('error', error);
               throw error;
             }
             // The payment has been processed!
