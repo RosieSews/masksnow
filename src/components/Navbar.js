@@ -129,7 +129,10 @@ const Navbar = () => {
           Contact
         </NavLink>
         <NavLink to="/fundraising-goals" activeClassName={'active'} wide={true}>
-          Help Us ❤️
+          Help Us{' '}
+          <span role="img" aria-label="heart emoji">
+            ❤️
+          </span>
         </NavLink>
       </MoreDotsMenu>
     </div>

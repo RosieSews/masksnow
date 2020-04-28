@@ -1,15 +1,10 @@
 import CMS from 'netlify-cms-app';
-import uploadcare from 'netlify-cms-media-library-uploadcare';
-import cloudinary from 'netlify-cms-media-library-cloudinary';
 
 import PatternsPreview from './preview-templates/PatternsPreview';
 import GroupsDirectoryPreview from './preview-templates/GroupsDirectoryPreview';
 import NewsPostPreview from './preview-templates/NewsPostPreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
 import PagePreview from './preview-templates/InfoPagePreview';
-
-CMS.registerMediaLibrary(uploadcare);
-CMS.registerMediaLibrary(cloudinary);
 
 CMS.registerPreviewTemplate('index', IndexPagePreview);
 CMS.registerPreviewTemplate('request-supplies', PagePreview);
