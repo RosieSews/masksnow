@@ -16,7 +16,7 @@ tags:
   - 3-layer mask
 order: 1
 hideFromFront: false
-updatedDate: 2020-04-18T08:20:00.000Z
+updatedDate: 2020-04-28T08:20:00.000Z
 ---
 The 3-Layer Mask Pattern Packet includes:
 
