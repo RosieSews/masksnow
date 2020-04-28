@@ -101,7 +101,7 @@ title: State/Regional Facebook Group Directory
 
     * New York (NYC) - Brooklyn | Regional Lead: [Clare](mailto:clare@masksnow.org)
     * New York (NYC) - Manhattan | Regional Lead: [Taylor](mailto:TaylorNY@masksnow.org)
-    * New York (NYC) - Queens | Regional Lead: [Melody](mailto:song.melody@gmail.com), [Nina](mailto:ninab@masksnow.org)
+    * New York (NYC) - Queens | Regional Leads: [Melody](mailto:song.melody@gmail.com), [Nina](mailto:ninab@masksnow.org)
   * [New York (Western NY)](www.facebook.com/groups/wnymasksnow/) | Regional Lead: [Jenn](mailto:jguia@masksnow.org)
 * [North Carolina](https://www.facebook.com/groups/148578513144519/) | State Lead: [Astrid](mailto:astrid@masksnow.org)
 * [Ohio](https://www.facebook.com/groups/masksnowohio) | State Lead: [Emily](mailto:Emily@masksnow.org)
@@ -130,7 +130,7 @@ title: State/Regional Facebook Group Directory
   * Virginia (VA Beach) | Regional Lead: [Gina](mailto:gina.cooper.gc@gmail.com)
 * [Washington](https://www.facebook.com/groups/206024387398453/) | State Leads: [Chloe](mailto:chlooebolaand@gmail.com), [Jion](mailto:ajionkim@uw.edu)
 
-  * Washington (Seattle) | Regional Lead: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
+  * Washington (Seattle) | Regional Leads: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mbecker@masksnow.org)
 
