@@ -21,7 +21,7 @@ title: State/Regional Facebook Group Directory
 * [California (Northern)](https://www.facebook.com/groups/M3California/) | Regional Lead: [Karina](mailto:karina@masksnow.org)
 
   * [California (Northern) - Sacramento](https://www.facebook.com/groups/1506768662816030/?hc_location=group) | Regional Lead: [Crystal](mailto:CrystalCA@masksnow.org)
-  * [California (Northern) - San Jose] (https://www.facebook.com/groups/M3California/) | Regional Lead: [Allison](mailto:Allison@masksnow.org)
+  * [California (Northern) - San Jose](https://www.facebook.com/groups/M3California/) | Regional Lead: [Allison](mailto:Allison@masksnow.org)
 * [California (Southern)](https://facebook.com/groups/MasksNOWSoCal) | Regional Lead: [Dez](mailto:Deztroamphetamine@masksnow.org)
 
   * [California (Southern) - Los Angeles](https://www.facebook.com/groups/MasksNOWLACA) | Regional Leads: [Emily](mailto:Emily@emiicreations.com), [Jennifer](mailto:JaMinzey@gmail.com)
