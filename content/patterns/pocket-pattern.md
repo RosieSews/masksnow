@@ -16,7 +16,7 @@ tags:
   - pocket-mask
 order: 2
 hideFromFront: false
-updatedDate: 2020-04-14T08:45:56.190Z
+updatedDate: 2020-04-28T08:45:00.000Z
 ---
 
 The Pocket Mask Pattern Packet includes:
