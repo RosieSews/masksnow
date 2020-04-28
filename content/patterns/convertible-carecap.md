@@ -7,7 +7,7 @@ description: >-
   The Created for Crisis CareCap is a convertible scrub cap that can be worn as
   an ear-saving headband or extended to a full coverage cap.
 patternArt: /img/care-cap-cover-image-01.png
-patternFile: /img/mn-cfc-convertible-carecap-packet.pdf
+patternFile: /img/masksnow-cfccap-428.pdf
 meetsGuidelines: false
 forDonations: true
 noSewingMachine: false
