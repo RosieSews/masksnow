@@ -14,7 +14,7 @@ tags:
   - mask cover
 order: 3
 hideFromFront: false
-updatedDate: 2020-04-14T08:43:32.671Z
+updatedDate: 2020-04-28T08:43:00.000Z
 ---
 
 The Mask Cover Pattern Packet includes:
