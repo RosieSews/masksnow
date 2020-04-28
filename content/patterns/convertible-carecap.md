@@ -15,7 +15,7 @@ tags:
   - 3-layer mask
 order: 6
 hideFromFront: false
-updatedDate: 2020-04-22T05:02:02.468Z
+updatedDate: 2020-04-29T05:02:00.000Z
 ---
 The Convertible CareCap Pattern Packet includes:
 
