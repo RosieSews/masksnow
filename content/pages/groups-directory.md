@@ -79,7 +79,7 @@ title: State/Regional Facebook Group Directory
   * Michigan (Detroit) | Macomb County Lead: [Connie](mailto:bitothisbitothat@gmail.com)
   * Michigan (Detroit) | Oakland County Lead: [Janie](mailto:oaklandcountymaskdonations@gmail.com)
   * Michigan (Detroit) | Wayne County Lead: [Diana](mailto:diana@telamongroup.com)
-* [Minnesota] (https://www.facebook.com/groups/2586683318244428/) 
+* [Minnesota](https://www.facebook.com/groups/2586683318244428/) 
 * [Mississippi](https://www.facebook.com/groups/554045278817832/) | State Lead: [Lisa](mailto:LisaMS@masksnow.org)
 * [Missouri](https://www.facebook.com/groups/693560934789022/about/) | State Lead: [Heather](mailto:hrippetoe@masksnow.org)
 
