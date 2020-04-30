@@ -6,7 +6,7 @@ description: >-
   Download a handy packing slip to let the recipient know exactly what the
   donated masks are made of and how to clean them.
 patternArt: /img/packing-slip.png
-patternFile: /img/masksnow-cfcpackingslip-428.pdf
+patternFile: /img/masksnow-packing-slip-by-created-for-crisis.pdf
 meetsGuidelines: false
 forDonations: true
 noSewingMachine: false
