@@ -8,7 +8,7 @@ description: >-
   solution! The two layers of cotton open in the back to accommodate an insert
   (provided by mask-wearer).
 patternArt: /img/pattern-art/pattern-pocket-mask-01.png
-patternFile: /img/masksnow-cfcpocket-428.pdf
+patternFile: /img/mn-cfc-pocket-mask-packet-4-30.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
