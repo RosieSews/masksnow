@@ -5,11 +5,11 @@ description: >-
   Download a handy packing slip to let the recipient know exactly what the
   donated masks are made of and how to clean them.
 resourceArt: /img/packing-slip.png
-resourceFile: /img/masksnow-packing-slip-by-created-for-crisis-413.pdf
+resourceFile: /img/masksnow-packing-slip-by-created-for-crisis.pdf
 tags:
   - packing slip
 order: 1
-updatedDate: 2020-04-20T06:06:39.834Z
+updatedDate: 2020-04-30T16:32:00.000Z
 patternFile: /img/masksnow-cfc-cleaning-packing-413.pdf
 patternArt: /img/cleaning-packing.png
 alternateTitle: Cleaning & Packing Guide
