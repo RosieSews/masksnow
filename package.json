@@ -83,7 +83,7 @@
     "develop": "yarn run clean && cross-env GATSBY_ROSIE_ENV=development gatsby develop",
     "format": "prettier --config ./prettier.config.js --write \"{gatsby-*.js,src/**/*.js}\"",
     "cy:open": "cypress open",
-    "cy:test": "yarn cypress run",
+    "cy:run": "cypress run",
     "e2e:open": "start-server-and-test develop http://localhost:8000 cy:open",
     "e2e:run": "start-server-and-test develop http://localhost:8000 cy:run"
   },
