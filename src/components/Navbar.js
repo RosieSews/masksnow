@@ -249,6 +249,7 @@ const Navbar = () => {
               <div
                 className={`navbar-burger burger ${navBarActiveClass}`}
                 data-target="navMenu"
+                data-testid={navbar.hamburger}
                 role="button"
                 tabIndex={0}
                 onKeyPress={onEnterKey(toggleHamburger)}

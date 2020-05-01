@@ -37,6 +37,7 @@ export default {
         helpUs: 'nav-link-help-us',
       },
     },
+    hamburger: 'nav-link-hamburger',
   },
 
   footer: {
