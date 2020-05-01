@@ -83,11 +83,14 @@
     "develop": "yarn run clean && cross-env GATSBY_ROSIE_ENV=development gatsby develop",
     "format": "prettier --config ./prettier.config.js --write \"{gatsby-*.js,src/**/*.js}\"",
     "cy:open": "cypress open",
-    "cy:test": "yarn cypress run"
+    "cy:test": "yarn cypress run",
+    "e2e:open": "start-server-and-test develop http://localhost:8000 cy:open",
+    "e2e:run": "start-server-and-test develop http://localhost:8000 cy:run"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
     "babel-eslint": "^10.1.0",
-    "cypress": "^4.4.1",
+    "cypress": "^4.5.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-config-react-app": "^5.2.1",
@@ -98,7 +101,8 @@
     "eslint-plugin-react-hooks": "^3.0.0",
     "gatsby-plugin-eslint": "^2.0.8",
     "husky": "^4.2.3",
-    "prettier": "^1.15.3"
+    "prettier": "^1.15.3",
+    "start-server-and-test": "^1.11.0"
   },
   "husky": {
     "hooks": {

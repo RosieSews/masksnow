@@ -2,7 +2,6 @@
 /// <reference types="cypress" />
 
 import testIds from '../../../shared/testIds';
-import { getByTestId } from '../../utils';
 
 const {
   common: { footer },
@@ -15,7 +14,7 @@ describe('[Footer] Integration test', () => {
 
   describe('[Social] section', () => {
     it(`Should [have reference] to an external site on [Facebook]`, () => {
-      cy.get(getByTestId(footer.social.facebook))
+      cy.findByTestId(footer.social.facebook)
         .last()
         .should('have.attr', 'target', '_blank')
         .should(
@@ -26,14 +25,14 @@ describe('[Footer] Integration test', () => {
     });
 
     it(`Should [have reference] to an external site on [Instagram]`, () => {
-      cy.get(getByTestId(footer.social.instagram))
+      cy.findByTestId(footer.social.instagram)
         .last()
         .should('have.attr', 'target', '_blank')
         .should('have.attr', 'href', 'https://www.instagram.com/masksnoworg');
     });
 
     it(`Should [have reference] to an external site on [Twitter]`, () => {
-      cy.get(getByTestId(footer.social.twitter))
+      cy.findByTestId(footer.social.twitter)
         .last()
         .should('have.attr', 'target', '_blank')
         .should('have.attr', 'href', 'https://twitter.com/masksnoworg');
@@ -42,21 +41,21 @@ describe('[Footer] Integration test', () => {
 
   describe('[Link] section', () => {
     it(`Should go to [/faq] when user clicks on [FAQs]`, () => {
-      cy.get(getByTestId(footer.links.faqs))
+      cy.findByTestId(footer.links.faqs)
         .last()
         .click();
       cy.location('pathname').should('eq', '/faq');
     });
 
     it(`Should go to [/contact] when user clicks on [Contact]`, () => {
-      cy.get(getByTestId(footer.links.contact))
+      cy.findByTestId(footer.links.contact)
         .last()
         .click();
       cy.location('pathname').should('eq', '/contact');
     });
 
     it(`Should go to [/about-us] when user clicks on [About Us]`, () => {
-      cy.get(getByTestId(footer.links.aboutUs))
+      cy.findByTestId(footer.links.aboutUs)
         .last()
         .click();
       cy.location('pathname').should('eq', '/about-us');

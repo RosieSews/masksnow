@@ -2,7 +2,6 @@
 /// <reference types="cypress" />
 
 import testIds from '../../shared/testIds';
-import { getByTestId } from '../utils';
 
 const { landing } = testIds;
 
@@ -13,22 +12,22 @@ describe('[Landing] section', () => {
     });
 
     it(`Should go to [/volunteer] when user clicks on [Volunteer]`, () => {
-      cy.get(getByTestId(landing.sections.hero.volunteer)).click();
+      cy.findByTestId(landing.sections.hero.volunteer).click();
       cy.location('pathname').should('eq', '/volunteer');
     });
 
     it(`Should go to [/volunteer] when user clicks on [I want to sew masks]`, () => {
-      cy.get(getByTestId(landing.sections.hero.sewMasks)).click();
+      cy.findByTestId(landing.sections.hero.sewMasks).click();
       cy.location('pathname').should('eq', '/volunteer');
     });
 
     it(`Should go to [/request-supplies] when user clicks on [Get Masks]`, () => {
-      cy.get(getByTestId(landing.sections.hero.requestSupplies)).click();
+      cy.findByTestId(landing.sections.hero.requestSupplies).click();
       cy.location('pathname').should('eq', '/request-supplies');
     });
 
     it(`Should contain reference to [https://rosiesews.freshdesk.com/support/] on [I Can't Sew But I Want To Help]`, () => {
-      cy.get(getByTestId(landing.sections.hero.help))
+      cy.findByTestId(landing.sections.hero.help)
         .should('have.attr', 'href')
         .and('include', 'https://rosiesews.freshdesk.com/support/');
     });
@@ -37,7 +36,7 @@ describe('[Landing] section', () => {
   describe('[Get The Pattern] CTAs', () => {
     Object.keys(landing.sections.afterSignUp.getThePattern).map(pattern =>
       it(`Should have the pdf associated to [${pattern}]`, () => {
-        cy.get(getByTestId(landing.sections.afterSignUp.getThePattern[pattern]))
+        cy.findByTestId(landing.sections.afterSignUp.getThePattern[pattern])
           .should('have.attr', 'href')
           .and('include', 'pdf');
       })
@@ -58,8 +57,8 @@ describe('[Landing] section', () => {
     });
     Object.keys(mapPatternRoutes).map(pattern =>
       it(`Should be able to go to [${mapPatternRoutes[pattern]}] when the use clicks on [${pattern}]`, () => {
-        cy.get(
-          getByTestId(landing.sections.afterSignUp.makeMasks[pattern])
+        cy.findByTestId(
+          landing.sections.afterSignUp.makeMasks[pattern]
         ).click();
 
         // Adding this for testing on local; as opening /patterns/[xyz] causes the website to crash so the test fails
@@ -88,16 +87,14 @@ describe('[Landing] section', () => {
     });
 
     it(`Should go to [/groups-directory] when user clicks on [Your state lead...]`, () => {
-      cy.get(
-        getByTestId(landing.sections.afterSignUp.donateMasks.stateLeads)
+      cy.findByTestId(
+        landing.sections.afterSignUp.donateMasks.stateLeads
       ).click();
       cy.location('pathname').should('eq', '/groups-directory');
     });
 
     it(`Should contain reference to [https://rosiesews.freshdesk.com/support/] on [Every mask...]`, () => {
-      cy.get(
-        getByTestId(landing.sections.afterSignUp.donateMasks.everyMaskDonated)
-      )
+      cy.findByTestId(landing.sections.afterSignUp.donateMasks.everyMaskDonated)
         .should('have.attr', 'href')
         .and('include', 'https://rosiesews.freshdesk.com/support/');
     });
@@ -109,7 +106,7 @@ describe('[Landing] section', () => {
     });
 
     it(`Should contain reference to [https://rosiesews.freshdesk.com/support/] on [Find answers to all you questions...]`, () => {
-      cy.get(getByTestId(landing.sections.afterSignUp.getHelp.support))
+      cy.findByTestId(landing.sections.afterSignUp.getHelp.support)
         .should('have.attr', 'href')
         .and('include', 'https://rosiesews.freshdesk.com/support/');
     });
