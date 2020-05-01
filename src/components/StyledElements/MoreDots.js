@@ -11,7 +11,6 @@ import {
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { useMobile } from '../../hooks/useMobile';
-import { NavLink } from './NavItem';
 
 const MoreDotsButton = styled(MoreVertIcon)`
   margin: 0.25em 0.25em 0;
@@ -113,9 +112,9 @@ export const DropDownMenu = ({ title, children, ...restProps }) => {
         anchorOrigin={anchorOrigin}
         getContentAnchorEl={null}
       >
-        {children.map(child => {
+        {children.map((child, index) => {
           return (
-            <MoreDotsMenuItem key={child.props.to} onClick={popupState.close}>
+            <MoreDotsMenuItem key={index} onClick={popupState.close}>
               {child}
             </MoreDotsMenuItem>
           );

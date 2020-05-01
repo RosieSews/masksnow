@@ -200,7 +200,10 @@ const Navbar = () => {
           wide={true}
           data-testid={navbar.moreDots.dropdown.helpUs}
         >
-          Help Us ❤️
+          Help Us{' '}
+          <span role="img" aria-label="heart emoji">
+            ❤️
+          </span>
         </NavLink>
       </MoreDotsMenu>
     </div>

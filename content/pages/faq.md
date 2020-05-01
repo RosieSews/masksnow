@@ -31,7 +31,7 @@ In response to the respirator shortage crisis due to COVID-19, the CDC [has indi
 
 ## How many volunteers do you have?
 
-As of today we have over 10,000 volunteers spread amongst every state plus DC and Puerto Rico.
+As of today we have over 11,000 volunteers spread amongst every state plus DC and Puerto Rico.
 
 ## How many organizers are there in The Masks Now Coalition?
 
@@ -47,4 +47,4 @@ Any organization can request masks, including healthcare facilities that have pa
 
 ## How many organizations are asking for hand sewn masks?
 
-Over 1,100 organizations in 46 states have asked for handsewn masks, with over 350 healthcare facilities requesting masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.
+Over 1,100 organizations in 42 states have asked for handsewn masks, with over 350 healthcare facilities requesting masks to supplement their complement of surgical masks and N95 respirators. That’s because every mask we donate for non-clinical use frees up a manufactured mask for a doctor or nurse.

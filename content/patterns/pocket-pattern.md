@@ -8,7 +8,7 @@ description: >-
   solution! The two layers of cotton open in the back to accommodate an insert
   (provided by mask-wearer).
 patternArt: /img/pattern-art/pattern-pocket-mask-01.png
-patternFile: /img/masksnow-cfcpocket-413.pdf
+patternFile: /img/mn-cfc-pocket-mask-packet-4-30.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
@@ -16,7 +16,7 @@ tags:
   - pocket-mask
 order: 2
 hideFromFront: false
-updatedDate: 2020-04-14T08:45:56.190Z
+updatedDate: 2020-04-28T08:45:00.000Z
 ---
 
 The Pocket Mask Pattern Packet includes:

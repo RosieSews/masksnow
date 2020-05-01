@@ -12,7 +12,7 @@ We are profoundly grateful to the following organizations that are working with 
 * Canada Sews
 * Coats & Clark
 * Colorado Mask Project
-* Congressman Ted Deutch (R)
+* Congressman Ted Deutch
 * COVID Mask Crafters
 * Created For Crisis
 * Democratic Coalition

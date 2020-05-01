@@ -8,7 +8,7 @@ description: >-
   professionals. This pattern features a middle layer of non-woven material
   between two layers of cotton.
 patternArt: /img/pattern-art/pattern-3-layer-mask-01.png
-patternFile: /img/mn-cfc-3-layer-pattern-packet-4-18.pdf
+patternFile: /img/mn-cfc-3-layer-pattern-packet-4-29.pdf
 meetsGuidelines: true
 forDonations: true
 noSewingMachine: false
@@ -16,7 +16,7 @@ tags:
   - 3-layer mask
 order: 1
 hideFromFront: false
-updatedDate: 2020-04-18T08:20:00.000Z
+updatedDate: 2020-04-30T16:13:00.000Z
 ---
 The 3-Layer Mask Pattern Packet includes:
 
