@@ -2,17 +2,16 @@
 templateKey: info-page
 title: Media Hits
 ---
+### [Martina Navratilova helping company provide masks during coronavirus pandemic](https://www.local10.com/sports/2020/04/30/martina-navratilova-helping-company-provide-masks-during-coronavirus-pandemic/)
+
+**WPLG**, April 30, 2020
+
 ### [Masks Now Coalition in need of volunteers](https://www.wjtv.com/health/coronavirus/masks-now-coalition-in-need-of-volunteers/)
 
 **WJTV**, April 29, 2020
 
-### [New textile helps volunteers sew nonmedical masks now to cover every American](https://medium.com/themasksnowcoalition/new-textile-helps-volunteers-sew-nonmedical-masks-now-to-cover-every-american-aed191924c34)
-
-**Medium**, April 29, 2020
-
-### [The Masks Now Coalition Announces First Fully CDC Compliant Facemask Design For The Public](https://www.textileworld.com/textile-world/2020/04/the-masks-now-coalition-announces-first-fully-cdc-compliant-facemask-design-for-the-public/)
-
-**Textile World**, April 24, 2020
+### [Dez Bochnak interview](https://thericksmithshow.podbean.com/e/dez-bochnak/)
+**The Rick Smith Show**, April 22, 2020
 
 ### [(Partner) Nkwenda Center Just Made 5000 Masks to Protect Against COVID-19!](http://educatetanzania.org/2020/04/covid19-5000-masks-counting/?fbclid=IwAR0vET5eVqlvGIVMrTiMn-o32_d2cp3pZjtPUOM7qLp0eJX4O_UtBzPEbwQ)
 
