@@ -35,3 +35,5 @@ Please wear masks whenever you leave your home.
 Sincerely,
 
 The MasksNow Coalition Medical Advisory Board
+
+Are you a current or former healthcare practitioner? [Sign this letter](https://masksnow.org/sign-the-million-healthcare-workers-letter/).
