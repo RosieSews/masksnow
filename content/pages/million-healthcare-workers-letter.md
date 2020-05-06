@@ -4,13 +4,15 @@ title: Masks Now Coalition — Healthcare Workers Open Letter
 ---
 Dear Citizens,
 
-We the below signed healthcare professionals believe that wearing masks is the right thing to do from a medical perspective to fight the spread of COVID19.
+We the below signed healthcare professionals believe that wearing masks is the right thing to do from a medical perspective to fight the spread of COVID–19.
 
-But to do that, we need all your help if you want to go back to work, reopen schools, and bring life back to normal.
+But to do that, we need all your help if you want to go back to work, reopen schools, and bring back a more normal life.
 
 We need you to wear masks in public at all times.
 
-As your doctors, your nurses, your healthcare workers, and health administrators, we want to relay why this advice to you, our friends, our neighbors, and our patients that universal mask-wearing is beneficial to our community and necessary to fight the coronavirus pandemic:
+As your doctors, your nurses, your healthcare workers, and health administrators, we want to relay why this advice to you, our friends, our neighbors, and our patients. Universal mask-wearing is beneficial to our community and necessary to fight the coronavirus pandemic.
+
+Here’s why:
 
 * Wearing masks now is the good, right, and the American thing to do to save lives and get back to work.
 * Wearing masks will greatly expand the number of businesses and places of worship that could potentially reopen.
@@ -27,5 +29,3 @@ Please wear masks whenever you leave your home.
 Sincerely,
 
 The MasksNow Coalition Medical Advisory Board
-
-Are you a current or former healthcare practitioner? [Sign this letter](https://masksnow.org/sign-the-million-healthcare-workers-letter/).
