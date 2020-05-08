@@ -2,11 +2,15 @@
 templateKey: info-page
 title: Press Releases
 ---
-### [New textile helps volunteers sew nonmedical masks now to cover every American](https://medium.com/themasksnowcoalition/new-textile-helps-volunteers-sew-nonmedical-masks-now-to-cover-every-american-aed191924c34)
+### [Masks Now Coalition Partners with Returned Peace Corps Volunteers Serving at Home](https://www.prnewswire.com/news-releases/masks-now-coalition-partners-with-returning-peace-corps-volunteers-serving-at-home-301054908.html)
+
+May 7, 2020
+
+### [New Textile Helps Volunteers Sew Nonmedical Masks Now to Cover Every American](https://www.prnewswire.com/news-releases/new-textile-helps-volunteers-sew-nonmedical-masks-now-to-cover-every-american-301049001.html)
 
 April 29, 2020
 
-### [The Masks Now Coalition Announces First Fully CDC Compliant Facemask Design For The Public](https://www.textileworld.com/textile-world/2020/04/the-masks-now-coalition-announces-first-fully-cdc-compliant-facemask-design-for-the-public/)
+### [The Masks Now Coalition Announces First Fully CDC Compliant Facemask Design for the Public](https://www.prnewswire.com/news-releases/the-masks-now-coalition-announces-first-fully-cdc-compliant-facemask-design-for-the-public-301046790.html)
 
 April 24, 2020
 
