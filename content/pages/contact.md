@@ -31,11 +31,11 @@ If you'd like to help volunteer behind-the-scenes and join our national team, pl
 
 [volunteer@masksnow.org ](mailto:volunteer@masksnow.org)
 
-## Industry Partnerships
+## Partnerships
 
 If you or your company would like to join our mission through materials supply, logistics, operations, etc., we would love to collaborate with you.
 
-[industry@masksnow.org](mailto:industry@masksnow.org)
+[partnerships@masksnow.org](mailto:industry@masksnow.org)
 
 ## Social Media
 
