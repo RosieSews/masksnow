@@ -14,6 +14,10 @@ title: Media Hits
 
 **WJTV**, April 29, 2020
 
+### [‘A lovely little exchange’: Lawrence residents sew and give away hundreds of cloth masks](https://www2.ljworld.com/news/general-news/2020/apr/28/a-lovely-little-exchange-lawrence-residents-sew-and-give-away-hundreds-of-cloth-masks/)
+
+**Lawrence Journal-World**, April 28, 2020
+
 ### [Dez Bochnak interview](https://thericksmithshow.podbean.com/e/dez-bochnak/)
 **The Rick Smith Show**, April 22, 2020
 
