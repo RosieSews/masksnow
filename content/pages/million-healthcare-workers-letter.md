@@ -22,7 +22,7 @@ People without any symptoms are carrying the coronavirus. But if they wear a mas
 
 Since nobody knows who has the virus, that’s why everyone needs to wear a mask to stop the spread of the disease which has shut down our economy.
 
-Even a cotton mask can cut an infected person’s expulsion of viral material by up to 99% according to a**[study](https://www.nejm.org/doi/full/10.1056/NEJMc2007800)**in the*New England Journal of Medicine*.
+Even a cotton mask can cut an infected person’s expulsion of viral material by up to 99% according to a **[study](https://www.nejm.org/doi/full/10.1056/NEJMc2007800)** in the *New England Journal of Medicine*.
 
 [Read more about the facts here.](https://medium.com/@grantstern/why-do-masks-work-to-prevent-people-from-spreading-the-coronavirus-f9fd19357788)
 
