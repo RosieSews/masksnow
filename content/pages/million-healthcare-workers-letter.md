@@ -1,6 +1,8 @@
 ---
 templateKey: info-page
-title: Masks Now Coalition — Healthcare Workers Open Letter
+title: >-
+  Wear Masks Now To Crush the Curve — An Open Letter From Healthcare Workers To
+  Patients
 ---
 Dear Citizens,
 
