@@ -2,6 +2,10 @@
 templateKey: info-page
 title: Media Hits
 ---
+### [Local sewers band together to provide protective masks](https://www.fortmorgantimes.com/2020/05/10/local-sewers-band-together-to-provide-protective-masks/)
+
+**Fort Morgan Times**, May 10, 2020
+
 ### [MasksNow: local workers helping out, one mask at a time](https://www.wrdw.com/content/news/MasksNow-local-workers-helping-out-one-mask-at-a-time-570226881.html)
 
 **WRDW**, May 5, 2020
@@ -14,9 +18,21 @@ title: Media Hits
 
 **WJTV**, April 29, 2020
 
+### [Jodi Murray interview](https://thericksmithshow.podbean.com/e/jodi-murray/)
+**The Rick Smith Show**, April 28, 2020
+
 ### [‘A lovely little exchange’: Lawrence residents sew and give away hundreds of cloth masks](https://www2.ljworld.com/news/general-news/2020/apr/28/a-lovely-little-exchange-lawrence-residents-sew-and-give-away-hundreds-of-cloth-masks/)
 
 **Lawrence Journal-World**, April 28, 2020
+
+### [Miriam Hoffman interview](https://thericksmithshow.podbean.com/e/miriam-hoffman/)
+**The Rick Smith Show**, April 25, 2020
+
+### [Cody Poirot interview](https://thericksmithshow.podbean.com/e/cody-poirot/)
+**The Rick Smith Show**, April 23, 2020
+
+### [Piff's Golden Hour with Jodi from Created for Crisis](https://www.youtube.com/watch?v=a64L6yUTBtA&feature=youtu.be)
+**Piff the Magic Dragon**, April 22, 2020
 
 ### [Dez Bochnak interview](https://thericksmithshow.podbean.com/e/dez-bochnak/)
 **The Rick Smith Show**, April 22, 2020
