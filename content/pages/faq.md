@@ -27,7 +27,7 @@ The FDA recently issued emergency regulations of its [enforcement policy](https:
 
 The FDA recognizes that, when alternatives, such as FDA-cleared masks or respirators, are unavailable, individuals, including healthcare professionals, might improvise personal protective equipment (PPE). FDA does not intend to object to individuals’ distribution and use of improvised PPE when no alternatives, such as FDA-cleared masks or respirators, are available. 
 
-In response to the respirator shortage crisis due to COVID-19, the CDC [has indicated](https://www.cdc.gov/coronavirus/2019-ncov/hcp/respirators-strategy/crisis-alternate-strategies.html) that "it may be necessary for healthcare professionals to use masks that have never been evaluated or approved by NIOSH (including homemade masks).  It may be considered to use these masks for care of patients with COVID-19, tuberculosis, measles, and varicella. However, caution should be exercised when considering this option."
+In response to the respirator shortage crisis due to COVID-19, the CDC [has indicated](https://www.cdc.gov/coronavirus/2019-ncov/hcp/respirators-strategy/crisis-alternate-strategies.html) that "it may be necessary for healthcare professionals to use masks that have never been evaluated or approved by [NIOSH](https://www.cdc.gov/coronavirus/2019-ncov/hcp/ppe-strategy/face-masks.html) (including homemade masks).  It may be considered to use these masks for care of patients with COVID-19, tuberculosis, measles, and varicella. However, caution should be exercised when considering this option."
 
 ## How many volunteers do you have?
 
