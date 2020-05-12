@@ -112,7 +112,7 @@ title: State/Regional Facebook Group Directory
   * Oklahoma (Tulsa) | Regional Lead: [Nicki](mailto:nickiwoodartist@gmail.com)
 * [Oregon](https://www.facebook.com/groups/2591309841146113) | State Leads: [Bonnie](mailto:bonnieor@masksnow.org), [Lora](mailto:lora@masksnow.org)
 
-  * [Oregon (Portland)](https://www.facebook.com/groups/148236809855564/?ref=share) | Regional Lead: [Wai](mailto:communityfacemasksofsalem@gmail.com)
+  * [Oregon (Portland)](https://www.facebook.com/groups/148236809855564/?ref=share) | Regional Lead: [Wai](mailto:WaiTam@masksnow.org)
 * [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com), [Sarah](mailto:Sarah_PA@masksnow.org)
 * Puerto Rico | Regional Lead: [Megan](mailto:chiringachica@yahoo.com)
 * [South Carolina](https://www.facebook.com/groups/561045871433689/) | State Lead: [Sara](mailto:masksnowsc@gmail.com)
