@@ -53,11 +53,10 @@ title: State/Regional Facebook Group Directory
   * Georgia (Augusta) | Regional Lead: [Jean](mailto:phjv1990@gmail.com)
 * [Hawaii](https://www.facebook.com/Masks-NOW-Hawaii-104565304527634/) | State Leads: [Sharon](mailto:sharon.garcia.doyle@gmail.com), [Brooke](mailto:m3oahu@gmail.com)
 * [Idaho](https://www.facebook.com/IdahoSTEMAC/) | State Leads: [Erica](mailto:Erica.Compton@stem.idaho.gov), [Katylynn](mailto:katylynn@masksnow.org)
-* [Illinois](https://www.facebook.com/groups/635692137272813/?ref=br_rs) | State Leads: [Tricia](mailto:tballad@gmail.com), [Kristen](mailto:KristenjettIL@masksnow.org)
+* [Illinois](https://www.facebook.com/groups/635692137272813/?ref=br_rs) | State Lead: [Emma](mailto:masksnowil@gmail.com)
 
-  * Illinois (Central/Southern) | Regional Lead: [Cassandria](mailto:cassandria@pm.me)
   * Illinois (Chicago) | Regional Lead: [Alayne](mailto:Alayne@masksnow.org)
-  * Illinois (Northern) | Regional Lead: [Emma](mailto:ebd313@gmail.com)
+ 
 * [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Leads: [Kendall](mailto:kpritsch@masksnow.org), [Meagan](mailto:meaganrioux@gmail.com)
 
   * [Indiana (Indianapolis)](https://www.facebook.com/groups/205021414131420/about/) | Regional Lead: [Anat](mailto:anatpbsin@masksnow.org)
