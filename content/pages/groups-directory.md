@@ -20,7 +20,7 @@ title: State/Regional Facebook Group Directory
 * [Arkansas](https://www.facebook.com/groups/271568103838759/) | State Leads: [Lenerika](mailto:lenerika@masksnow.org), [Ruth](mailto:aunt.ruth@yahoo.com)
 * [California (Northern)](https://www.facebook.com/groups/M3California/) | State Lead: [Karina](mailto:karina@masksnow.org)
 
-  * [California (Northern) - Sacramento](https://www.facebook.com/groups/1506768662816030/?hc_location=group) | Regional Lead: [Crystal](mailto:CrystalCA@masksnow.org)
+  * [California (Northern) - Sacramento](https://www.facebook.com/groups/1506768662816030/) | Regional Lead: [Crystal](mailto:CrystalCA@masksnow.org)
   * [California (Northern) - San Jose](https://www.facebook.com/groups/M3California/) | Regional Lead: [Allison](mailto:Allison@masksnow.org)
 * [California (Southern)](https://facebook.com/groups/MasksNOWSoCal) | State Lead: [Dez](mailto:Deztroamphetamine@masksnow.org)
 
@@ -37,7 +37,7 @@ title: State/Regional Facebook Group Directory
   * [Colorado (Northern Colorado)](https://www.facebook.com/groups/MasksNowCONorthernCO/) | Regional Lead: [Kai](mailto:inkdfrog@gmail.com)
   * [Colorado (Southern Mountains)](https://www.facebook.com/groups/MasksNowCOSouthernMountains/) | Regional Lead: Shelby
   * [Colorado (Western Slope)](https://www.facebook.com/groups/MasksNowCOWesternSlope/) | Regional Lead: [Kymberly](mailto:bskittle81@gmail.com)
-* [Connecticut](https://www.facebook.com/groups/202833717668875/announcements/) | State Leads: [Tim](mailto:tim@masksnow.org), [Paula](mailto:pcunns9@gmail.com)
+* [Connecticut](https://www.facebook.com/groups/202833717668875/) | State Leads: [Tim](mailto:tim@masksnow.org), [Paula](mailto:pcunns9@gmail.com)
 * [Delaware](https://www.facebook.com/groups/528584211387614/) | State Lead: [Becky](mailto:becky.urbanek@gmail.com)
 * [District of Columbia](https://www.facebook.com/groups/MasksNOW.DC) | Regional Lead: [Marc](mailto:marcgervaisDC@masksnow.org)
 * [Florida](https://www.facebook.com/groups/529216341303278/) | State Lead: [Alexander](mailto:AlexanderFL@masksnow.org)
@@ -53,13 +53,13 @@ title: State/Regional Facebook Group Directory
   * Georgia (Augusta) | Regional Lead: [Jean](mailto:phjv1990@gmail.com)
 * [Hawaii](https://www.facebook.com/Masks-NOW-Hawaii-104565304527634/) | State Leads: [Sharon](mailto:sharon.garcia.doyle@gmail.com), [Brooke](mailto:m3oahu@gmail.com)
 * [Idaho](https://www.facebook.com/IdahoSTEMAC/) | State Leads: [Erica](mailto:Erica.Compton@stem.idaho.gov), [Katylynn](mailto:katylynn@masksnow.org)
-* [Illinois](https://www.facebook.com/groups/635692137272813/?ref=br_rs) | State Lead: [Emma](mailto:masksnowil@gmail.com)
+* [Illinois](https://www.facebook.com/groups/635692137272813/) | State Lead: [Emma](mailto:masksnowil@gmail.com)
 
   * Illinois (Chicago) | Regional Lead: [Alayne](mailto:Alayne@masksnow.org)
  
 * [Indiana](https://www.facebook.com/groups/2514385812107639/) | State Leads: [Kendall](mailto:kpritsch@masksnow.org), [Meagan](mailto:meaganrioux@gmail.com)
 
-  * [Indiana (Indianapolis)](https://www.facebook.com/groups/205021414131420/about/) | Regional Lead: [Anat](mailto:anatpbsin@masksnow.org)
+  * [Indiana (Indianapolis)](https://www.facebook.com/groups/205021414131420/) | Regional Lead: [Anat](mailto:anatpbsin@masksnow.org)
 * [Iowa](https://www.facebook.com/groups/522131565386198/) | State Lead: [Miriam](mailto:MimHoffmanIA@masksnow.org)
 * [Kansas](https://www.facebook.com/groups/521675518530089/) | State Lead: [Megan](mailto:megan.kansas@masksnow.org)
 
@@ -69,7 +69,7 @@ title: State/Regional Facebook Group Directory
   * Kentucky (Central) | Regional Lead: [Pennie](mailto:pennirtharp@gmail.com)
   * Kentucky (Lexington) | Regional Lead: [Bethany](mailto:bnmarker@gmail.com)
   * Kentucky (Louisville) | Regional Leads: [Elizabeth](mailto:eliz.blandford@gmail.com), [Jennie](mailto:jenniegreene@live.com)
-* [Louisiana](https://www.facebook.com/groups/2271963943110602/?ref=share) | State Lead: [Meshelle](mailto:mshlljnsn@yahoo.com)
+* [Louisiana](https://www.facebook.com/groups/2271963943110602/) | State Lead: [Meshelle](mailto:mshlljnsn@yahoo.com)
 * [Maryland](https://www.facebook.com/groups/520641302223494/) | State Lead: [Jamie](mailto:masksnowmaryland@gmail.com)
 * [Massachusetts](https://www.facebook.com/groups/2620127964977639/) | State Leads: [Isabel](mailto:izzyMA@masksnow.org ), [Kathryn](mailto:kathrynMA@masksnow.org), [Monica](mailto:monica.duan.w@gmail.com)
 * Michigan | State Leads: [Larisa](mailto:larisa@masksnow.org), [Brandy](mailto:bshumaker27@yahoo.com), [Gabrielle](mailto:GabrielleB@masksnow.org)
@@ -80,20 +80,20 @@ title: State/Regional Facebook Group Directory
   * Michigan (Detroit) | Wayne County Lead: [Diana](mailto:diana@telamongroup.com)
 * [Minnesota](https://www.facebook.com/groups/2586683318244428/) 
 * [Mississippi](https://www.facebook.com/groups/554045278817832/) | State Lead: [Lisa](mailto:LisaMS@masksnow.org)
-* [Missouri](https://www.facebook.com/groups/693560934789022/about/) | State Lead: [Heather](mailto:hrippetoe@masksnow.org)
+* [Missouri](https://www.facebook.com/groups/693560934789022/) | State Lead: [Heather](mailto:hrippetoe@masksnow.org)
 
   * [Missouri (Kansas City metro)](https://www.facebook.com/groups/515249406050591/) | Regional Leads: [Mia](mailto:Miarichardson@masksnow.org), [Rebekah](mailto:rebekahbuckner@yahoo.com)
 * [Montana](https://www.facebook.com/groups/3055128074518037) | State Lead: [Kathleen](mailto:kaa.burke@gmail.com)
 * [Nebraska](https://www.facebook.com/groups/238497197292741/) | State Lead: [Beth](mailto:bethbackora@masksnow.org)
 * Nevada | State Lead: [Cerah](mailto:cerah.ames@yahoo.com)
 * [New Hampshire](https://www.facebook.com/groups/NHMasksNOW/) | State Lead: [Heidi](mailto:heidi.batchelder@verani.com)
-* [New Jersey](https://www.facebook.com/groups/555083938540005/about/) | State Leads: [Puri](mailto:puripandya@masksnow.org), [Maria](mailto:Mariaypuerta@gmail.com), [Esmeralda](mailto:esmeraldavazquez@masksnow.org)
+* [New Jersey](https://www.facebook.com/groups/555083938540005/) | State Leads: [Puri](mailto:puripandya@masksnow.org), [Maria](mailto:Mariaypuerta@gmail.com), [Esmeralda](mailto:esmeraldavazquez@masksnow.org)
 
   * [New Jersey (Jersey City)](https://www.facebook.com/groups/696030451168714/) | Regional Lead: [Sarah](mailto:sarahgoodman@masksnow.org)
 * [New Mexico](https://www.facebook.com/groups/540954669882771/) | State Lead: [Nancy](mailto:NancyNM@masksnow.org)
 * New York | State Lead: [Jenna](mailto:jenna.adamek@gmail.com)
 
-  * [New York (Albany)](https://m.facebook.com/groups/226283908614592?group_view_referrer=profile_browser) | Regional Lead: [Lilly](mailto:lillytalmage@gmail.com)
+  * [New York (Albany)](https://www.facebook.com/groups/226283908614592/) | Regional Lead: [Lilly](mailto:lillytalmage@gmail.com)
   * [New York (Hudson Valley/Westchester)](https://www.facebook.com/groups/masksnownyhudsonvalleywestchester) | Regional Lead: [Jenna](mailto:jennaadamek@masksnow.org)
   * New York (Long Island) | Regional Lead: [Hillary](mailto:hillary@masksnow.org)
   * [New York (NYC)](https://www.facebook.com/groups/1496625130494194/)
@@ -109,9 +109,9 @@ title: State/Regional Facebook Group Directory
 * [Oklahoma](https://www.facebook.com/groups/1303618046515044/) | State Lead: [Vikki](mailto:vikki.penix@masksnow.org)
 
   * Oklahoma (Tulsa) | Regional Lead: [Nicki](mailto:nickiwoodartist@gmail.com)
-* [Oregon](https://www.facebook.com/groups/2591309841146113) | State Leads: [Bonnie](mailto:bonnieor@masksnow.org), [Lora](mailto:lora@masksnow.org)
+* [Oregon](https://www.facebook.com/groups/2591309841146113/) | State Leads: [Bonnie](mailto:bonnieor@masksnow.org), [Lora](mailto:lora@masksnow.org)
 
-  * [Oregon (Portland)](https://www.facebook.com/groups/148236809855564/?ref=share) | Regional Lead: [Wai](mailto:WaiTam@masksnow.org)
+  * [Oregon (Portland)](https://www.facebook.com/groups/148236809855564/) | Regional Lead: [Wai](mailto:WaiTam@masksnow.org)
 * [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com), [Sarah](mailto:Sarah_PA@masksnow.org)
 * Puerto Rico | Regional Lead: [Megan](mailto:chiringachica@yahoo.com)
 * [South Carolina](https://www.facebook.com/groups/561045871433689/) | State Lead: [Sara](mailto:masksnowsc@gmail.com)
