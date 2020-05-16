@@ -21,9 +21,12 @@ We are profoundly grateful to the following organizations that are working with 
 * Fabric.com
 * Hooked for Life
 * Lawyers for Good Government
+* MakeMasks2020
 * Philips Boyne
 * PPE Coalition
 * Professor Pincushion
+* Returned Peace Corps Volunteers (RPCVs)
+* SANITYzer for All
 * Slack
 * Spinrite Yarns
 * Spoonflower
