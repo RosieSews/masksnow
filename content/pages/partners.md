@@ -6,6 +6,7 @@ We are profoundly grateful to the following organizations that are working with 
 
 * AbleGraphix
 * Airtable
+* Apex Leadership Co
 * Boulder Engineering
 * Buffer
 * Calendly
@@ -21,7 +22,9 @@ We are profoundly grateful to the following organizations that are working with 
 * Fabric.com
 * Hooked for Life
 * Lawyers for Good Government
+* Make4Covid
 * MakeMasks2020
+* NeedMasksToday
 * Philips Boyne
 * PPE Coalition
 * Professor Pincushion
