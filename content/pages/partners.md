@@ -9,6 +9,7 @@ We are profoundly grateful to the following organizations that are working with 
 * Apex Leadership Co
 * Boulder Engineering
 * Buffer
+* C2 Imaging
 * Calendly
 * Canada Sews
 * Coats & Clark
