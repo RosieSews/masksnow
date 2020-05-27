@@ -93,12 +93,10 @@ title: State/Regional Facebook Group Directory
 
   * [New York (Albany)](https://www.facebook.com/groups/226283908614592/) | Regional Lead: [Lilly](mailto:lillytalmage@gmail.com)
   * [New York (Hudson Valley/Westchester)](https://www.facebook.com/groups/masksnownyhudsonvalleywestchester) | Regional Lead: [Jenna](mailto:jennaadamek@masksnow.org)
-  * New York (Long Island) | Regional Lead: [Hillary](mailto:hillary@masksnow.org)
   * [New York (NYC)](https://www.facebook.com/groups/1496625130494194/)
 
     * New York (NYC) - Brooklyn | Regional Lead: [Clare](mailto:clare@masksnow.org)
     * New York (NYC) - Manhattan | Regional Lead: [Taylor](mailto:TaylorNY@masksnow.org)
-    * New York (NYC) - Queens | Regional Leads: [Melody](mailto:song.melody@gmail.com), [Nina](mailto:ninab@masksnow.org)
   * [New York (Western NY)](www.facebook.com/groups/wnymasksnow/) | Regional Lead: [Jenn](mailto:jguia@masksnow.org)
 * [North Carolina](https://www.facebook.com/groups/148578513144519/) | State Lead: [Astrid](mailto:astrid@masksnow.org)
 * [Ohio](https://www.facebook.com/groups/masksnowohio) | State Lead: [Emily](mailto:Emily@masksnow.org)
