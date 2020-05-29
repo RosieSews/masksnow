@@ -110,7 +110,7 @@ title: State/Regional Facebook Group Directory
   * [Oregon (Portland)](https://www.facebook.com/groups/148236809855564/) | Regional Lead: [Wai](mailto:WaiTam@masksnow.org)
 * [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com), [Sarah](mailto:Sarah_PA@masksnow.org)
 * Puerto Rico | Regional Lead: [Megan](mailto:chiringachica@yahoo.com)
-* [South Carolina](https://www.facebook.com/groups/561045871433689/) | State Lead: [Sara](mailto:masksnowsc@gmail.com)
+* [South Carolina](https://www.facebook.com/groups/561045871433689/)
 * [Tennessee](https://www.facebook.com/groups/2616245711987301/) | State Leads: [Katrina](mailto:KatrinaTN@masksnow.org), [Brenda](mailto:brenda@masksnow.org), [Camille](mailto:camille@masksnow.org)
 * [Texas](https://www.facebook.com/groups/MasksNowTexas/) | State Lead: [April](mailto:april_pierce@outlook.com)
 
