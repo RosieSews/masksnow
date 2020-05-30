@@ -11,6 +11,10 @@ Mask makers, a physician, logistics and IT experts, creators, former federal off
 
 Our goal is to give each citizen the ability to take control of their community’s public health by making homemade masks for patients in order to conserve the manufactured masks that protect our irreplaceable healthcare workers and doctors.
 
+## Mission Statement & Core Values
+
+Our mission with MasksNOW is to enable everyone to wear a mask to save lives, improve our economy and restore our nation to caring greatness.  Through our core values of service, collaboration, community, integrity, and empathy, we have organized to match volunteer sewists to ongoing needs in our communities, and we are working towards normalizing mask wearing in public through our public relations and social media outreach.  We have brought together a diverse group of experts in healthcare, manufacturing, non-profit, volunteer coordination, politics, public relations, social media and technology to enable us to solve these unique challenges.
+
 ## Coalition Partners
 
 * [Democratic Coalition](https://www.democraticcoalition.org/)
