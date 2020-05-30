@@ -1,7 +1,7 @@
 ---
 templateKey: info-page
 path: /request-supplies
-title: Request Masks
+title: Request Masks & Face Shields
 ---
 ### If you're in Canada, request masks with our partner at [Canada Sews](https://www.canadasews.ca/).
 
