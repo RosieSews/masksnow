@@ -134,6 +134,14 @@ const Navbar = () => {
             ❤️
           </span>
         </NavLink>
+        <ExternalNavLink
+          href="https://masksnow.redbubble.com/"
+          wide={true}
+          target={'_blank'}
+          rel="noopener"
+        >
+          Merch Store
+        </ExternalNavLink>
       </MoreDotsMenu>
     </div>
   );
