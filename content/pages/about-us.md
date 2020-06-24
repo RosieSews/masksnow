@@ -9,7 +9,7 @@ Our mission with MasksNOW is to enable everyone to wear a mask to save lives, im
 
 ## Our History
 
-The Masks Now Coalition was founded when hundreds of Americans, acting individually, started to make masks together to raise our country’s viral resistance to the spread of coronavirus. They joined forces to make an umbrella organization to handle the thorny design and logistical questions involved in massively distributed mask production to make sure those in need can get face masks.
+The Masks Now Coalition was founded when hundreds of volunteers, acting individually, started to make masks together to raise our country’s viral resistance to the spread of coronavirus. They joined forces to make an umbrella organization to handle the thorny design and logistical questions involved in massively distributed mask production to make sure those in need can get face masks.
 
 Led by nineteen organizers directing almost 12,000 volunteers who banded together in response to the urgent national shortage in personal protective equipment (PPE) brought on by the novel coronavirus outbreak in America, The Masks Now Coalition has [volunteers in every state](https://masksnow.org/groups-directory), Washington D.C. and Puerto Rico ready to answer the call from over 2,200 organizations including almost 700 health facilities in 42 states which have made public appeals for homesewn masks.
 
