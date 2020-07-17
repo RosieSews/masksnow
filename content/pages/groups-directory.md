@@ -119,7 +119,7 @@ title: State/Regional Facebook Group Directory
   * [Texas (Dallas)](https://www.facebook.com/groups/MasksNowDallasTX/) | Regional Lead: [Vanessa](mailto:VanessaSmith@masksnow.org)
   * [Texas (San Antonio)](https://www.facebook.com/groups/MasksNowSanAntonioTexas/) | Regional Lead: [Lucas](mailto:lsevedge@gmail.com)
 * [Utah ](https://www.facebook.com/groups/masksNOWutah/)| State Lead: [Katie](mailto:Katie.UT@masksnow.org)
-* [Vermont](https://www.facebook.com/groups/549978625719946/) | State Lead: [Carol](mailto:carol@masksnow.org)
+* [Vermont](https://www.facebook.com/groups/549978625719946/)
 * [Virginia](https://www.facebook.com/groups/860457351144099/) | State Leads: [Amelia](mailto:favere@gmail.com), [Ahmed](mailto:ahmed.elzamzami.17@cnu.edu), [Amanda](mailto:amandamsunde@gmail.com)
 
   * Virginia (Richmond) | Regional Lead: [Kevin](mailto:kevin@masksnow.org)
