@@ -21,13 +21,12 @@ title: State/Regional Facebook Group Directory
 
   * [California (Northern) - Sacramento](https://www.facebook.com/groups/1506768662816030/) | Regional Lead: [Crystal](mailto:CrystalCA@masksnow.org)
   * [California (Northern) - San Jose](https://www.facebook.com/groups/M3California/) | Regional Lead: [Allison](mailto:Allison@masksnow.org)
-* [California (Southern)](https://facebook.com/groups/MasksNOWSoCal) | State Lead: [Dez](mailto:Deztroamphetamine@masksnow.org)
-
-  * [California (Southern) - Los Angeles](https://www.facebook.com/groups/MasksNOWLACA) | Regional Leads: [Megan](mailto:MeganLouiseBerndt@gmail.com), [Jennifer](mailto:JaMinzey@gmail.com)
-  * [California (Southern) - Orange County](https://www.facebook.com/groups/MasksNOWOC) | Regional Lead: [Brian](mailto:nguyenbrian202@gmail.com), [Emily](mailto:Emily@emiicreations.com)
-  * [California (Southern) - Riverside/San Bernardino County](https://www.facebook.com/groups/MasksNOWRSSB) | Regional Lead: [Charlene](mailto:CharleneCA@masksnow.org)
-  * California (Southern) - Santa Barbara | Regional Lead: [Nancy](mailto:nancy@masksnow.org)
-* Colorado | State Leads: [Cody](mailto:CodyCO@masksnow.org), [](mailto:jessie.moench@gmail.com)[Kristen](mailto:tilly28crafts@gmail.com)
+  * [California (Southern)](https://facebook.com/groups/MasksNOWSoCal) | State Leads: [Jennifer & Kristina](mailto:masksnowsocal@gmail.com)
+  * [California (Southern) - Los Angeles](https://www.facebook.com/groups/MasksNOWLACA) | Regional Lead: [Jennifer](mailto:masksnowsocal@gmail.com)
+  * [California (Southern) - Orange County](https://www.facebook.com/groups/MasksNOWOC) | Regional Lead: [Noreen](mailto:reeniestar@gmail.com)
+  * [California (Southern) - Riverside/San Bernardino County](https://www.facebook.com/groups/MasksNOWRSSB) | Regional Leads: [Ruth](mailto:homemadefacemasksie@gmail.com) & [Esther](mailto:eektruffle@gmail.com)
+  * California (Southern) - San Diego | Regional Lead: [Kaari](mailto:kfbaluja@gmail.com)
+* Colorado | State Leads: [Cody](mailto:CodyCO@masksnow.org), [Kristen](mailto:tilly28crafts@gmail.com)
 
   * [Colorado (Boulder & Surroundings)](https://www.facebook.com/groups/MasksNowCOBoulder/) | Regional Leads: [](mailto:natasha.rigg@gmail.com)[Kai](mailto:inkdfrog@gmail.com), [Joanne](mailto:jocole420@gmail.com), [Michelle](mailto:rowennalunamoth@gmail.com)
   * [Colorado (Colorado Springs)](https://www.facebook.com/groups/MasksNowCOColoradoSprings/) | Regional Leads: [](mailto:rcruz@ppld.org)[Kristen](mailto:tilly28crafts@gmail.com), [Jean](mailto:jhenderson242@msn.com)
