@@ -77,7 +77,7 @@ title: State/Regional Facebook Group Directory
   * Michigan (Detroit) | Wayne County Lead: [Diana](mailto:diana@telamongroup.com)
 * [Minnesota](https://www.facebook.com/groups/2586683318244428/) | State Lead: [Heather](mailto:hrippetoe@masksnow.org)
 * [Mississippi](https://www.facebook.com/groups/554045278817832/) | State Lead: [Lisa](mailto:LisaMS@masksnow.org)
-* [Missouri](https://www.facebook.com/groups/693560934789022/) | State Leads: [Heather](mailto:hrippetoe@masksnow.org), [Anne](mailto:anneesmith1127@gmail.com)
+* [Missouri](https://www.facebook.com/groups/693560934789022/) | State Leads: [Heather](mailto:hrippetoe@masksnow.org)
 
   * [Missouri (Kansas City metro)](https://www.facebook.com/groups/515249406050591/) | Regional Leads: [Mia](mailto:Miarichardson@masksnow.org)
 * [Montana](https://www.facebook.com/groups/3055128074518037) | State Lead: [Kathleen](mailto:kaa.burke@gmail.com)
