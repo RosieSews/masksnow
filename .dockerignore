@@ -1,0 +1,4 @@
+# This ignore file is used to limit the build context sent to Docker
+# when building the VS Code dev container
+*
+!.nvmrc
