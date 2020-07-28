@@ -16,6 +16,7 @@ We are profoundly grateful to the following organizations that are working with 
 * Colorado Mask Project
 * Congressman Ted Deutch
 * COVID Mask Crafters
+* Covid Rangers
 * Created For Crisis
 * Democratic Coalition
 * Educate Tanzania
