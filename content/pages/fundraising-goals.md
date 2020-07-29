@@ -24,8 +24,6 @@ We are honored to have more than 25 [coalition and industry partners](https://ma
 
 ## Contact Us
 
-If you have any questions, please contact our fundraising team:
+If you have any questions, please contact:
 
-[Rachel Emard](mailto:rachel@masksnow.org)\
-[Jodi Murray](mailto:jodimurray@masksnow.org)\
-[Astrid Cook](mailto:astrid@masksnow.org)
+[Rachel Emard](mailto:rachel@masksnow.org)
