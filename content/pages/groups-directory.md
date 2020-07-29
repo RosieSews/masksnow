@@ -129,4 +129,4 @@ title: State/Regional Facebook Group Directory
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mbecker@masksnow.org)
 
-If you do not see your state/region listed, email [Astrid](mailto:astrid@masksnow.org) to start a chapter!
+If you do not see your state/region listed, email [Shari](mailto:shariwilliams763@gmail.com) to start a chapter!
