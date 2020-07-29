@@ -19,12 +19,6 @@ If you'd like to take a leadership role and help manage your state/region, conta
 
 [leads@masksnow.org ](mailto:leads@masksnow.org)
 
-## Coalition Members
-
-If your group has a similar mission as ours, we'd love to see how we can work together to achieve our goals.
-
-[jointhecoalition@masksnow.org ](mailto:jointhecoalition@masksnow.org)
-
 ## Volunteering at Headquarters
 
 If you'd like to help volunteer behind-the-scenes and join our national team, please view [current openings](https://docs.google.com/document/d/1JJNrPswxznGHsOI26stysEphJXv6JBxS8uE_JV-1Tz0/edit) and [sign up](https://masksnow.org/volunteer/). We will be in touch once we need your help. For further questions, email us.
@@ -33,7 +27,7 @@ If you'd like to help volunteer behind-the-scenes and join our national team, pl
 
 ## Partnerships
 
-If you or your company would like to join our mission through materials supply, logistics, operations, etc., we would love to collaborate with you.
+If your group has a similar mission as ours, we'd love to see how we can work together to achieve our goals. If your company would like to join our mission through materials supply, logistics, operations, etc., we would love to collaborate with you.
 
 [partnerships@masksnow.org](mailto:partnerships@masksnow.org)
 
