@@ -41,14 +41,10 @@ title: State/Regional Facebook Group Directory
 * [Florida](https://www.facebook.com/groups/529216341303278/) | State Lead: [Alexander](mailto:AlexanderFL@masksnow.org)
 
   * Florida (Admin) | [](mailto:alexander.benishek@gmail.com)[Amanda](masksnow.anorton@gmail.com)
-
-    Florida (Jacksonville/East) | Regional Leads:, [Ricky](mailto:ricky@masksnow.org)
-
-    Florida (Orlando/Central) | Regional Lead: [Mitzi](mailto:MitziFL@masksnow.org)
-
-    Florida (Tampa/West & Panhandle) | Regional Lead:  [Diana](mailto:diana@masksnow.org)
-
-    Florida (Miami/South) | Regional Leads: [Kim](mailto:KimSFL@masksnow.org)
+  * Florida (Jacksonville/East) | Regional Leads:, [Ricky](mailto:ricky@masksnow.org)
+  * Florida (Orlando/Central) | Regional Lead: [Mitzi](mailto:MitziFL@masksnow.org)
+  * Florida (Tampa/West & Panhandle) | Regional Lead:  [Diana](mailto:diana@masksnow.org)
+  * Florida (Miami/South) | Regional Leads: [Kim](mailto:KimSFL@masksnow.org)
 * [Georgia](https://www.facebook.com/groups/205091274056531/) | State Lead: [Kim](mailto:kmhinzeGA@masksnow.org)
 
   * Georgia (Atlanta) | Regional Lead: [Angela](mailto:AngelaT@masksnow.org)
