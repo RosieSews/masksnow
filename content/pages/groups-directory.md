@@ -38,7 +38,7 @@ title: State/Regional Facebook Group Directory
 * [Connecticut](https://www.facebook.com/groups/202833717668875/) | State Leads: [Tim](mailto:tim@masksnow.org), [Paula](mailto:pcunns9@gmail.com)
 * [Delaware](https://www.facebook.com/groups/528584211387614/) | State Lead: [Becky](mailto:becky.urbanek@gmail.com)
 * [District of Columbia](https://www.facebook.com/groups/MasksNOW.DC) | Regional Lead: [Marc](mailto:marcgervaisDC@masksnow.org)
-* [Florida](https://www.facebook.com/groups/529216341303278/) | State Lead: [Alexander](mailto:AlexanderFL@masksnow.org)
+* [Florida](https://www.facebook.com/groups/529216341303278/) | State Lead: [](mailto:AlexanderFL@masksnow.org)[Kim](mailto:KimSFL@masksnow.org)
 
   * Florida (Admin) | [](mailto:alexander.benishek@gmail.com)[Amanda](masksnow.anorton@gmail.com)
   * Florida (Jacksonville/East) | Regional Leads:, [Ricky](mailto:ricky@masksnow.org)
