@@ -33,11 +33,11 @@ Mask makers, a physician, logistics and IT experts, creators, former federal off
 * Jennifer Minzey
 * [Jodi Murray](mailto:jodimurray@masksnow.org)
 * David Schlumpf
-* Cequinne Sky
+* [Cequinne Sky](mailto:cequinne@masksnow.org)
 * [Grant Stern](mailto:grantstern@masksnow.org)
-* Alicia VG
+* [Alicia VG](mailto:graphicdesign@masksnow.org)
 * Shari Williams
-* Olivia Winslow
+* [Olivia Winslow](mailto:oliviawinslow@masksnow.org)
 
 ## Emeritus Streering Committee
 
