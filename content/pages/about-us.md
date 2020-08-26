@@ -25,14 +25,24 @@ Mask makers, a physician, logistics and IT experts, creators, former federal off
 * [Coronavirus Army](https://coronavirusarmy.org/)
 * [Resistbot](https://resist.bot/)
 
-## The Masks Now Coalition’s Seven-Person Steering Committee:
+## The Masks Now Coalition’s Steering Committee:
 
-* [Francey Youngberg](mailto:francey.youngberg@masksnow.org)
-* [Grant Stern](mailto:grantstern@masksnow.org)
-* [Jodi Murray](mailto:jodimurray@masksnow.org)
-* [Dr. Kelly Sennholz](mailto:DrSennholz@masksnow.org)
-* [Rachel Emard](mailto:rachel@masksnow.org)  
 * [Joe Cooter](mailto:joe@masksnow.org)
 * [Scott Dworkin](mailto:scott@masksnow.org)
+* [Rachel Emard](mailto:rachel@masksnow.org)  
+* Jennifer Minzey
+* [Jodi Murray](mailto:jodimurray@masksnow.org)
+* David Schlumpf
+* Cequinne Sky
+* [Grant Stern](mailto:grantstern@masksnow.org)
+* Alicia VG
+* Shari Williams
+* Olivia Winslow
+
+## Emeritus Streering Committee
+
+* Astrid Cook
+* [Dr. Kelly Sennholz](mailto:DrSennholz@masksnow.org)
+* [Francey Youngberg](mailto:francey.youngberg@masksnow.org)
 
 For interviews, please contact [publicrelations@masksnow.org](mailto:publicrelations@masksnow.org)
