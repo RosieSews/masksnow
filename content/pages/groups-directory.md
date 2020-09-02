@@ -110,7 +110,7 @@ title: State/Regional Facebook Group Directory
 * [Pennsylvania](https://www.facebook.com/groups/masksnowPennsylvania) | State Leads: [Robin](mailto:RobinLuchko@masksnow.org), [Alyssa](mailto:kershawa@gmail.com), [Sarah](mailto:Sarah_PA@masksnow.org)
 * Puerto Rico | Regional Lead: [Megan](mailto:chiringachica@yahoo.com)
 * [South Carolina](https://www.facebook.com/groups/561045871433689/) [Stephanie](sbpiccolo@gmail.com)
-* [Tennessee](https://www.facebook.com/groups/2616245711987301/) | State Leads: [Katrina](mailto:KatrinaTN@masksnow.org), [Brenda](mailto:brenda@masksnow.org), [Camille](mailto:camille@masksnow.org)
+* [Tennessee](https://www.facebook.com/groups/2616245711987301/) | State Leads: [](mailto:KatrinaTN@masksnow.org)[Jene](distribution.make@gmail.com), [Lynn](lynn.samuelson@gmail.com)
 * [Texas](https://www.facebook.com/groups/MasksNowTexas/) | State Lead: [Claudia](claudia@covidrangers.com)
 
   * [Texas (Austin metro)](https://www.facebook.com/groups/mllionmaskmaydayTX/) | Regional Lead: [Andrea](mailto:AndreaATX@masksnow.org)
