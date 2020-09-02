@@ -10,13 +10,13 @@ The Masks Now Coalition is a collaborative effort of volunteers working to suppo
 
 **Donate here: [masksnow.org/donate](https://masksnow.org/donate/)**
 
-In order to achieve our goals, we need to purchase more than 33,000 yards of cotton fabric and 17,000 yards of interfacing, cover shipping costs for approximately 400 packages to organizations each month, and fund factory operations to deliver pre-cut mask kits to all our volunteers, on top of basic operational expenses. With your donation today, you can help us fulfill our mission to protect those who protect us all.
+In order to achieve our goals, we need to purchase more than 33,000 yards of cotton fabric and 17,000 yards of interfacing, cover shipping costs for approximately 400 packages to organizations each month, and fund factory operations to deliver mask materials to all our volunteers, on top of basic operational expenses. With your donation today, you can help us fulfill our mission to protect those who protect us all.
 
 ## Our Goals
 
 * Create a streamlined process to enable our volunteers to make and deliver 300,000+ fabric masks to 1,000+ organizations in need
 * Provide the technological infrastructure to enable 125+ state/regional leads to coordinate 10,000+ volunteers to track and fulfill mask requests
-* Supply volunteers with materials to make masks through the establishment of factory-produced mask kits and through at-cost purchasing of fabric, interfacing, and thread
+* Supply volunteers with materials to make masks through at-cost purchasing of fabric, interfacing, and thread
 
 ## Our Partners
 
@@ -24,6 +24,4 @@ We are honored to have more than 25 [coalition and industry partners](https://ma
 
 ## Contact Us
 
-If you have any questions, please contact:
-
-[Rachel Emard](mailto:rachel@masksnow.org)
+If you have any questions, please contact us at: [info@masksnow.org](mailto:info@masksnow.org)
