@@ -40,7 +40,7 @@ title: State/Regional Facebook Group Directory
 * [District of Columbia](https://www.facebook.com/groups/MasksNOW.DC) | Regional Lead: [Marc](mailto:marcgervaisDC@masksnow.org)
 * [Florida](https://www.facebook.com/groups/529216341303278/) | State Lead: [](mailto:AlexanderFL@masksnow.org)[Kim](kimsfl@masksnow.org)
 
-  * Florida (Admin) | [](mailto:alexander.benishek@gmail.com)[Amanda](mailto:masksnow.anorton@gmail.com)
+  * Florida (Admin) | [](mailto:alexander.benishek@gmail.com)[Amanda](masksnow.anorton@gmail.com)
   * Florida (Jacksonville/East) | Regional Leads:, [Ricky](masksnownortheastfl@gmail.com)
   * Florida (Orlando/Central) | Regional Lead: [Mitzi](mcube@mindspring.com)
   * Florida (Tampa/West & Panhandle) | Regional Lead:  [Diana](masksnowpanhandlefl@gmail.com)
