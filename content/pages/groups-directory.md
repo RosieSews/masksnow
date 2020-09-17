@@ -121,9 +121,9 @@ title: State/Regional Facebook Group Directory
 
   * Virginia (Richmond) | Regional Lead: [Kevin](mailto:kevin@masksnow.org)
   * Virginia (VA Beach) | Regional Lead: [Gina](mailto:gina.cooper.gc@gmail.com)
-* [Washington](https://www.facebook.com/groups/206024387398453/) | State Leads: [Chloe](mailto:chlooebolaand@gmail.com), [Jion](mailto:ajionkim@uw.edu)
+* [Washington](https://www.facebook.com/groups/206024387398453/) | State Leads: [Chloe](mailto:chlooebolaand@gmail.com), [Jion](mailto:ajionkim@uw.edu), [Zakkiyyah](mailto:zakiyyah.abdulazeem@bastyr.edu)
 
-  * Washington (Seattle) | Regional Leads: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu)
+  * Washington (Seattle) | Regional Leads: [Cat](mailto:catfelts@masksnow.org), [Belle](mailto:bellengo@uw.edu), 
 * West Virginia | State Lead: [Vicki](mailto:vicky.harrington@gmail.com)
 * [Wisconsin](https://www.facebook.com/groups/213996063170541/) | State Lead: [Mikaela](mailto:mbecker@masksnow.org)
 
