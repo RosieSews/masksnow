@@ -13,6 +13,9 @@ import {
   AdditionalInfoText,
 } from '../components/ListCard';
 
+import testIds from '../../shared/testIds';
+const { landing } = testIds;
+
 const InfographicPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -89,11 +92,17 @@ const InfographicPage = () => {
       <InfoCard image={data.volunteer.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Volunteer</h2>
-          <InfoCardLink to={'/volunteer'}>I WANT TO SEW MASKS</InfoCardLink>
+          <InfoCardLink
+            to={'/volunteer'}
+            data-testid={landing.sections.hero.sewMasks}
+          >
+            I WANT TO SEW MASKS
+          </InfoCardLink>
           <InfoCardAnchor
             href={
               'https://rosiesews.freshdesk.com/support/solutions/articles/61000260572-i-don-t-know-how-to-sew-can-i-still-help-'
             }
+            data-testid={landing.sections.hero.help}
           >
             I CAN'T SEW, BUT I WANT TO HELP
           </InfoCardAnchor>
@@ -111,6 +120,11 @@ const InfographicPage = () => {
               <React.Fragment key={pattern.node.frontmatter.title}>
                 <InfoCardAnchor
                   href={pattern.node.frontmatter.patternFile.publicURL}
+                  data-testid={
+                    landing.sections.afterSignUp.getThePattern[
+                      pattern.node.frontmatter.alternateTitle
+                    ]
+                  }
                 >
                   {pattern.node.frontmatter.alternateTitle}
                 </InfoCardAnchor>
@@ -127,7 +141,14 @@ const InfographicPage = () => {
           <h2>Make Masks!</h2>
           {patterns.edges.map(pattern => (
             <React.Fragment key={pattern.node.frontmatter.title}>
-              <InfoCardLink to={`/patterns${pattern.node.fields.slug}`}>
+              <InfoCardLink
+                to={`/patterns${pattern.node.fields.slug}`}
+                data-testid={
+                  landing.sections.afterSignUp.makeMasks[
+                    pattern.node.frontmatter.alternateTitle
+                  ]
+                }
+              >
                 {`WATCH ${pattern.node.frontmatter.alternateTitle} VIDEO`}
               </InfoCardLink>
 
@@ -141,11 +162,17 @@ const InfographicPage = () => {
       <InfoCard image={data.mask.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Donate Masks</h2>
-          <StyledLink to={'/groups-directory'}>
+          <StyledLink
+            to={'/groups-directory'}
+            data-testid={landing.sections.afterSignUp.donateMasks.stateLeads}
+          >
             {`YOUR STATE LEAD WILL EMAIL YOU WITH`}{' '}
             {`DIRECTIONS ABOUT HOW & WHERE`}
           </StyledLink>
           <TextLink
+            data-testid={
+              landing.sections.afterSignUp.donateMasks.everyMaskDonated
+            }
             href={
               'https://rosiesews.freshdesk.com/support/solutions/articles/61000268414-can-i-use-a-different-pattern-than-what-you-provide-'
             }
@@ -159,7 +186,10 @@ const InfographicPage = () => {
       <InfoCard image={data.question.childImageSharp.fluid}>
         <InfoCardRight>
           <h2>Get Help</h2>
-          <TextLink href={'https://rosiesews.freshdesk.com/support/home'}>
+          <TextLink
+            href={'https://rosiesews.freshdesk.com/support/home'}
+            data-testid={landing.sections.afterSignUp.getHelp.support}
+          >
             {`FIND ANSWERS TO ALL YOUR QUESTIONS AT OUR KNOWLEDGE BASE`}
           </TextLink>
         </InfoCardRight>

@@ -8,6 +8,7 @@ import InfographicPage from '../pages/infographic-page';
 import { bpMaxMD } from '../lib/breakpoints';
 import { CenteredSection } from '../components/StyledElements/Sections';
 import { BigButton } from '../components/StyledElements/BigButton';
+import testIds from '../../shared/testIds';
 
 const HeroQuestion = styled.div`
   color: rgb(14, 61, 119);
@@ -23,6 +24,8 @@ const HeroQuestion = styled.div`
   }
 `;
 
+const { landing } = testIds;
+
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
@@ -30,8 +33,18 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
     <section className="section section--gradient">
       <CenteredSection maxWidth={'800px'}>
         <HeroQuestion>I want to...</HeroQuestion>
-        <BigButton to="/volunteer">Volunteer</BigButton>
-        <BigButton to={'/request-supplies'}>Get Masks</BigButton>
+        <BigButton
+          to="/volunteer"
+          data-testid={landing.sections.hero.volunteer}
+        >
+          Volunteer
+        </BigButton>
+        <BigButton
+          to={'/request-supplies'}
+          data-testid={landing.sections.hero.requestSupplies}
+        >
+          Get Masks
+        </BigButton>
       </CenteredSection>
       <div className="container">
         <div className="columns main-page-columns">

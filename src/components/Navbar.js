@@ -14,6 +14,11 @@ import {
   DropDownMenu,
 } from '../components/StyledElements/MoreDots';
 
+import testIds from '../../shared/testIds';
+const {
+  common: { navbar },
+} = testIds;
+
 const HamburgerLine = () => {
   return <span />;
 };
@@ -59,12 +64,21 @@ const Navbar = () => {
 
   const topNavBar = (
     <div className="navbar-start has-text-centered">
-      <NavLink to="/volunteer" activeClassName={'active'}>
+      <NavLink
+        to="/volunteer"
+        data-testid={navbar.volunteer}
+        activeClassName={'active'}
+      >
         Volunteer
       </NavLink>
 
-      <DropDownMenu title={'Resources'}>
-        <NavLink to="/patterns" activeClassName={'active'} wide={true}>
+      <DropDownMenu title={'Resources'} data-testid={navbar.resources.title}>
+        <NavLink
+          to="/patterns"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.resources.dropdown.patterns}
+        >
           Patterns
         </NavLink>
         <ExternalNavLink
@@ -72,13 +86,24 @@ const Navbar = () => {
           wide={true}
           target={'_blank'}
           rel="noopener"
+          data-testid={navbar.resources.dropdown.buyInterfacing}
         >
           Buy Interfacing
         </ExternalNavLink>
-        <NavLink to="/resources" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/resources"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.resources.dropdown.guides}
+        >
           Guides
         </NavLink>
-        <NavLink to="/groups-directory" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/groups-directory"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.resources.dropdown.localChapters}
+        >
           Local Chapters
         </NavLink>
         <ExternalNavLink
@@ -86,30 +111,61 @@ const Navbar = () => {
           wide={true}
           target={'_blank'}
           rel="noopener"
+          data-testid={navbar.resources.dropdown.knowledgebase}
         >
           Knowledgebase
         </ExternalNavLink>
       </DropDownMenu>
-      <DropDownMenu title={'About'}>
-        <NavLink to="/about-us" activeClassName={'active'} wide={true}>
+      <DropDownMenu title={'About'} data-testid={navbar.about.title}>
+        <NavLink
+          to="/about-us"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.about.dropdown.aboutMNC}
+        >
           About MNC
         </NavLink>
-        <NavLink to="/partners" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/partners"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.about.dropdown.partners}
+        >
           Partners
         </NavLink>
-        <NavLink to="/faq" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/faq"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.about.dropdown.faqs}
+        >
           FAQs
         </NavLink>
       </DropDownMenu>
 
-      <DropDownMenu title={'Press'}>
-        <NavLink to="/psa" activeClassName={'active'} wide={true}>
+      <DropDownMenu title={'Press'} data-testid={navbar.press.title}>
+        <NavLink
+          to="/psa"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.press.dropdown.psas}
+        >
           PSAs
         </NavLink>
-        <NavLink to="/in-the-news" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/in-the-news"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.press.dropdown.mediaHits}
+        >
           Media Hits
         </NavLink>
-        <NavLink to="/press-releases" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/press-releases"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.press.dropdown.pressReleases}
+        >
           Press Releases
         </NavLink>
         <ExternalNavLink
@@ -117,18 +173,33 @@ const Navbar = () => {
           wide={true}
           target={'_blank'}
           rel="noopener"
+          data-testid={navbar.press.dropdown.blog}
         >
           Blog
         </ExternalNavLink>
       </DropDownMenu>
-      <NavCTA to="/donate" activeClassName={'active'}>
+      <NavCTA
+        to="/donate"
+        activeClassName={'active'}
+        data-testid={navbar.donate}
+      >
         Donate
       </NavCTA>
-      <MoreDotsMenu>
-        <NavLink to="/contact" activeClassName={'active'} wide={true}>
+      <MoreDotsMenu data-testid={navbar.moreDots.title}>
+        <NavLink
+          to="/contact"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.moreDots.dropdown.contact}
+        >
           Contact
         </NavLink>
-        <NavLink to="/fundraising-goals" activeClassName={'active'} wide={true}>
+        <NavLink
+          to="/fundraising-goals"
+          activeClassName={'active'}
+          wide={true}
+          data-testid={navbar.moreDots.dropdown.helpUs}
+        >
           Help Us{' '}
           <span role="img" aria-label="heart emoji">
             ❤️
@@ -186,6 +257,7 @@ const Navbar = () => {
               <div
                 className={`navbar-burger burger ${navBarActiveClass}`}
                 data-target="navMenu"
+                data-testid={navbar.hamburger}
                 role="button"
                 tabIndex={0}
                 onKeyPress={onEnterKey(toggleHamburger)}
